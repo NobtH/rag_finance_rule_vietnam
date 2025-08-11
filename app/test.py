@@ -1,10 +1,10 @@
 from rag.rag import RAG
 import fitz
 
-question = 'cho tôi thông tin chi tiết các loại tài khoản'
+question = 'Hành vi nào bị cấm khi thực hiện khi dùng thẻ'
 test = RAG(corpus_path='data/corpus.csv')
 # test.delete_table()
-test.document_embedding()
+# test.document_embedding()
 results = test.search(question)
 
 print('Kết quả tìm kiếm:')

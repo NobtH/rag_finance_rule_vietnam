@@ -51,8 +51,8 @@ class HybridRetriever:
 
         # 2. Thực hiện tìm kiếm từ khóa (BM25)
         # Gửi truy vấn tìm kiếm từ khóa và lấy top N kết quả
-        query_plain = self.remove_vietnamese_tone(query)
-        # query_plain = query
+        # query_plain = self.remove_vietnamese_tone(query)
+        query_plain = query
         print(query_plain)
 
         bm25_sql = f"""

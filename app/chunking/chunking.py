@@ -1,9 +1,10 @@
 import os
 import pandas as pd
 import re
+import tiktoken
 
 class Chunking:
-    def __init__(self, mark_down_dir='data/markdown', corpus_out_dir='data', max_chunk_size=500):
+    def __init__(self, mark_down_dir='data/markdown', corpus_out_dir='data', max_chunk_size=600):
         self.mark_down_dir = mark_down_dir
         self.corpus_out_dir = corpus_out_dir
         os.makedirs(self.corpus_out_dir, exist_ok=True)
@@ -21,8 +22,105 @@ class Chunking:
             return 'numbered'
         return 'general'
     
-    # def llm_chunking()
-        
+    def split_text_by_size(self, text, topic):
+        """
+        Chia text thành các chunk, ưu tiên cắt tại '.\n' gần giới hạn từ nhất.
+        """
+        word_spans = [m.span() for m in re.finditer(r'\S+', text)]
+        total_words = len(word_spans)
+        final_chunks = []
+
+        start_word = 0
+        start_char = 0  # vị trí char bắt đầu cho chunk hiện tại
+
+        # Nếu không có từ (ví dụ file chỉ là newline / whitespace) -> trả nguyên text
+        if total_words == 0:
+            if text:
+                final_chunks.append({'text': text, 'topic': topic})
+            return final_chunks
+
+        while start_word < total_words:
+            remaining = total_words - start_word
+            # nếu còn ít hơn giới hạn thì lấy hết phần còn lại
+            if remaining <= self.max_chunk_size:
+                chunk_text = text[start_char:]
+                final_chunks.append({'text': chunk_text, 'topic': topic})
+                break
+
+            end_word = start_word + self.max_chunk_size
+            end_char = word_spans[end_word - 1][1]  # vị trí char kết thúc của từ cuối trong cửa sổ
+
+            # đảm bảo end_char > start_char
+            if end_char <= start_char:
+                end_char = start_char + 1
+
+            segment = text[start_char:end_char]
+
+            # tìm ranh giới ưu tiên (ưu tiên dấu câu kết + newline)
+            cut_pos = -1
+            for delim in ('.\n', '!\n', '?\n', '.\r\n', '\n\n', '\r\n'):
+                idx = segment.rfind(delim)
+                if idx != -1:
+                    cut_pos = start_char + idx + len(delim)
+                    break
+
+            # fallback: tìm newline cuối cùng trong đoạn
+            if cut_pos == -1:
+                idx = segment.rfind('\n')
+                if idx != -1:
+                    cut_pos = start_char + idx + 1  # bao gồm '\n'
+
+            # nếu vẫn chưa có thì cắt tại end_char (last resort)
+            if cut_pos == -1:
+                cut_pos = end_char
+
+            chunk_text = text[start_char:cut_pos]
+
+            # đảm bảo chunk không rỗng (tránh loop)
+            if not chunk_text.strip():
+                # nếu rỗng thì cắt tại end_char
+                cut_pos = end_char
+                chunk_text = text[start_char:cut_pos]
+                # nếu vẫn rỗng -> break để tránh infinite loop
+                if not chunk_text.strip():
+                    break
+
+            final_chunks.append({'text': chunk_text, 'topic': topic})
+
+            # cập nhật start_word sao cho span[0] >= cut_pos
+            new_start = start_word
+            while new_start < total_words and word_spans[new_start][0] < cut_pos:
+                new_start += 1
+
+            # cập nhật start_char cho lần tiếp theo (giữ nguyên newline nếu có)
+            start_char = cut_pos
+
+            # an toàn: nếu new_start không tiến triển, nhảy qua end_word để tránh loop
+            if new_start == start_word:
+                new_start = end_word
+                # cập nhật start_char theo vị trí kết thúc của từ mới (nếu có)
+                if new_start - 1 < total_words:
+                    start_char = word_spans[new_start - 1][1]
+
+            start_word = new_start
+
+        return final_chunks
+    
+    def extract_file_topic(self, lines):
+        """
+        Trích xuất 'file_topic' từ danh sách các dòng văn bản.
+        Tiêu chí:
+        - Dòng bắt đầu bằng '# ' và có hơn 3 từ, hoặc
+        - Dòng viết HOA hoàn toàn và có hơn 3 từ.
+        """
+        for line in lines:
+            stripped = line.strip()
+            if (stripped.startswith('# ') and len(stripped.split()) > 3) or (
+                stripped == stripped.upper() and len(stripped.split()) > 3
+            ):
+                return stripped.replace('#', '').strip()
+        return None
+
     def chunk_single_md_file(self, md_file_path):
         """
         Chia một file markdown thành các chunk dựa trên cấu trúc tài liệu.
@@ -40,13 +138,7 @@ class Chunking:
         chunking_strategy = self.get_chunking_strategy(lines)
         print(f"-> Cấu trúc tài liệu: Dạng '{chunking_strategy}'")
 
-        # Tìm file_topic
-        file_topic = None
-        for line in lines:
-            line = line.strip()
-            if (line.startswith('# ') and len(line.split()) > 3) or (line == line.upper() and len(line.split()) > 3):
-                file_topic = line.replace('#', '').strip()
-                break
+        file_topic = self.extract_file_topic(lines)
         
         # Logic xác định một dòng có phải là tiêu đề hợp lệ không
         def is_new_chunk_start(line, strategy):
@@ -106,22 +198,10 @@ class Chunking:
         final_chunks = []
         for chunk in chunks:
             if len(chunk['text'].split()) > self.max_chunk_size:
-                # Chia nhỏ theo đoạn văn
-                paragraphs = chunk['text'].split('\n\n')
-                current_small_chunk_text = ""
-                for para in paragraphs:
-                    if len((current_small_chunk_text + ' ' + para).split()) <= self.max_chunk_size:
-                        current_small_chunk_text += '\n\n' + para if current_small_chunk_text else para
-                    else:
-                        if current_small_chunk_text:
-                            final_chunks.append({'text': current_small_chunk_text, 'topic': chunk['topic']})
-                        current_small_chunk_text = para
-                
-                # Thêm chunk nhỏ cuối cùng
-                if current_small_chunk_text:
-                    final_chunks.append({'text': current_small_chunk_text, 'topic': chunk['topic']})
+                final_chunks.extend(self.split_text_by_size(chunk['text'], chunk['topic']))
             else:
                 final_chunks.append(chunk)
+
 
         print(f'-----Hoàn thành chia chunk file: {md_file_path}. Đã tạo ra {len(final_chunks)} chunks.')
         return final_chunks
