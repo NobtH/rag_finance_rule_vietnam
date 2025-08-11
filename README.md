@@ -26,3 +26,4 @@ rag_pgsql_project/
 ├── .env                    # Biến môi trường (DB URL, API KEY,...)
 └── README.md               # Giới thiệu project
 # rag_finance_rule_vietnam
+# rag_finance_rule_vietnam

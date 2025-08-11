@@ -1,0 +1,10 @@
+pandas
+openai
+psycopg2
+python-dotenv
+instructor
+anthropic
+pgvector
+numpy
+tqdm
+pandas

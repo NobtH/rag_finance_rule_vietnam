@@ -1,0 +1,23 @@
+Sacombank
+# ĐIỀU KIỆN VÀ ĐIỀU KHOẢN CHO VAY TÍN CHẤP TỪ LƯƠNG TRỰC TUYẾN
+Bằng việc xác nhận đồng ý với Điều kiện và điều khoản này cùng với toàn bộ thông điệp dữ liệu Khách hàng (viết tắt là Bên vay) đã khởi tạo, nhập liệu/chọn tại hệ thống và/hoặc tại màn hình đăng ký Vay tín chấp từ lương trực tuyến (trên ứng dụng Sacombank Pay) của Bên cho vay là Sacombank là một phần không tách rời của Giấy đề nghị vay vốn kiêm hợp đồng tín dụng kiêm giấy nhận nợ (sau đây gọi là Hợp đồng) để thực hiện vay trên kênh trực tuyến. Bên vay thừa nhận rằng: (i) Bên vay đã được Sacombank cung cấp, giải thích đầy đủ các thông tin liên quan đến khoản vay để quyết định vay trước khi xác nhận đồng ý Điều kiện và điều khoản này, (ii) Bên vay đã đọc, hiểu và chấp nhận bị ràng buộc bởi các quyền và nghĩa vụ theo Hợp đồng này.
+# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ:
+Trong Điều kiện và điều khoản này, các từ ngữ sau đây được áp dụng trong quá trình thực hiện thủ tục vay tín chấp từ lương trực tuyến và được hiểu như sau:
+1. Sacombank là Ngân hàng TMCP Sài Gòn Thương Tín, mã số doanh nghiệp 0301103908, địa chỉ 266 – 268 Nam Kỳ Khởi Nghĩa, Phường Võ Thị Sáu, Quận 3, Tp. Hồ Chí Minh.
+2. Khách hàng (KH) là cá nhân đã đăng ký sử dụng dịch vụ trên ứng dụng Sacombank Pay và thỏa điều kiện cho vay tín chấp từ lương trực tuyến của Sacombank tại từng thời điểm.
+3. Điểm giao dịch là các Chi nhánh và Phòng giao dịch của Sacombank trên lãnh thổ Việt Nam.
+4. Tài khoản thanh toán chi lương (TKTT Payroll) là tài khoản thanh toán (TKTT) đồng Việt Nam nhận thu nhập (lương) chuyển vào hàng tháng của Bên vay.
+5. Tài khoản tiền vay (TKTV) là TKTV trực tuyến bằng đồng Việt Nam, do Sacombank tạo theo yêu cầu của Bên vay để quản lý các thông tin liên quan đến khoản vay, gồm: số tiền vay, mức lãi suất vay, thời hạn vay, ngày trả nợ vay và các phí liên quan đến khoản vay (nếu có)…
+6. Tài khoản nhận giải ngân: là tài khoản thanh toán (TKTT) của chính Bên vay mở tại Sacombank và được Bên vay chỉ định và/hoặc được hệ thống mặc định liên kết để giải ngân khoản vay. Tài khoản nhận giải ngân được đăng ký trích nợ tự động thanh toán nợ gốc, lãi vay và các khoản phí có liên quan:
+- Đối với KH thông thường: tài khoản nhận giải ngân phải là TKTT Payroll.
+- Đối với CBNV Sacombank: có thể chọn TKTT bất kỳ để nhận giải ngân.
+7. Ngày làm việc: các ngày làm việc theo quy định của Sacombank từ thứ 2 đến thứ 6 (từ 9:00 đến 20:00). Các tham số này do Sacombank quy định và có thể được thay đổi trong từng thời kỳ.
+8. Các khái niệm khác: được định nghĩa trong Điều kiện và điều khoản sử dụng dịch vụ ứng dụng Sacombank Pay,... sau đây gọi là Điều kiện và điều khoản sử dụng dịch vụ kênh trực tuyến của Sacombank.
+# ĐIỀU 2. QUY TRÌNH, SỐ TIỀN VAY.
+1. Quy trình vay: Khi có nhu cầu vay vốn, Bên vay đăng nhập ứng dụng Sacombank Pay của Sacombank, khởi tạo, nhập liệu/chọn các thông tin để đề nghị nhu cầu vay vốn. Hệ thống Sacombank khởi tạo TKTV. Theo đó, Bên vay đồng ý vay Sacombank một khoản vay phục vụ nhu cầu đời sống. Bên vay chỉ được Sacombank cấp tín dụng khi Bên vay đáp ứng đầy đủ các điều kiện vay vốn của Sacombank. Trường hợp Bên vay đủ điều kiện vay vốn và hoàn tất quy trình/quy định của Sacombank, Sacombank sẽ thông báo giải ngân cho Bên vay.
+2. Số tiền vay: tối thiểu 5.000.000 đồng/khoản vay và tối đa là 50.000.000 đồng/khoản vay. Bên vay có thể vay nhiều khoản vay của sản phẩm nhưng tổng dư nợ theo sản phẩm này không vượt quá số tiền vay tối đa và tổng dư nợ cho vay đối với mục đích vay vốn phục vụ nhu cầu đời sống bằng phương tiện điện tử tại Sacombank không vượt quá 100.000.000 đồng tại một thời điểm. Các tham số này do Sacombank quy định và có thể được thay đổi trong từng thời kỳ.
+1 RCAA 4Anc
+# 2.3. Phương thức giải ngân
+Bên vay nhận tiền vay bằng phương thức chuyển khoản vào Tài khoản nhận giải ngân đã đăng ký với Sacombank. Tài khoản nhận giải ngân không đồng thời là tài khoản được Sacombank cấp hạn mức thấu chi và/hoặc tài khoản có số dư khả dụng âm và/hoặc tài khoản đang bị phong tỏa theo quy định của pháp luật.
+# ĐIỀU 3. THỜI HẠN CHO VAY
+Thời hạn cho vay: là thời hạn do Bên vay đồng ý chọn tại hệ thống của Sacombank tối đa 24 tháng. Các tham số này do Sacombank quy định và có thể được thay đổi trong từng thời kỳ. Thời hạn vay là khoảng thời gian được tính từ ngày tiếp theo của ngày giải ngân đầu tiên cho Bên vay đến thời điểm Bên vay phải trả hết nợ gốc và lãi tiền vay và các chi phí phát sinh cho Sacombank. Thời hạn vay được hệ thống trực tuyến tự động tính căn cứ trên ngày giải ngân theo yêu cầu Bên vay.
