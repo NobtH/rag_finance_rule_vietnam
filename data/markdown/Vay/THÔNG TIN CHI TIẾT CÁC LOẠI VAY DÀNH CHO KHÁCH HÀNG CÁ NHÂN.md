@@ -184,7 +184,6 @@ Bạn có thể vay cho bản thân hoặc người thân đi du học (con cái
 em ruột của bản thân hoặc vợ/ chồng...).
 - Đặc tính
 Số tiền vay tối đa 100% nhu cầu (học phí và chi phí du học).
-Thời gian lên đến 10 năm.
 Tài sản bảo đảm là nhà/ đất, xe ô tô con dưới 9 chỗ, thẻ tiết kiệm/ giấy tờ có
 - Điều kiện:
 CCCD, xác nhận thông tin cư trú.

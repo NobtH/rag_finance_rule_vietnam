@@ -36,7 +36,7 @@ thanh toán tại Hợp đồng này nhưng vẫn đảm bảo là tài khoản 
 xem như các Bên đồng ý thay đổi nội dung thỏa thuận về tài khoản thanh toán gửi
 tiền gửi có kỳ hạn.
 2. Vào ngày gửi tiền, trường hợp Sacombank không nhận được hoặc nhận nhưng chưa đầy
-đủ số tiền gốc đã thỏa thuận vì bất cứ lý do gì và/hoặc tài khoản thanh toán không đủ
++? ~Ã kIẢT X~Ấ~ ÄZ kL23~ kL..Aa^ và LẤ& X2 112 ~ XY vvÀ/L~Xz~ kÀt ly ^~3~ k1 k~<~ li ⁄A~~ 2,
 Sacombank
 số dư để gửi tiền và/hoặc thông tin tài khoản thanh toán chuyển đến không phải tài
 khoản của KH thì các điều khoản liên quan đến thời hạn gửi tiền và lãi suất không có giá
@@ -167,7 +167,7 @@ Quyền của Sacombank
 - Được yêu cầu KH chuyển đầy đủ số tiền gửi vào ngày gửi tiền đã thoả thuận trong
 Hợp đồng.
 - Được thu phí các loại phí dịch vụ phát sinh theo yêu cầu của KH (nếu có) theo đúng
-biểu phí hiện hành của Sacombank.
+LIỔ,/, xb£ IA~ BÀ» ~⁄¬~ C^~~~^lS^=lz
 Sacombank
 Không chịu trách nhiệm về việc xác định tính hợp pháp và các vấn đề liên quan khác
 đến nguồn gốc số tiền gửi của KH.

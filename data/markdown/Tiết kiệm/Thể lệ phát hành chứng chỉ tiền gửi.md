@@ -78,8 +78,7 @@ tại Sacombank.
 cho KH.
 -  Thủ tục, hồ sơ chi trả CCTG (hình thức, nội dung hồ sơ) trong trường hợp ủy quyền, thừa
 kế: KH thực hiện theo hướng dẫn của Sacombank phù hợp với quy định pháp luật.
-# 10.  Quy định về kỳ hạn, ngày đến hạn và việc chi trả lãi khi ngày đến hạn rơi vào ngày
-nghỉ, ngày lễ
+# 10.  Quy định về kỳ hạn, ngày đến hạn và việc chi trả lãi khi ngày đến hạn rơi vào ngày nghỉ, ngày lễ
 a) Kỳ hạn CCTG:
 -  CCTG có ghi danh ngắn hạn và trung hạn: tương ứng với các kỳ hạn của Tiết kiệm có kỳ
 hạn truyền thống tại quầy được quy định tại khung Lãi suất huy động dành cho KHCN; tối
@@ -127,7 +126,6 @@ của Sacombank được niêm yết tại website https://www.sacombank.com.vn 
 từng thời kỳ.
 # 12. Kéo dài kỳ hạn CCTG: CCTG không áp dụng kéo dài kỳ hạn. Vào ngày đến hạn, nếu
 KH không đến thanh toán, vốn gốc (phương thức lãnh lãi hàng tháng) hoặc vốn gốc và
-lãi (phương thức lãnh lãi cuối kỳ_lãi nhập vốn) của CCTG được hưởng lãi suất tiền gửi
 không kỳ hạn do Sacombank công bố theo từng thời kỳ cho đến ngày KH yêu cầu
 thanh toán CCTG.
 # 13. Biện pháp tra cứu thông tin TK và biện pháp thông báo khi có sự thay đổi số dư TK

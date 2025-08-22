@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "original_filename": "Thông tin chi tiết các loại tài khoản dành cho khách hàng cá nhân.pdf",
+  "file_type": "pdf",
+  "mime_type": "application/pdf",
+  "title": "Thông tin chi tiết các loại tài khoản",
+  "description": "Tài liệu giới thiệu chi tiết về các loại tài khoản thanh toán dành cho khách hàng cá nhân tại Sacombank, bao gồm tài khoản thông thường, combo đa lợi, gói an sinh xã hội và combo Hi-tek.",
+  "topic": [
+    "tài khoản thanh toán",
+    "combo đa lợi",
+    "gói an sinh xã hội",
+    "combo hi-tek",
+    "khách hàng cá nhân",
+    "loại tài khoản",
+    "ưu đãi tài khoản",
+    "Sacombank"
+  ],
+  "topic_or": [
+    "loại tài khoản",
+    "tài khoản thanh toán",
+    "combo tài khoản",
+    "gói an sinh",
+    "hi-tek",
+    "combo đa lợi"
+  ],
+  "topic_and": [
+    "tài khoản",
+    "Sacombank",
+    "khách hàng cá nhân"
+  ],
+  "language": "vi",
+  "expiration_date": null,
+  "effective_date": "2024-08-27",
+  "related_document": [],
+  "source_url": null,
+  "tags": [
+    "Tài khoản",
+    "Sacombank",
+    "Tài khoản thanh toán",
+    "Combo đa lợi",
+    "An sinh xã hội",
+    "Hi-tek",
+    "Ưu đãi tài khoản"
+  ],
+  "category": "Sản phẩm ngân hàng",
+  "document_type": "Thông tin sản phẩm",
+  "status": "có hiệu lực"
+}

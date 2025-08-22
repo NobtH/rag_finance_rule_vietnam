@@ -35,7 +35,8 @@ class DatabaseSettings(BaseModel):
     db_url: str = Field(default_factory=lambda: os.getenv('DB_URL'))
 
 class VectorStroreSettings(BaseModel):
-    table_name: str = 'embeddings_table'
+    doc_table_name: str = 'document_table'
+    chunk_table_name: str = 'chunk_table'
     embedding_dimensions: int = 768
     time_partition_interval: timedelta = timedelta(days=7)
 

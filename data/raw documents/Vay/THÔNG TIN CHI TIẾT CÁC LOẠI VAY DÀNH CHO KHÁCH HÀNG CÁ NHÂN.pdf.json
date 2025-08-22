@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "original_filename": "THÔNG TIN CHI TIẾT CÁC LOẠI VAY DÀNH CHO KHÁCH HÀNG CÁ NHÂN.pdf",
+  "file_type": "pdf",
+  "mime_type": "application/pdf",
+  "title": "THÔNG TIN CHI TIẾT CÁC LOẠI VAY DÀNH CHO KHÁCH HÀNG CÁ NHÂN",
+  "description": "Tài liệu tổng hợp thông tin chi tiết về các loại hình vay vốn dành cho khách hàng cá nhân tại Sacombank, bao gồm vay tiêu dùng, vay mua nhà, vay sản xuất kinh doanh, vay du học và nhiều hình thức khác.",
+  "topic": [
+    "vay tiêu dùng",
+    "vay mua nhà",
+    "vay mua xe",
+    "vay sản xuất kinh doanh",
+    "vay thấu chi",
+    "vay tín chấp",
+    "vay du học",
+    "Sacombank"
+  ],
+  "topic_or": [
+    "vay cá nhân",
+    "vay vốn ngân hàng",
+    "vay online",
+    "vay tiêu dùng cá nhân",
+    "dịch vụ ngân hàng",
+    "khách hàng cá nhân"
+  ],
+  "topic_and": [
+    "vay",
+    "khách hàng cá nhân",
+    "Sacombank"
+  ],
+  "language": "vi",
+  "expiration_date": null,
+  "effective_date": null,
+  "related_document": [],
+  "source_url": null,
+  "tags": [
+    "Vay",
+    "Khách hàng cá nhân",
+    "Sacombank",
+    "Tiêu dùng",
+    "Sản xuất kinh doanh",
+    "Mua nhà",
+    "Mua xe",
+    "Du học"
+  ],
+  "category": "Sản phẩm ngân hàng",
+  "document_type": "Tài liệu thông tin sản phẩm",
+  "status": "có hiệu lực"
+}

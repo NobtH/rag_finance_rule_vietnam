@@ -5,6 +5,7 @@ import tqdm
 import pandas as pd
 from generator.generator import Generator
 
+
 class RAG:
     def __init__(self, corpus_path = 'data/corpus.csv'):
         self.vector_store = PostgreSQLVectorStore()
@@ -18,11 +19,12 @@ class RAG:
         for i in tqdm.tqdm(range(0, len(df), batch_size)):
             batch = df.iloc[i:i + batch_size]
             texts = (batch['topic'] + '. ' + batch['text']).tolist()
+            metadata = batch['metadata']
             embeddings = self.embedder.get_embedding(texts)
 
             for row, embbed in zip(batch.itertuples(), embeddings):
                 text = row.topic + '.\n' + row.text
-                self.vector_store.insert_embedding(text, embbed)
+                self.vector_store.insert_embedding(text, embbed, metadata)
         print("Document embedded")
 
     def search(self, text):

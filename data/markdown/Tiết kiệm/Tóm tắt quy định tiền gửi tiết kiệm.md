@@ -30,7 +30,6 @@ hết khoản tiền gửi (tính ngày đầu bỏ ngày cuối của thời h�
 c) Thời điểm xác định số dư để tính lãi: là cuối mỗi ngày trong thời hạn tính lãi.
 d) Phương pháp tính lãi:
 (i) Yếu tố tính lãi:
-▪  Thời hạn tính lãi: quy định theo điểm (b) Khoản này.
 ▪  Số dư thực tế: số dư cuối mỗi ngày.
 ▪  Số ngày duy trì số dư thực tế: là số ngày mà số dư thực tế cuối mỗi ngày không thay đổi.
 ▪  Lãi suất tính lãi: được tính theo tỷ lệ % năm; một năm có 365 ngày.
@@ -66,7 +65,7 @@ Thẻ tiết kiệm đã cấp và giao Thẻ tiết kiệm cho KH.
 sở hữu TGTK) và thực hiện tương tự thủ tục tại gạch đầu dòng trên tại điểm (e) này.
 # 6. Mức gửi tiền tiết kiệm
 -  Số tiền tối thiểu cho lần nộp tiền đầu tiên:
-# ▪ TGTK VND: 50.000 VND
+▪ TGTK VND: 50.000 VND
 ▪ TGTK ngoại tệ: 50 USD hoặc ngoại tệ khác tương đương.
 -  Sacombank không quy định mức gửi tối đa.
 # 7. Thủ tục chi trả tiền gửi tiết kiệm tại địa điểm giao dịch của Sacombank
@@ -168,7 +167,6 @@ xuất trình Thẻ tiết kiệm đã tìm thấy để Sacombank thu hồi.
 ▪ KH xuất trình Thẻ tiết kiệm bị rách nát hoặc không còn toàn vẹn (bị hỏng) để Sacombank thu
 ▪ Nếu việc hỏng Thẻ tiết kiệm dẫn đến không xác định được đầy đủ yếu tố gồm số seri Thẻ
 tiết kiệm, tên KH, số tiền, chữ ký và dấu của Sacombank trên Thẻ tiết kiệm thì xử lý như
-trường hợp Thẻ tiết kiệm bị mất.
 ▪ Nếu việc hỏng Thẻ tiết kiệm nhưng vẫn xác định được đầy đủ nội dung ghi trên Thẻ tiết kiệm
 bị hỏng thì KH lập Thông báo hỏng tại địa điểm giao dịch đã phát hành Thẻ tiết kiệm của
 Sacombank để được Sacombank cấp lại Thẻ tiết kiệm hoặc chi trả cho KH.

@@ -36,7 +36,6 @@ Việt Nam của KH được gửi tại Sacombank thông qua kênh trực tuy�
 tiền nhiều lần vào TKTGSLH đã mở trong suốt kỳ hạn gửi tiền.
 Super Flexible Savings Deposit is a term savings deposit in VND opened by Customer at Sacombank
 via online channels, allowing Customer to add funds multiple times throughout the deposit term.
-1 Khách hàng có thể cập nhật email ngay trên ứng dụng tại mục Thông tin cá nhân.
 Sacombank
 Tài khoản nguồn là tài khoản thanh toán đồng Việt Nam của KH (đối với KH sử dụng kênh
 Sacombank Pay, tài khoản này phải được liên kết trên ứng dụng) do KH chỉ định để chuyển một số
@@ -125,7 +124,6 @@ khoản trích tiền định kỳ của KH có đủ số dư để trích số
 được quyền (không phải nghĩa vụ) chủ động trích bù số tiền gửi định kỳ mà KH đã đăng ký.
 In the case of regular deposits according to schedule payment quthorization or automatic debit
 (generally called payment authorization), Sacombank shallautomatically deduct funds from the Source
-Account to to the Super Flexible Savings Deposit according to the frequency, date, and amount registered
 Sacombank
 by Customer. lfon the regular deposit date, Customers Source Account does not have enough balance
 for the agreed regular deposit amount, Sacombank shall not process the deposit on that date. When the
@@ -170,7 +168,7 @@ published on Sacombank“s website.
 c.. Trường hợp số tiền gửi còn lại nhỏ hơn hoặc bằng số tiền rút tối thiểu trên, khi KH có nhu cầu
 rút, KH phải tất toán toàn bộ số tiền gửi.
 lfthe remaining deposit balance is less than or equal to the minimum withdrawal amount, Customer
-shall be required to liquidate the entire depositupon making a withdrawal.
+-b~ll L^ xk^—~+s?x^A k^ lv? xk^Ý kE CA A4 k^ ÀÍA Ai ŸŸAÝ sĂ^ TT ¬ vaz1£LL là ~...¬Í
 Sacombank
 4. Lãi suất rút trước hạn:
 Premature Withdrawal Interest:
@@ -470,7 +468,7 @@ Obligations of Sacombank
 Thanh toán đầy đủ, đúng hạn gốc, lãi phát sinh cho KH vào ngày đến hạn hoặc theo yêu cầu
 rút trước hạn của KH;
 To pay the principal and interest in full and on time to Customer on the maturity date or as per
-Customers early withdrawal request;
+iu ~4t ^^ Arf~ Arl,.aztkLL Hư xxx. Tư ^~:.^~ _
 Sacombank
 - . Cung cấp các thông tin liên quan đến khoản tiền gửi theo yêu cầu của KH và/hoặc yêu cầu của
 cơ quan nhà nước có thẩm quyền;
@@ -515,7 +513,7 @@ Customer agrees to comply with the Terms and Conditions and Sacombanks regulatio
 service and other related agreements with Sacombank.
 4. Trường hợp có bất kỳ tranh chấp nào phát sinh liên quan đến Hợp đồng này thì trước hết các bên sẽ
 cùng nhau giải quyết thông qua thương lượng, hòa giải. Trường hợp thương lượng, hòa giải không
-thành, các bên có quyền đưa vụ tranh chấp đó ra Tòa án có thẩm quyền ở Việt Nam để giải quyết.
+khkXa^D ~Ã4~ LAK» TÁC An Khư^ váy tư IV BS AFÁ vA TÀẠA Xã TÁ KG ẨNA ~.nLẬn^ HA NI AFẨ, SIẢI ~x.exLẤ
 Sacombank
 Luật Việt Nam sẽ được áp dụng để giải quyết các tranh chấp phát sinh từ Hợp đồng này.
 In case of any disputes arising from this Agreement, the parties will first attempt to resolve the issue

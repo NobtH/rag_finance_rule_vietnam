@@ -1,5 +1,5 @@
 # LÃI SUẤT    HUY   ĐỘNG    - KHÁCH    HÀNG   CÁ   NHÂN
-# ÁP DỤNG  CHO  TẤT CẢ  ĐỊA BÀN
+ÁP DỤNG  CHO  TẤT CẢ  ĐỊA BÀN
 Hiệu lực từ 7 giờ 30 phút ngày 01/08/2024
 # A. ÁP DỤNG  CHO  TÀI KHOẢN  MỞ TẠI QUẦY:
 # I. TIẾT KIỆM CÓ KỲ HẠN TRUYỀN THỐNG:

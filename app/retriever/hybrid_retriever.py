@@ -33,65 +33,65 @@ class HybridRetriever:
             scores[idx] = 1 / (self.rrf_k + r1) + 1 / (self.rrf_k + r2)
         return scores
 
-    def retrieve(self, query: str):
-        print(f"\n🔍 Truy vấn: {query}")
+    # def retrieve(self, query: str):
+    #     print(f"\n🔍 Truy vấn: {query}")
         
-        # 1. Thực hiện tìm kiếm ngữ nghĩa (Semantic Search)
-        # Gửi truy vấn tìm kiếm embedding và lấy top N kết quả
-        query_embedding = self.embedder.get_embedding(query)
-        semantic_sql = f"""
-            SELECT id, content, embedding <#> %s::vector AS semantic_score
-            FROM {self.table_name}
-            ORDER BY semantic_score
-            LIMIT %s
-        """
-        with self.conn.cursor(cursor_factory=RealDictCursor) as cur:
-            cur.execute(semantic_sql, (query_embedding, self.top_k * 3))
-            semantic_results = cur.fetchall()
+    #     # 1. Thực hiện tìm kiếm ngữ nghĩa (Semantic Search)
+    #     # Gửi truy vấn tìm kiếm embedding và lấy top N kết quả
+    #     query_embedding = self.embedder.get_embedding(query)
+    #     semantic_sql = f"""
+    #         SELECT id, content, embedding <#> %s::vector AS semantic_score
+    #         FROM {self.table_name}
+    #         ORDER BY semantic_score
+    #         LIMIT %s
+    #     """
+    #     with self.conn.cursor(cursor_factory=RealDictCursor) as cur:
+    #         cur.execute(semantic_sql, (query_embedding, self.top_k * 3))
+    #         semantic_results = cur.fetchall()
 
-        # 2. Thực hiện tìm kiếm từ khóa (BM25)
-        # Gửi truy vấn tìm kiếm từ khóa và lấy top N kết quả
-        # query_plain = self.remove_vietnamese_tone(query)
-        query_plain = query
-        print(query_plain)
+    #     # 2. Thực hiện tìm kiếm từ khóa (BM25)
+    #     # Gửi truy vấn tìm kiếm từ khóa và lấy top N kết quả
+    #     query_plain = self.remove_vietnamese_tone(query)
+    #     # query_plain = query
+    #     print(query_plain)
 
-        bm25_sql = f"""
-            SELECT id, content, ts_rank(tsv_content, plainto_tsquery('simple', %s)) AS bm25_score
-            FROM {self.table_name}
-            WHERE tsv_content @@ plainto_tsquery('simple', %s)
-            ORDER BY bm25_score DESC
-            LIMIT %s
-        """
-        with self.conn.cursor(cursor_factory=RealDictCursor) as cur:
-            cur.execute(bm25_sql, (query_plain, query_plain, self.top_k * 3))
-            bm25_results = cur.fetchall()
+    #     bm25_sql = f"""
+    #         SELECT id, content, ts_rank(tsv_content, plainto_tsquery('simple', %s)) AS bm25_score
+    #         FROM {self.table_name}
+    #         WHERE tsv_content @@ plainto_tsquery('simple', %s)
+    #         ORDER BY bm25_score DESC
+    #         LIMIT %s
+    #     """
+    #     with self.conn.cursor(cursor_factory=RealDictCursor) as cur:
+    #         cur.execute(bm25_sql, (query_plain, query_plain, self.top_k * 3))
+    #         bm25_results = cur.fetchall()
 
-        # 3. Kết hợp kết quả từ hai loại tìm kiếm
-        semantic_rank = [row['id'] for row in semantic_results]
-        bm25_rank = [row['id'] for row in bm25_results]
+    #     # 3. Kết hợp kết quả từ hai loại tìm kiếm
+    #     semantic_rank = [row['id'] for row in semantic_results]
+    #     bm25_rank = [row['id'] for row in bm25_results]
         
-        # Sử dụng RRF fusion để tính điểm cuối cùng
-        fused_scores = self._rrf_fusion(semantic_rank, bm25_rank)
+    #     # Sử dụng RRF fusion để tính điểm cuối cùng
+    #     fused_scores = self._rrf_fusion(semantic_rank, bm25_rank)
 
-        # 4. Tạo danh sách kết quả cuối cùng
-        all_results = {row['id']: {'content': row['content']} for row in semantic_results}
-        all_results.update({row['id']: {'content': row['content']} for row in bm25_results})
+    #     # 4. Tạo danh sách kết quả cuối cùng
+    #     all_results = {row['id']: {'content': row['content']} for row in semantic_results}
+    #     all_results.update({row['id']: {'content': row['content']} for row in bm25_results})
         
-        final_results = []
-        for idx, score in fused_scores.items():
-            final_results.append({
-                "cid": idx,  # Sử dụng ID làm CID
-                "content": all_results[idx]['content'],
-                "score": score
-            })
+    #     final_results = []
+    #     for idx, score in fused_scores.items():
+    #         final_results.append({
+    #             "cid": idx,  # Sử dụng ID làm CID
+    #             "content": all_results[idx]['content'],
+    #             "score": score
+    #         })
 
-        # 5. Sắp xếp và trả về
-        final_results.sort(key=lambda x: x["score"], reverse=True)
+    #     # 5. Sắp xếp và trả về
+    #     final_results.sort(key=lambda x: x["score"], reverse=True)
         
-        if not final_results:
-            print('Không tìm thấy kết quả')
+    #     if not final_results:
+    #         print('Không tìm thấy kết quả')
         
-        return final_results[:self.top_k]
+    #     return final_results[:self.top_k*3]
 
 
     

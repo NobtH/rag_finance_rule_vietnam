@@ -28,7 +28,6 @@ Giao dịch mọi lúc mọi nơi.
 Miễn phí giao dịch trên Ngân hàng số.
 Đa kênh và tiện lợi, đáp ứng mọi nhu cầu giao dịch của khách hàng.
 - Đặc tính:
-Combo bao gồm các sản phẩm dịch vụ:
 Tài khoản thanh toán.
 Thẻ thanh toán nội địa/quốc tế.
 Sacombank Pay.
@@ -60,7 +59,6 @@ SMS biến động số dư, SMS xác thực giao dịch.
 Khách hàng từ 15 tuổi trở lên mang CMND/CCCD/Hộ chiếu đến Sacombank gần
 nhất để nhận được tư vấn.
 - Ưu đãi:
-Miễn phí trọn đời.
 Tham gia nhiều chương trình khuyến mãi hấp dẫn diễn ra quanh năm của
 Sacombank (quay số, hoàn tiền giao dịch…).
 - Tích điểm đổi quà:

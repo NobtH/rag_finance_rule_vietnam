@@ -8,7 +8,7 @@ là một phần không tách rời của Giấy đề nghị vay vốn kiêm h�
 vay đã được Sacombank cung cấp, giải thích đầy đủ các thông tin liên quan đến khoản vay để quyết
 định vay trước khi xác nhận đồng ý Điều kiện và điều khoản này, (ii) Bên vay đã đọc, hiểu và chấp
 nhận bị ràng buộc bởi các quyền và nghĩa vụ theo Hợp đồng này.
-# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ:
+# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ: 
 Trong Điều kiện và điều khoản này, các từ ngữ sau đây được áp dụng trong quá trình thực hiện thủ
 tục vay tín chấp từ lương trực tuyến và được hiểu như sau:
 1.1. Sacombank là Ngân hàng TMCP Sài Gòn Thương Tín, mã số doanh nghiệp 0301103908, địa
@@ -48,7 +48,7 @@ thời điểm. Các tham số này do Sacombank quy định và có thể đư�
 nhận giải ngân đã đăng ký với Sacombank. Tài khoản nhận giải ngân không đồng thời là tài
 khoản được Sacombank cấp hạn mức thấu chi và/hoặc tài khoản có số dư khả dụng âm và/hoặc
 tài khoản đang bị phong tỏa theo quy định của pháp luật.
-# ĐIỀU 3. THỜI HẠN CHO VAY
+# ĐIỀU 3. THỜI HẠN CHO VAY 
 Thời hạn cho vay: là thời hạn do Bên vay đồng ý chọn tại hệ thống của Sacombank tối đa 24
 tháng. Các tham số này do Sacombank quy định và có thể được thay đổi trong từng thời kỳ.
 Thời hạn vay là khoảng thời gian được tính từ ngày tiếp theo của ngày giải ngân đầu tiên cho

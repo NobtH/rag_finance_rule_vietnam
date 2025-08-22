@@ -91,7 +91,7 @@ Sacombank Pay.
 •  Người được giới thiệu: Khách hàng cá nhân chưa sử dụng ứng dụng Sacombank Pay
 trước thời điểm triển khai chương trình.
 Thông tin chi tiết chương trình
-# 1. Nội dung chương trình
+1. Nội dung chương trình
 •  Người giới thiệu: Tặng đến 50.000 VND cho mỗi lượt giới thiệu khách hàng tải,
 đăng ký và mở TKTT trên Sacombank Pay. Không giới hạn số lượt tặng. Mức tặng
 như sau:
@@ -110,7 +110,7 @@ Trong vòng 2 ngày                 50.000 VND
 Từ ngày thứ 3 đến ngày thứ 14          40.000 VND
 Từ ngày thứ 15 trở đi              30.000 VND
 •  Điều kiện: Người được giới thiệu nhập mã giới thiệu.
-# 2. Hướng dẫn tham gia
+2. Hướng dẫn tham gia
 •  Tải, đăng ký và mở tài khoản thanh toán trên Sacombank Pay tại đây.
 •  Nhập mã giới thiệu khách hàng tại đây hoặc Đăng nhập Sacombank Pay ->
 chọn Giao dịch -> Giới thiệu bạn bè -> Chia sẻ ngay.

@@ -29,7 +29,6 @@ Khách hàng yêu cầu thanh toán CCTG.
 • CCTG do Sacombank phát hành có giá trị thanh toán trong toàn hệ thống Sacombank tại Việt Nam.
 # III. Thủ tục 
 Khi giao dịch, Khách hàng phải xuất trình CCTG, Chứng minh nhân dân/Căn cước công dân/Căn
-cước/Hộ chiếu còn hiệu lực, ký tên đúng chữ ký mẫu đã đăng ký và thực hiện theo các biểu mẫu của
 Sacombank.
 # IV. Quy định khác 
 • CCTG có các đặc điểm sau:

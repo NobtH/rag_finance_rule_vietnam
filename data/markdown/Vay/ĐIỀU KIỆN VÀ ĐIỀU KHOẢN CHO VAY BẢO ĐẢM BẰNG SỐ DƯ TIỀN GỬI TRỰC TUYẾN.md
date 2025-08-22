@@ -9,7 +9,7 @@ Pay) của Bên cho vay là Sacombank là một phần không tách rời của 
 thích đầy đủ các thông tin liên quan đến khoản vay để quyết định vay trước khi xác nhận đồng
 ý Điều kiện và điều khoản này; (ii) Bên vay đã đọc, hiểu và đã chấp nhận bị ràng buộc bởi các
 quyền và nghĩa vụ theo Hợp đồng này.
-# ĐIỀU 1: GIẢI THÍCH TỪ NGỮ:
+# ĐIỀU 1: GIẢI THÍCH TỪ NGỮ: 
 Trong Điều kiện và điều khoản này, các từ ngữ sau đây được áp dụng trong quá trình thực hiện
 thủ tục vay bảo đảm bằng số dư tiền gửi và được hiểu như sau:
 1.1. Sacombank là Ngân hàng TMCP Sài Gòn Thương Tín, mã số doanh nghiệp
@@ -37,7 +37,6 @@ vay, mức lãi suất vay, thời hạn vay, ngày trả nợ vay và các phí
 1.7. Tài khoản nhận giải ngân: là tài khoản thanh toán (TKTT) của chính Bên vay mở tại
 Sacombank và được Bên vay chỉ định và/hoặc được hệ thống mặc định liên kết để giải
 ngân khoản vay. Tài khoản nhận giải ngân được đăng ký trích nợ tự động thanh toán
-nợ gốc, lãi vay và các khoản phí liên quan (nếu có).
 1.8. Ngày đến hạn: là ngày mà Bên vay phải trả hết nợ gốc, lãi tiền vay và các chi phí phát
 sinh (nếu có) cho Sacombank. Hệ thống của Sacombank đã thông báo cho Bên vay tại
 màn hình đăng ký vay bảo đảm bằng số dư tiền gửi trên kênh trực tuyến.
@@ -45,7 +44,7 @@ màn hình đăng ký vay bảo đảm bằng số dư tiền gửi trên kênh 
 1.10. Các khái niệm khác: được định nghĩa trong Điều kiện và điều khoản sử dụng dịch vụ
 ứng dụng Sacombank Pay,… (sau đây gọi là Điều kiện và điều khoản sử dụng dịch vụ
 kênh trực tuyến của Sacombank).
-# ĐIỀU 2: QUY TRÌNH, SỐ TIỀN VAY
+# ĐIỀU 2: QUY TRÌNH, SỐ TIỀN VAY 
 2.1. Quy trình vay: Khi có nhu cầu vay vốn, Bên vay đăng nhập ứng dụng Sacombank Pay
 của Sacombank, khởi tạo, nhập liệu/chọn các thông tin để đề nghị nhu cầu vay vốn. Hệ
 thống Sacombank khởi tạo TKTV. Theo đó, Bên vay đồng ý vay Sacombank một khoản
@@ -63,7 +62,7 @@ thể được thay đổi trong từng thời kỳ.
 khoản nhận giải ngân đã đăng ký với Sacombank. Tài khoản nhận giải ngân không đồng
 thời là tài khoản được Sacombank cấp hạn mức thấu chi và/hoặc tài khoản có số dư khả
 dụng âm và/hoặc tài khoản đang bị phong tỏa theo quy định của pháp luật.
-# ĐIỀU 3: THỜI HẠN CHO VAY
+# ĐIỀU 3: THỜI HẠN CHO VAY 
 Thời hạn cho vay: là thời hạn do Bên vay đồng ý theo kết quả tính toán tại hệ thống của
 Sacombank, tối đa bằng thời hạn gửi còn lại của SDTG. Thời hạn vay là khoảng thời gian được
 tính từ ngày tiếp theo của ngày giải ngân đầu tiên cho Bên vay đến thời điểm Bên vay phải trả

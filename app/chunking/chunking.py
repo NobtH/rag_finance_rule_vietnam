@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import re
 import tiktoken
+import json
 
 class Chunking:
     def __init__(self, mark_down_dir='data/markdown', corpus_out_dir='data', max_chunk_size=600):
@@ -22,7 +23,7 @@ class Chunking:
             return 'numbered'
         return 'general'
     
-    def split_text_by_size(self, text, topic):
+    def split_text_by_size(self, text, topic, metadata):
         """
         Chia text thành các chunk, ưu tiên cắt tại '.\n' gần giới hạn từ nhất.
         """
@@ -36,7 +37,7 @@ class Chunking:
         # Nếu không có từ (ví dụ file chỉ là newline / whitespace) -> trả nguyên text
         if total_words == 0:
             if text:
-                final_chunks.append({'text': text, 'topic': topic})
+                final_chunks.append({'text': text, 'topic': topic, 'metadata': metadata})
             return final_chunks
 
         while start_word < total_words:
@@ -44,7 +45,7 @@ class Chunking:
             # nếu còn ít hơn giới hạn thì lấy hết phần còn lại
             if remaining <= self.max_chunk_size:
                 chunk_text = text[start_char:]
-                final_chunks.append({'text': chunk_text, 'topic': topic})
+                final_chunks.append({'text': chunk_text, 'topic': topic, 'metadata': metadata})
                 break
 
             end_word = start_word + self.max_chunk_size
@@ -85,7 +86,7 @@ class Chunking:
                 if not chunk_text.strip():
                     break
 
-            final_chunks.append({'text': chunk_text, 'topic': topic})
+            final_chunks.append({'text': chunk_text, 'topic': topic, 'metadata': metadata})
 
             # cập nhật start_word sao cho span[0] >= cut_pos
             new_start = start_word
@@ -139,6 +140,20 @@ class Chunking:
         print(f"-> Cấu trúc tài liệu: Dạng '{chunking_strategy}'")
 
         file_topic = self.extract_file_topic(lines)
+
+        json_file_path = os.path.splitext(md_file_path)[0] + '.pdf.json'
+
+        metadata = None
+        if os.path.exists(json_file_path):
+            try:
+                with open(json_file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    if data:
+                        metadata = json.dumps(data, ensure_ascii=False)
+                    else:
+                        metadata = None
+            except:
+                print(f'Loi doc metadata tu file {json_file_path}')
         
         # Logic xác định một dòng có phải là tiêu đề hợp lệ không
         def is_new_chunk_start(line, strategy):
@@ -162,7 +177,7 @@ class Chunking:
             return False
         
         # Xử lý phần mở đầu và các chunk còn lại
-        current_chunk = {'text': '', 'topic': file_topic}
+        current_chunk = {'text': '', 'topic': file_topic, 'metadata': metadata}
         title_found = False
 
         for line in lines:
@@ -178,14 +193,24 @@ class Chunking:
             else:
                 title_found = True
                 if is_title:
+                    if 'tmp_chunk' in locals() and tmp_chunk:
+                        current_chunk['text'] = tmp_chunk['text'] + current_chunk['text']
+                        tmp_chunk = None
+
                     if current_chunk['text']:
                         current_chunk['topic'] = file_topic
-                        if len(current_chunk['text'].splitlines()) >= 3:
+
+                        if len(current_chunk['text'].splitlines()) >= 4 and len(current_chunk['text']) > 40:
                             chunks.append(current_chunk)
+                        else: 
+                            tmp_chunk = current_chunk
                     
                     current_chunk = {
-                        'text': line + '\n'
+                        'text': line + '\n',
+                        'topic': file_topic,
+                        'metadata': metadata
                     }
+                    # print(current_chunk['metadata'])
                 else:
                     current_chunk['text'] += line + '\n'
         
@@ -198,7 +223,7 @@ class Chunking:
         final_chunks = []
         for chunk in chunks:
             if len(chunk['text'].split()) > self.max_chunk_size:
-                final_chunks.extend(self.split_text_by_size(chunk['text'], chunk['topic']))
+                final_chunks.extend(self.split_text_by_size(chunk['text'], chunk['topic'], chunk['metadata']))
             else:
                 final_chunks.append(chunk)
 
@@ -232,11 +257,8 @@ class Chunking:
         
         df.insert(1, 'cid', df.index + 1)
 
-        df = df[['cid', 'topic', 'text']]
+        df = df[['cid', 'topic', 'text', 'metadata']]
         
         df.to_csv(output_file, index=False, encoding='utf-8')
         print(f"-> Đã lưu tất cả chunks vào file: {output_file}")
     
-test = Chunking()
-res = test.chunk_all_md_file()
-test.save_to_csv(res)

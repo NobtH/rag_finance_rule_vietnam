@@ -8,7 +8,7 @@ bản giấy hoặc nhấp chọn đồng ý tại màn hình đăng ký dịch 
 Sacombank cung cấp đầy đủ và xem xét kỹ các thông tin về Hợp đồng, sản phẩm, dịch vụ của
 Sacombank trước khi chấp nhận mở TK (ii) KH đã đọc, hiểu, chấp nhận bị ràng buộc bởi các quyền
 và nghĩa vụ tại bản điều khoản và điều kiện này.
-# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ
+# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ 
 Các từ ngữ sử dụng trong bản điều khoản và điều kiện này được hiểu như sau:
 1. Sacombank: là Ngân hàng TMCP Sài Gòn Thương Tín.
 2. Khách hàng (KH): bao gồm tổ chức hoặc cá nhân đề nghị mở TK và sử dụng TK và là chủ TK
@@ -74,16 +74,15 @@ ba; hoặc (ii) xác minh thông tin nhận biết KH thông qua việc thuê t�
 khai thác thông tin trong các cơ sở dữ liệu quốc gia theo quy định của pháp luật, thông
 qua cơ quan nhà nước có thẩm quyền, tổ chức khác được thuê để xác minh thông tin KH
 hoặc bên thứ ba nhận biết KH để đối chiếu, xác minh thông tin do KH cung cấp.
-# c. KH hiểu rõ thủ tục mở TK chưa hoàn chỉnh cho đến khi Sacombank nhận được đầy đủ 
+c. KH hiểu rõ thủ tục mở TK chưa hoàn chỉnh cho đến khi Sacombank nhận được đầy đủ
 thông tin, hồ sơ để mở TK theo quy định của Sacombank và hoàn tất việc xác minh, xác
 thực thông tin KH.
-# d. KH cam kết bổ sung đầy đủ, chính xác thông tin, giấy tờ cho Sacombank khi nhận được 
+d. KH cam kết bổ sung đầy đủ, chính xác thông tin, giấy tờ cho Sacombank khi nhận được
 yêu cầu của Sacombank.
 e. Giới hạn số lượng TK: Tổng số TK tối đa mà một KH cá nhân mở tại Sacombank là 03 TK
 đối với cùng một loại tiền (không phân biệt Chi nhánh/Phòng giao dịch và TK mở tại quầy
 hay TK mở thông qua phương thức điện tử) hoặc theo quy định của Sacombank trong từng
 thời kỳ. Trường hợp KH có nhu cầu mở TK vượt quá Tổng số TK tối đa theo quy định,
-Sacombank có thể từ chối hoặc đồng ý và trường hợp Sacombank đồng ý mở TK, KH phải
 lập Giấy đề nghị theo mẫu của Sacombank, cam kết sử dụng TK đúng mục đích, đồng ý chi
 trả phí quản lý TK và thực hiện các thủ tục khác theo quy định của Sacombank trong từng
 thời kỳ.
@@ -119,16 +118,15 @@ giao dịch theo quy định hiện hành của pháp luật và quy định c�
 các chủ TK chung có quốc tịch, tình trạng cư trú khác nhau thì TK chung chỉ được mở và sử
 dụng trong phạm vi được phép của tất cả các chủ TK chung theo quy định pháp luật về
 quản lý ngoại hối.
-# c. Trường hợp KH có nhu cầu giao dịch trên các Kênh trực tuyến, KH sẽ phải thực hiện thủ 
+c. Trường hợp KH có nhu cầu giao dịch trên các Kênh trực tuyến, KH sẽ phải thực hiện thủ
 tục đăng ký và/hoặc sử dụng sản phẩm, dịch vụ theo quy định của Sacombank phù hợp
 với Kênh trực tuyến tương ứng. KH được thực hiện các giao dịch trên Kênh trực tuyến theo
 phạm vi đăng ký với Sacombank hoặc phạm vi khác do Sacombank triển khai trong từng
 thời kỳ.
-# d. Tùy từng dịch vụ, sản phẩm, giao dịch và hạn mức giao dịch mà KH tham gia trên Kênh 
+d. Tùy từng dịch vụ, sản phẩm, giao dịch và hạn mức giao dịch mà KH tham gia trên Kênh
 trực tuyến, KH đồng ý Sacombank sẽ sử dụng một hoặc một số yếu tố sau đây để nhận
 diện, xác thực KH: mã xác thực, thông tin cá nhân, thông tin tài khoản, thẻ đã đăng ký tại
 Sacombank, giấy tờ tùy thân, thẻ ngân hàng, thẻ xác thực, yếu tố sinh trắc học, chữ ký số
-hoặc sử dụng bất kỳ yếu tố, phương thức xác thực nào mà KH đã từng đăng ký tại
 Sacombank cho bất kỳ Kênh trực tuyến nào, … trên cơ sở phù hợp với phương thức xác
 thực mà Sacombank quy định cho dịch vụ, sản phẩm, giao dịch đó và quy định pháp luật
 có liên quan. Bất kỳ giao dịch nào đã được Sacombank thực hiện trên cơ sở kiểm tra (các)
@@ -165,7 +163,7 @@ mức tối đa bằng số dư được phép sử dụng tại thời điểm 
 b. Trường hợp KH từ đủ 15 tuổi đến chưa đủ 18 tuổi khi thực hiện giao dịch ghi Nợ có giá trị
 từ 100 triệu đồng/giao dịch trở lên tại Điểm giao dịch của Sacombank, KH phải khai báo
 mục đích giao dịch hợp pháp hợp lệ trước khi thực hiện.
-# c. Tùy theo điều kiện trong từng thời kỳ, Sacombank có thể thay đổi hoặc ấn định hạn mức 
+c. Tùy theo điều kiện trong từng thời kỳ, Sacombank có thể thay đổi hoặc ấn định hạn mức
 cho các giao dịch của KH trên TK (bao gồm hạn mức dành cho KH dưới 18 tuổi) theo các
 chính sách quản lý rủi ro của ngân hàng và sẽ thông báo cho KH về hạn mức giao dịch áp
 dụng. Trường hợp có sự thay đổi về hạn mức giao dịch, Sacombank sẽ gửi thông báo về
@@ -216,15 +214,14 @@ Sacombank triển khai trong từng thời kỳ. Tùy vào phương thức tri�
 hiện theo các quy trình thủ tục đăng ký và thanh toán phí tương ứng để phục vụ cho việc
 nhận thông báo về số dư, giao dịch trên TK.
 b. KH có thể đăng ký Dịch vụ Gửi Tin báo của Sacombank để nhận các thông báo về biến
-động số dư trên tài khoản. Để sử dụng Dịch vụ Gửi Tin báo thông qua tính năng thông báo
 trên các Kênh trực tuyến, KH cần cài đặt phần mềm, ứng dụng và thực hiện các thao tác
 định danh, kích hoạt sử dụng theo hướng dẫn của Sacombank. KH có thể chủ động lựa
 chọn bật/tắt tính năng này tại (các) Kênh trực tuyến hoặc tùy từng thời điểm, Sacombank
 sẽ tự động bật tính năng này cho KH sử dụng và thông báo cho KH tối thiểu 07 ngày trước
 khi bật tính năng.
-# c. Khi sử dụng Dịch vụ Gửi tin báo của Sacombank, KH đồng ý tuân thủ Điều khoản và điều 
+c. Khi sử dụng Dịch vụ Gửi tin báo của Sacombank, KH đồng ý tuân thủ Điều khoản và điều
 kiện Dịch vụ Gửi tin báo được Sacombank niêm yết công khai tại Website của Sacombank.
-# d. KH được tra cứu, yêu cầu cung cấp thông tin tài khoản, giao dịch về tài khoản qua kênh 
+d. KH được tra cứu, yêu cầu cung cấp thông tin tài khoản, giao dịch về tài khoản qua kênh
 tổng đài của Sacombank 1800 5858 88/(+84) 28 3526 6060 (hoặc số điện thoại khác do
 Sacombank công bố trong từng thời kỳ) thông qua số điện thoại đã đăng ký với Sacombank
 hoặc kênh tại quầy hoặc các kênh trực tuyến khác được Sacombank triển khai trong từng
@@ -236,11 +233,11 @@ b. Đối tượng mở TK trực tuyến cá nhân là cá nhân chỉ có mộ
 dụng trường hợp KH có thêm quốc tịch khác), cư trú tại Việt Nam, từ đủ 18 tuổi trở lên đến
 dưới 70 tuổi (đối với TK mở trên Ứng dụng Đối tác và máy STM) hoặc từ đủ 18 tuổi trở lên
 (đối với TK mở trên Sacombank Pay) có đầy đủ năng lực hành vi dân sự.
-# c. Đối tượng mở TK trực tuyến tổ chức là doanh nghiệp thuộc loại hình công ty trách nhiệm 
+c. Đối tượng mở TK trực tuyến tổ chức là doanh nghiệp thuộc loại hình công ty trách nhiệm
 hữu hạn, công ty cổ phần, doanh nghiệp tư nhân được thành lập, hoạt động hợp pháp
 theo pháp luật Việt Nam, có tình trạng “còn hoạt động” đến thời điểm mở TK, chưa đăng
 ký thông tin tại Sacombank, chỉ có 01 người đại diện theo pháp luật có quốc tịch Việt Nam.
-# d. TK trực tuyến không được áp dụng đối với: 
+d. TK trực tuyến không được áp dụng đối với:
 (i) KH cá nhân/Người đại diện mở TK của KH tổ chức thuộc các đối tượng phải thực hiện
 giao dịch thông qua người giám hộ, người đại diện theo pháp luật.
 (ii) KH cá nhân là người không cư trú.
@@ -258,7 +255,6 @@ a. TK trực tuyến cá nhân (VND) được đăng ký mở trên Ứng dụng
 Ứng dụng Đối tác.
 b. TK trực tuyến  tổ  chức  (VND)  được  đăng  ký  mở   trên  website
 https://www.sacombank.com.vn.
-# c. Các kênh đăng ký mở TK khác do Sacombank triển khai trong từng thời kỳ. 
 4. Quản lý TK trực tuyến:
 a. TK trực tuyến được giao dịch trên Kênh trực tuyến trong phạm vi các tính năng và hạn mức
 giao dịch theo quy định của Sacombank từng thời kỳ. TK trực tuyến chỉ được thực hiện ủy
@@ -271,7 +267,7 @@ Sacombank để thực hiện theo các quy trình, thủ tục theo quy định
 từng thời kỳ bao gồm nhưng không giới hạn: thực hiện thủ tục nhận biết, xác minh thông
 tin thông qua gặp mặt trực tiếp, đăng ký bổ sung chữ ký và mẫu dấu, đề nghị nâng hạn
 mức và đăng ký sử dụng các dịch vụ thanh toán khác trên TK.
-# c. TK trực tuyến cá nhân: 
+c. TK trực tuyến cá nhân:
 (i) TK trực tuyến cá nhân mở trên ứng dụng Sacombank Pay được sử dụng cho các giao
 dịch chuyển tiền, thanh toán và các giao dịch khác thực hiện trên ứng dụng Sacombank
 (ii) TK trực tuyến cá nhân mở trên máy STM được sử dụng cho các giao dịch nộp tiền, rút
@@ -291,7 +287,7 @@ của Sacombank trong từng thời kỳ.
 quy định tại điểm c khoản 2 Điều 2 Hợp đồng này.
 (vi) Trường hợp KH đăng ký báo giao dịch tự động qua SMS, số điện thoại nhận tin báo là
 số điện thoại theo thông tin KH đăng ký khi mở TK.
-# d. TK trực tuyến tổ chức: 
+d. TK trực tuyến tổ chức:
 (i) KH phải đăng ký Người đại diện theo pháp luật là Người đại diện hợp pháp mở và sử
 dụng TK (Người đại diện chủ TK) và đăng ký thông tin Kế toán trưởng/Người phụ trách
 kế toán để giao dịch TK (trừ trường hợp KH là doanh nghiệp áp dụng chế độ kế toán
@@ -360,8 +356,8 @@ a. Sử dụng số tiền trên TK của mình trong phạm vi số dư đượ
 Sacombank tạo điều kiện để sử dụng TK của mình thuận tiện và an toàn.
 b. Lựa chọn và thỏa thuận sử dụng các phương tiện thanh toán, dịch vụ và tiện ích thanh toán
 do Sacombank cung ứng.
-# c. Ủy quyền cho người khác sử dụng TK theo quy định tại Hợp đồng này và quy định pháp 
-# d. Yêu cầu Sacombank thực hiện các lệnh thanh toán hợp pháp, hợp lệ và được cung cấp 
+c. Ủy quyền cho người khác sử dụng TK theo quy định tại Hợp đồng này và quy định pháp
+d. Yêu cầu Sacombank thực hiện các lệnh thanh toán hợp pháp, hợp lệ và được cung cấp
 thông tin về số dư và các giao dịch phát sinh trên TK của mình theo thỏa thuận với
 Sacombank.
 e. Được yêu cầu Sacombank phong tỏa, chấm dứt phong tỏa, đóng TK khi cần thiết; gửi thông
@@ -381,9 +377,9 @@ trong suốt quá trình mở và sử dụng TK.
 b. Đảm bảo có đủ tiền trên TK để thực hiện các lệnh thanh toán đã lập. Trường hợp có thỏa
 thuận thấu chi với Sacombank thì phải thực hiện các nghĩa vụ liên quan khi chi trả vượt
 quá số dư Có trên TK.
-# c. Thực hiện đúng, đầy đủ các điều kiện, quy trình đối với các dịch vụ thanh toán theo hướng 
+c. Thực hiện đúng, đầy đủ các điều kiện, quy trình đối với các dịch vụ thanh toán theo hướng
 dẫn của Sacombank phù hợp với quy định của pháp luật.
-# d. Chấp hành các quy định về mở và sử dụng TK tại Hợp đồng này và quy định pháp luật. 
+d. Chấp hành các quy định về mở và sử dụng TK tại Hợp đồng này và quy định pháp luật.
 e. Đảm bảo mẫu dấu đăng ký và giao dịch với Sacombank là mẫu dấu còn hiệu lực và khớp
 đúng với mẫu dấu được lưu giữ, sử dụng tại doanh nghiệp hoặc mẫu dẫu đã đăng ký/thông
 báo với cơ quan thẩm quyền theo quy định pháp luật. Tự chịu mọi trách nhiệm về việc mẫu
@@ -416,7 +412,7 @@ không giới hạn việc chi lương bằng ngoại tệ và/hoặc bằng đ�
 phép lao động/Giấy xác nhận người lao động không thuộc diện cấp Giấy phép lao động
 cho người lao động nước ngoài theo quy định của pháp luật và tự chịu mọi trách nhiệm
 đối với các vấn đề phát sinh có liên quan.
-# i. Hoàn trả vô điều kiện các khoản tiền do sai sót, nhầm lẫn đã ghi Có vào TK của mình, các 
+i. Hoàn trả vô điều kiện các khoản tiền do sai sót, nhầm lẫn đã ghi Có vào TK của mình, các
 khoản tiền mà KH rút thừa, rút quá số dư theo đề nghị của Sacombank, ngân hàng, chi
 nhánh ngân hàng nước ngoài phục vụ bên chuyển tiền.
 j. Cung cấp trung thực, đầy đủ, rõ ràng, chính xác, hợp pháp các thông tin, tài liệu trong hồ
@@ -428,12 +424,11 @@ toàn chịu trách nhiệm về những rủi ro phát sinh trong trường h�
 thông tin không đầy đủ, chính xác, kịp thời cho Sacombank và những thiệt hai do sai sót
 của mình gây ra.
 k. Trường hợp khai báo thông tin là doanh nghiệp siêu nhỏ, KH (tổ chức) cam kết đáp ứng
-đầy đủ các tiêu chí xác định là doanh nghiệp siêu nhỏ được áp dụng chế độ kế toán đơn
 giản theo quy định pháp luật và phải thông báo ngay cho Sacombank khi có sự thay đổi
 về quy mô và chế độ kế toán áp dụng (không còn là doanh nghiệp siêu nhỏ áp dụng chế
 độ kế toán đơn giản) hoặc theo yêu cầu của Sacombank gửi đến KH).
-# l. Duy trì số dư tối thiểu trên TK theo quy định của Sacombank. 
-# m. Chịu mọi trách nhiệm về hành vi cung cấp tài liệu hồ sơ gian lận, giả mạo liên quan đến 
+l. Duy trì số dư tối thiểu trên TK theo quy định của Sacombank.
+m. Chịu mọi trách nhiệm về hành vi cung cấp tài liệu hồ sơ gian lận, giả mạo liên quan đến
 mở, sử dụng TK và nguồn gốc số tiền sử dụng trên TK.
 n. Chịu trách nhiệm về những thiệt hại do sai sót hoặc bị lợi dụng, lừa đảo khi sử dụng dịch
 vụ thanh toán qua TK do lỗi của mình.
@@ -557,7 +552,6 @@ sẽ được quyền chủ động ghi Nợ theo yêu cầu hủy lệnh chuy�
 chuyển có đó. Khi đó, mọi khiếu nại, tranh chấp (nếu có), KH liên hệ tổ chức cung ứng
 dịch vụ thanh toán chuyển tiền đã yêu cầu hủy lệnh đó.
 (v) Để chi trả các khoản thanh toán thường xuyên, định kỳ theo thỏa thuận giữa KH với
-Sacombank.
 (vi) Các trường hợp trích Nợ khác liên quan đến gian lận, lừa đảo khi có kết luận của cơ
 quan có thẩm quyền.
 (vii) Các trường hợp khác theo thỏa thuận giữa KH và Sacombank hoặc theo quy định của
@@ -585,7 +579,7 @@ tin và mục đích giao dịch đối với giao dịch đặc biệt phải g
 pháp luật phòng, chống rửa tiền.
 (viii) Các trường hợp khác theo Hợp đồng này, thỏa thuận khác giữa KH và Sacombank và
 theo quy định của Sacombank trong từng thời kỳ phù hợp quy định pháp luật.
-# c. Được từ chối thực hiện các giao dịch, tạm ngừng giao dịch (giao dịch ghi có/ghi nợ), tạm 
+c. Được từ chối thực hiện các giao dịch, tạm ngừng giao dịch (giao dịch ghi có/ghi nợ), tạm
 ngừng cung cấp dịch vụ liên quan trên TK, phong tỏa TK (giao dịch ghi có/ghi nợ), yêu cầu
 KH bổ sung thông tin, hồ sơ để Sacombank tiến hành xác minh lại KH và/hoặc giao dịch
 của KH, yêu cầu KH đến trực tiếp Điểm giao dịch để thực hiện thủ tục nhận biết, xác minh
@@ -601,7 +595,6 @@ danh điện tử của KH, hoặc các nguồn dữ liệu hợp pháp khác.
 (ii) Sacombank có cơ sở xác định KH không thỏa điều kiện mở TK.
 (iii) Sacombank tiếp nhận khiếu nại từ chính chủ TK về việc không mở TK hoặc có thông
 tin về tranh chấp, khiếu nại, khiếu kiện của các tổ chức, cá nhân liên quan đến giao
-dịch trên TK của KH.
 (iv) Sacombank phát hiện TK (bao gồm thông tin, hồ sơ KH cung cấp, thông tin giao dịch
 trên TK như thông tin bên nhận, bên chuyển, nội dung diễn giải…) có dấu hiệu gian
 lận, giả mạo, hoặc dấu hiệu vi phạm pháp luật theo các tiêu chí rủi ro của Sacombank,
@@ -646,11 +639,10 @@ Sacombank và trong thời hạn mà Sacombank yêu cầu. Nếu (1) KH từ ch�
 tin/không đến Điểm giao dịch để xác minh lại; hoặc (2) KH không cung cấp thông tin, hồ
 sơ trong thời hạn yêu cầu; hoặc (3) hồ sơ được KH cung cấp không phù hợp theo quy định
 pháp luật và quy định của Sacombank; hoặc (4) KH không chứng minh được danh tính của
-mình, nguồn gốc số tiền và mục đích giao dịch hợp pháp; hoặc (5) Sacombank không thể
 liên lạc được KH thông qua các thông tin liên lạc mà KH đã đăng ký thì Sacombank có
 quyền tiếp tục tạm dừng giao dịch, phong tỏa TK của KH hoặc đóng TK (mà không phải
 thông báo trước cho KH).
-# d. Từ chối yêu cầu phong tỏa, đóng TK của KH khi KH chưa hoàn thành nghĩa vụ thanh toán 
+d. Từ chối yêu cầu phong tỏa, đóng TK của KH khi KH chưa hoàn thành nghĩa vụ thanh toán
 theo quyết định cưỡng chế của cơ quan nhà nước có thẩm quyền hoặc chưa thanh toán
 xong các khoản nợ phải trả cho Sacombank.
 e. Từ chối yêu cầu cung cấp thông tin, thông báo phong tỏa TK cho KH trong trường hợp TK
@@ -665,7 +657,7 @@ chuyển thừa, chuyển nhầm (bao gồm cả lỗi tác nghiệp, sự cố 
 ứng dịch vụ thanh toán).
 h. Có quyền (nhưng không có nghĩa vụ) yêu cầu KH (tổ chức) cung cấp thông tin, giấy tờ
 chứng minh KH thỏa điều kiện áp dụng chế độ kế toán đơn giản.
-# i. Quy định về số dư tối thiểu, phạm vi sử dụng, cách thức sử dụng, hạn mức giao dịch trên 
+i. Quy định về số dư tối thiểu, phạm vi sử dụng, cách thức sử dụng, hạn mức giao dịch trên
 TK và thông báo công khai, hướng dẫn cụ thể để KH biết.
 j. Quy định và áp dụng các biện pháp đảm bảo an toàn, bảo mật trong quá trình mở và sử
 dụng TK phù hợp các quy định của pháp luật.
@@ -673,11 +665,11 @@ k. Sacombank có quyền (nhưng không có nghĩa vụ) tạm ngưng cung cấp
 tỏa TK vô thời hạn ngay khi nhận được bất kỳ khiếu nại, thắc mắc hay phản hồi của KH về
 việc không hài lòng dịch vụ do Sacombank cung cấp cho đến khi KH có yêu cầu bằng văn
 bản về việc sử dụng lại TK/cung cấp lại dịch vụ.
-# l. Được gửi thông tin quảng cáo về tất cả các sản phẩm, dịch vụ, chương trình khuyến mại 
+l. Được gửi thông tin quảng cáo về tất cả các sản phẩm, dịch vụ, chương trình khuyến mại
 và chương trình hoạt động khác cho KH bằng thư điện tử, tin nhắn và các phương thức
 khác do Sacombank áp dụng trong từng thời kỳ đến email, số điện thoại mà KH đã đăng
 ký với Sacombank.
-# m. Được áp dụng tỷ giá bán chuyển khoản tại thời điểm thực hiện giao dịch đối với các trường 
+m. Được áp dụng tỷ giá bán chuyển khoản tại thời điểm thực hiện giao dịch đối với các trường
 hợp sau, mà không cần sự đồng ý của KH: (i) TK bằng đồng Việt Nam của KH được báo có
 các khoản tiền bằng ngoại tệ; (ii) TK bằng đồng Việt Nam/ngoại tệ không đủ số dư để thu
 các khoản nợ đến hạn, quá hạn, tiền lãi và các chi phí phát sinh trong quá trình quản lý TK
@@ -690,15 +682,14 @@ và/hoặc không còn tồn tại nhưng KH không đăng ký thay đổi với
 kỳ lí do nào dẫn đến KH không còn kiểm soát quyền sử dụng đối với các thông tin liên lạc
 o. Các quyền khác theo Hợp đồng này, quy định của pháp luật và theo thỏa thuận trước bằng
 văn bản giữa KH với Sacombank không trái với quy định của pháp luật hiện hành.
-2. Sacombank có nghĩa vụ sau:
 a. Thực hiện lệnh thanh toán của KH sau khi đã kiểm tra, kiểm soát tính hợp pháp, hợp lệ của
 lệnh thanh toán.
 b. Điều chỉnh kịp thời nhầm lẫn, sai sót của giao dịch thanh toán trong trường hợp thực hiện
 không đúng yêu cầu theo lệnh thanh toán của KH.
-# c. Lưu giữ mẫu chữ ký của chủ TK, Kế toán trưởng hoặc người phụ trách kế toán của KH 
+c. Lưu giữ mẫu chữ ký của chủ TK, Kế toán trưởng hoặc người phụ trách kế toán của KH
 (trường hợp KH là tổ chức thuộc đối tượng bắt buộc phải bố trí Kế toán trưởng) và những
 người được ủy quyền, mẫu dấu (nếu có) để kiểm tra, đối chiếu trong quá trình sử dụng TK.
-# d. Kịp thời Ghi Có vào TK của KH các lệnh thanh toán chuyển tiền đến, nộp tiền mặt vào TK; 
+d. Kịp thời Ghi Có vào TK của KH các lệnh thanh toán chuyển tiền đến, nộp tiền mặt vào TK;
 hoàn trả kịp thời các khoản tiền do sai sót đã ghi Nợ đối với TK của KH; phối hợp hoàn trả
 các khoản tiền đã được xác định chuyển nhầm vào tài khoản thanh toán của khách hàng
 theo đề nghị của ngân hàng, chi nhánh ngân hàng nước ngoài phục vụ bên chuyển tiền
@@ -711,7 +702,7 @@ g. Bảo quản, lưu trữ hồ sơ mở TK và các chứng từ giao dịch q
 pháp luật.
 h. Chịu trách nhiệm về những thiệt hại do sai sót hoặc bị lợi dụng, lừa đảo trên TK của KH do
 lỗi của mình.
-# i. Tuân thủ quy định pháp luật phòng chống rửa tiền, tài trợ khủng bố, tài trợ phổ biến vũ 
+i. Tuân thủ quy định pháp luật phòng chống rửa tiền, tài trợ khủng bố, tài trợ phổ biến vũ
 khí hủy diệt hàng loạt.
 j. Thông báo và hướng dẫn KH sử dụng dịch vụ thanh toán mà mình cung cấp, hướng dẫn
 KH sử dụng TK an toàn, thông báo, giải thích cho KH về hành vi bị cấm trong mở, sử dụng
@@ -720,9 +711,9 @@ hạn của mình.
 k. Xây dựng quy trình nội bộ về mở, sử dụng tài khoản thanh toán, hướng dẫn, thông báo
 công khai để KH biết và giải đáp, xử lý kịp thời các thắc mắc, khiếu nại trong quá trình mở
 và sử dụng TK.
-# l. Các nghĩa vụ khác theo Hợp đồng này, quy định của pháp luật và theo thỏa thuận trước 
+l. Các nghĩa vụ khác theo Hợp đồng này, quy định của pháp luật và theo thỏa thuận trước
 bằng văn bản giữa KH với Sacombank không trái với quy định của pháp luật hiện hành.
-# ĐIỀU 5. PHONG TỎA VÀ ĐÓNG TK
+# ĐIỀU 5. PHONG TỎA VÀ ĐÓNG TK 
 1. Phong tỏa TK:
 a. Sacombank thực hiện phong tỏa một phần hoặc toàn bộ số tiền trên TK của KH trong các
 trường hợp sau:
@@ -753,7 +744,7 @@ trừ trường hợp cơ quan có thẩm quyền có văn bản yêu cầu Saco
 cho KH về việc phong tỏa TK. Số tiền bị phong tỏa trên TK phải được bảo toàn và kiểm
 soát chặt chẽ theo nội dung phong tỏa. Trường hợp TK bị phong tỏa một phần thì phần
 không bị phong tỏa vẫn được sử dụng bình thường.
-# c. Sacombank chấm dứt phong tỏa TK khi có một trong các điều kiện sau: 
+c. Sacombank chấm dứt phong tỏa TK khi có một trong các điều kiện sau:
 (i) Kết thúc thời hạn phong tỏa theo yêu cầu của KH (chủ TK hoặc người giám hộ, người
 đại diện hợp pháp của KH) hoặc theo thỏa thuận giữa chủ TK với Sacombank.
 (ii) Kết thúc thời hạn phong tỏa theo văn bản yêu cầu phong tỏa của cơ quan có thẩm
@@ -776,16 +767,15 @@ KH (cá nhân) chết, bị tuyên bố là đã chết hoặc KH (tổ chức) 
 định pháp luật; (iv) Khi KH vi phạm các hành vi cấm về tài khoản thanh toán theo quy định
 pháp luật; (v) Khi phát hiện KH sử dụng giấy tờ giả, mạo danh để mở hoặc sử dụng TK cho
 mục đích lừa đảo, gian lận hoặc các hoạt động bất hợp pháp khác; (vi) Khi KH vi phạm cam
-kết, thỏa thuận tại Hợp đồng này hoặc thỏa thuận khác giữa KH và Sacombank; (vii) Các
 trường hợp khác theo thỏa thuận giữa KH và Sacombank và theo quy định của Sacombank
 phù hợp quy định pháp luật trong từng thời kỳ.
 b. Trường hợp KH có yêu cầu đóng TK, KH đến các Điểm giao dịch của Sacombank, lập giấy
 yêu cầu đóng TK (theo mẫu Sacombank) và hoàn lại các tờ séc chưa sử dụng (nếu có). KH
 không được yêu cầu đóng TK khi TK đang bị phong tỏa hoặc KH chưa hoàn thành các
 nghĩa vụ nợ với Sacombank.
-# c. Việc đóng TK của KH theo tiết (ii) điểm a khoản 3 Điều này chỉ được thực hiện khi 
+c. Việc đóng TK của KH theo tiết (ii) điểm a khoản 3 Điều này chỉ được thực hiện khi
 Sacombank đã thông báo cho KH biết trước ít nhất là 15 ngày kể từ ngày thông báo.
-# d. Khi đóng TK, Sacombank sẽ đồng thời chấm dứt các dịch vụ kết nối với TK đó. KH thanh 
+d. Khi đóng TK, Sacombank sẽ đồng thời chấm dứt các dịch vụ kết nối với TK đó. KH thanh
 toán phí đóng TK và các phí liên quan theo quy định trong biểu phí của Sacombank được
 công bố trong từng thời kỳ.
 e. Sau khi đóng TK, Sacombank phải thông báo cho KH, người đại diện hợp pháp, người giám
@@ -806,7 +796,7 @@ hợp pháp số dư trên TK đã được thông báo mà không đến nhận
 trước bằng văn bản với KH, phù hợp với quy định của pháp luật hiện hành.
 g. Sau khi đóng TK, KH muốn sử dụng TK phải làm thủ tục mở TK theo quy định của
 Sacombank.
-# ĐIỀU 6. ỦY QUYỀN SỬ DỤNG TK
+# ĐIỀU 6. ỦY QUYỀN SỬ DỤNG TK 
 1. KH, Kế toán trưởng hoặc người phụ trách kế toán (nếu có) của KH được ủy quyền cho người
 khác sử dụng TK của mình phù hợp với pháp luật về ủy quyền. Từng chủ TK chung có thể ủy
 quyền cho người khác thay mặt mình sử dụng TK chung nhưng phải được sự đồng ý bằng
@@ -837,7 +827,7 @@ thoại, số fax; lĩnh vực hoạt động, kinh doanh…) và thông tin cá
 đại diện hoặc người liên quan của tổ chức (họ tên, ngày tháng năm sinh, nơi sinh, quốc
 tịch, nghề nghiệp, chức vụ, số điện thoại, số giấy tờ tùy thân, ngày cấp, nơi cấp, địa chỉ
 đăng ký thường trú và nơi ở hiện tại, tên cơ quan, địa chỉ cơ quan, giới tính,…).
-# c. Thông tin về TK/số dư TK của KH, giao dịch của KH, việc KH sử dụng các sản phẩm và dịch 
+c. Thông tin về TK/số dư TK của KH, giao dịch của KH, việc KH sử dụng các sản phẩm và dịch
 vụ của Sacombank.
 2. KH đồng ý Sacombank được phép sử dụng thông tin KH cho các mục đích sau:
 a. Nhận biết, xác minh thông tin nhận biết KH.
@@ -847,10 +837,10 @@ cầu của KH; cung cấp sản phẩm, dịch vụ cho KH; thực hiện các 
 Sacombank theo quy định tại (các) Hợp đồng đã ký kết với KH; sử dụng làm bằng chứng
 trong quá trình giải quyết tranh chấp, khiếu nại, tra soát giữa Sacombank, KH và các bên
 liên quan...
-# c. Liên lạc với KH để giới thiệu, đề xuất hoặc tư vấn cho KH những thông tin về sản phẩm, 
+c. Liên lạc với KH để giới thiệu, đề xuất hoặc tư vấn cho KH những thông tin về sản phẩm,
 dịch vụ mà KH có thể quan tâm hoặc mang lại ưu đãi, lợi ích tài chính cho KH; chương trình
 khuyến mại, thực hiện khảo sát và chương trình hoạt động khác của Sacombank.
-# d. Hỗ trợ cho các hoạt động kinh doanh và nội bộ của Sacombank, bao gồm việc đánh giá, 
+d. Hỗ trợ cho các hoạt động kinh doanh và nội bộ của Sacombank, bao gồm việc đánh giá,
 quản lý rủi ro và tuân thủ quy định của Sacombank và của pháp luật; quy hoạch và phát
 triển hệ thống hoặc phát triển sản phẩm ngân hàng, thực hiện các nghĩa vụ về báo cáo, tài
 chính, kế toán và thuế hoặc hoạt động có mục đích kiểm toán, lưu trữ và điều hành, để
@@ -863,7 +853,6 @@ e. Các mục đích khác theo quy định của pháp luật.
 dịch trên TK của KH đã, đang và sẽ sử dụng tại Sacombank bị lộ vì bất kỳ lý do gì thông qua
 bất cứ phương thức nào mà không do lỗi của Sacombank.
 4. Sacombank có nghĩa vụ đảm bảo bí mật các thông tin liên quan đến KH, TK và giao dịch trên
-TK của KH theo quy định của pháp luật và thỏa thuận với KH.
 5. Nhằm thực hiện các mục đích nêu tại Khoản 2 Điều này, KH đồng ý rằng Sacombank có thể
 cung cấp thông tin của KH cho cá nhân, tổ chức sau đây:
 a. KH và/hoặc Người giám hộ/Người đại diện của KH, Người thừa kế (hoặc Người đại diện
@@ -871,14 +860,14 @@ cho Người thừa kế) của KH trong trường hợp KH chết hoặc tuyên
 thứ ba được KH đồng ý ủy quyền/chấp thuận cung cấp thông tin. Yêu cầu cung cấp thông
 tin phải lập thành văn bản gửi đến Sacombank.
 b. Cơ quan nhà nước có thẩm quyền theo quy định của pháp luật.
-# c. Bên thứ ba khác bao gồm: (i) kế toán viên, kiểm toán viên nội bộ hoặc kiểm toán viên bên 
+c. Bên thứ ba khác bao gồm: (i) kế toán viên, kiểm toán viên nội bộ hoặc kiểm toán viên bên
 ngoài, các cố vấn chuyên môn của Sacombank, luật sư, tư vấn tài chính, công chứng viên,
 cơ quan xếp hạng; hoặc (iii) Nhân viên của Sacombank và/hoặc các đại lý hoặc nhà thầu
 phụ, nhà cung cấp dịch vụ, nhà tư vấn, các tổ chức tham gia xử lý giao dịch cho KH bất kể
 đó là tổ chức được thành lập và hoạt động tại Việt Nam hay không; và/hoặc các bên thứ
 ba khác đã ký hợp đồng hợp tác với Sacombank. Bên thứ ba phải có cam kết chịu ràng
 buộc tuân thủ các quy định bảo mật tương tự nội dung tại Điều này.
-# d. Trong phạm vi các giao dịch do KH thiết lập, Sacombank được cung cấp thông tin họ tên 
+d. Trong phạm vi các giao dịch do KH thiết lập, Sacombank được cung cấp thông tin họ tên
 của KH cho người thụ hưởng của giao dịch nếu người thụ hưởng yêu cầu nhằm phục vụ
 cho công tác tra soát, đối chiếu số liệu của người thụ hưởng.
 Khi cung cấp thông tin tại khoản này, Sacombank đảm bảo các thông tin được cung cấp phải
@@ -897,7 +886,7 @@ Khoản Chung này, KH chủ động liên hệ Sacombank để được hướn
 là một phần không tách rời Hợp đồng này. Tất cả các quyền và nghĩa vụ của Sacombank và
 KH tại Điều Khoản Chung sẽ không thay thế, chấm dứt hoặc thay đổi, mà sẽ là cộng dồn vào
 các quyền và nghĩa vụ mà Sacombank và KH đang có tại Hợp đồng này.
-# ĐIỀU 8. TRA SOÁT, KHIẾU NẠI
+# ĐIỀU 8. TRA SOÁT, KHIẾU NẠI 
 1. Phương thức tiếp nhận tra soát, khiếu nại:
 KH được quyền đề nghị Sacombank thực hiện tra soát, khiếu nại trong vòng 60 ngày kể từ
 ngày phát sinh giao dịch đề nghị tra soát, khiếu nại. Trường hợp KH cần tra soát, khiếu nại
@@ -905,19 +894,18 @@ liên quan đến TK của mình, KH có thể sử dụng 3 phương thức sau
 a. Đến bất kỳ Điểm giao dịch nào của Sacombank.
 b. Liên hệ theo số điện thoại: 1800 5858 88 (có ghi âm) hoặc số điện thoại khác được thông
 báo công khai trên Website của Sacombank trong từng thời kỳ.
-# c. Email đến địa chỉ: ask@sacombank.com.vn. 
+c. Email đến địa chỉ: ask@sacombank.com.vn.
 Sau khi tiếp nhận nhu cầu của KH, Sacombank hướng dẫn KH hoàn tất hồ sơ, thủ tục khiếu
-nại theo quy định Sacombank phù hợp với quy định pháp luật.
 2. Thời hạn xử lý tra soát, khiếu nại:
 a. Sacombank thông báo cho KH về việc tiếp nhận, phản ánh, yêu cầu, khiếu nại của KH trong
 thời gian 3 ngày làm việc kể từ ngày nhận được phản ánh, yêu cầu khiếu nại đó.
 b. Trong thời hạn tối đa 30 ngày làm việc kể từ ngày KH hoàn tất hồ sơ tra soát, khiếu nại lần
 đầu của KH, Sacombank có trách nhiệm xử lý đề nghị tra soát, khiếu nại của KH.
-# c. Trong thời hạn tối đa 05 ngày làm việc kể từ ngày thông báo kết quả tra soát, khiếu nại 
+c. Trong thời hạn tối đa 05 ngày làm việc kể từ ngày thông báo kết quả tra soát, khiếu nại
 cho KH, Sacombank thực hiện bồi hoàn tổn thất cho KH theo thỏa thuận và quy định của
 pháp luật hiện hành đối với những tổn thất phát sinh không do lỗi của KH và/hoặc không
 thuộc các trường hợp bất khả kháng được quy định tại Điều 10 Hợp đồng này.
-# d. Trong trường hợp hết thời hạn xử lý tra soát, khiếu nại được quy định tại điểm a khoản 
+d. Trong trường hợp hết thời hạn xử lý tra soát, khiếu nại được quy định tại điểm a khoản
 này mà vẫn chưa xác định được nguyên nhân hay lỗi thuộc bên nào thì trong vòng 15 ngày
 làm việc tiếp theo, Sacombank và KH sẽ thỏa thuận về phương án xử lý tra soát, khiếu nại.
 3. Trường hợp vụ việc có dấu hiệu tội phạm, Sacombank thông báo cho cơ quan nhà nước có
@@ -932,7 +920,7 @@ kết quả tra soát, khiếu nại.
 4. Trường hợp Sacombank, KH và các bên liên quan không thỏa thuận được và/hoặc không
 đồng ý với quá trình đề nghị tra soát, khiếu nại thì việc giải quyết tranh chấp được thực hiện
 theo quy định của pháp luật.
-ĐIỀU 9. THÔNG BÁO
+# ĐIỀU 9. THÔNG BÁO 
 1. Trừ trường hợp có thỏa thuận khác, Sacombank sẽ thông báo cho KH các vấn đề liên quan
 tới TK cũng như sửa đổi, bổ sung, các điều chỉnh về quy định của Sacombank bằng một trong
 các phương thức liên hệ sau: gửi văn bản thông báo tới địa chỉ của KH, gọi điện thoại, gửi tin
@@ -951,7 +939,6 @@ pháp của KH. Đây là địa chỉ Sacombank gửi tất cả các văn bả
 trình thực hiện Hợp đồng và cơ quan nhà nước có thẩm quyền gửi thư mời, thông báo, tống
 đạt, niêm yết công khai nhằm yêu cầu KH thực hiện nghĩa vụ theo Hợp đồng này. KH phải
 thông báo cho Sacombank, cơ quan địa phương về sự thay đổi địa chỉ hoặc nơi cư trú/địa
-điểm kinh doanh mới.
 4. Trường hợp KH vi phạm nghĩa vụ thông báo về sự thay đổi địa chỉ theo quy định tại Hợp đồng
 này bao gồm đã gạch tên khỏi hộ khẩu/ngừng kinh doanh tại địa chỉ cung cấp cho Sacombank
 và/hoặc xuất cảnh mà không thông báo địa chỉ, nơi cư trú mới, KH được xem là cố tình giấu
@@ -963,7 +950,7 @@ mặt/Toà án xét xử vụ án vắng mặt, kể cả trường hợp không
 email, nhắn tin đúng số điện thoại, gửi bưu điện có xác nhận của bưu điện nơi gửi, nếu gửi
 trực tiếp được coi là đã nhận sau khi có xác nhận của nhân sự các Bên, người thân (cùng nơi
 cư trú) hoặc nhân viên của KH, thời điểm Sacombank công bố trên Website của Sacombank.
-# ĐIỀU 10. BẤT KHẢ KHÁNG
+# ĐIỀU 10. BẤT KHẢ KHÁNG 
 1. Sự kiện bất khả kháng là sự kiện xảy ra một cách khách quan mà các bên không thể lường
 trước, không thể khắc phục được và nằm ngoài khả năng của các bên mặc dù đã áp dụng mọi
 biện pháp cần thiết, bao gồm nhưng không giới hạn các trường hợp dưới đây:
@@ -981,7 +968,7 @@ khả năng kiểm soát của Sacombank.
 thông báo cho Chủ TK biết. Việc tạm ngưng này không được xem là vi phạm của Sacombank
 và sẽ không phát sinh trách nhiệm bồi thường của Sacombank đối với Chủ TK hoặc Bên thứ
 ba. Sau khi chấm dứt sự kiện bất khả kháng, các bên sẽ tiếp tục thực hiện các nội dung tại Hợp
-# ĐIỀU 11. ĐIỀU KHOẢN KHÁC
+# ĐIỀU 11. ĐIỀU KHOẢN KHÁC 
 1. Điều khoản và điều kiện này được điều chỉnh bởi Pháp luật Việt Nam.
 2. Sacombank có quyền sửa đổi, bổ sung những quy định trong bản điều khoản và điều kiện
 này tại từng thời điểm để đáp ứng yêu cầu của quy định pháp luật cũng như đảm bảo quyền
@@ -989,10 +976,9 @@ lợi của KH và Sacombank. Trước khi bản thay đổi có hiệu lực Sa
 KH trước chậm nhất 01 ngày bằng một trong các hình thức:
 a. Nhắn tin đến số điện thoại di động đã đăng ký; hoặc
 b. Gửi thư (hoặc thư điện tử) trực tiếp đến địa chỉ KH cung cấp cho Sacombank; hoặc
-# c. Công bố trên Website của Sacombank, thông báo trên các phương tiện thông tin đại 
+c. Công bố trên Website của Sacombank, thông báo trên các phương tiện thông tin đại
 chúng hoặc niêm yết tại các Điểm giao dịch của Sacombank hoặc phương thức phù hợp
 Các sửa đổi, bổ sung này mặc nhiên có giá trị hiệu lực với KH nếu KH tiếp tục sử dụng dịch
-vụ sau khi sự sửa đổi, bổ sung có hiệu lực. Trường hợp không đồng ý với việc sửa đổi, bổ
 sung này, KH có quyền yêu cầu đóng tài khoản theo quy định tại điểm a khoản 2 Điều 5 của
 Hợp đồng này.
 3. Nếu có bất kỳ tranh chấp nào có phát sinh liên quan đến việc mở, sử dụng và quản lý TK thì

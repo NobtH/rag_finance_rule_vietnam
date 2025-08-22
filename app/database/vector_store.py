@@ -47,4 +47,3 @@ class PostgreSQLVectorStore:
             )
             self.conn.commit()
             print('delete table...........')
-

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "original_filename": "Thông tin chi tiết các loại tiết kiệm dành cho khách hàng cá nhân.pdf",
+  "file_type": "pdf",
+  "mime_type": "application/pdf",
+  "title": "CHÍNH SÁCH TIẾT KIỆM DÀNH CHO KHÁCH HÀNG CÁ NHÂN CỦA SACOMBANK",
+  "description": "Tài liệu trình bày thông tin chi tiết về các sản phẩm tiết kiệm dành cho khách hàng cá nhân tại Sacombank",
+  "topic": [
+    "tiết kiệm cá nhân",
+    "sản phẩm tiết kiệm",
+    "Sacombank",
+    "tiết kiệm có kỳ hạn",
+    "tiết kiệm không kỳ hạn",
+    "tiết kiệm trung niên phúc lộc",
+    "tiết kiệm tích góp",
+    "tiết kiệm phù đổng", "tiền gửi tương lai",
+    "tiết kiệm đại phát"
+  ],
+  "topic_or": [
+    "gửi tiết kiệm",
+    "sản phẩm gửi tiền",
+    "gửi tiền linh hoạt",
+    "lãi suất tiết kiệm",
+    "tiết kiệm có kỳ hạn",
+    "tiết kiệm không kỳ hạn",
+    "tiết kiệm trung niên phúc lộc",
+    "tiết kiệm tích góp",
+    "tiết kiệm phù đổng", "tiền gửi tương lai",
+    "tiết kiệm đại phát"
+  ],
+  "topic_and": [
+    "tiết kiệm",
+    "khách hàng cá nhân",
+    "Sacombank"
+  ],
+  "language": "vi",
+  "expiration_date": null,
+  "effective_date": null,
+  "related_document": [],
+  "source_url": null,
+  "tags": [
+    "Tiết kiệm",
+    "Khách hàng cá nhân",
+    "Sacombank",
+    "Tiết kiệm linh hoạt"
+  ],
+  "category": "Sản phẩm ngân hàng",
+  "document_type": "Chính sách sản phẩm",
+  "status": "có hiệu lực"
+}
