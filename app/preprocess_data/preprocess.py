@@ -1,6 +1,5 @@
 import os
 import fitz
-from llama_parse import LlamaParse
 from dotenv import load_dotenv
 from llama_index.core import SimpleDirectoryReader
 import asyncio
@@ -16,17 +15,11 @@ load_dotenv()
 
 class PDFprocessor:
     def __init__(self, footer_height_ratio=0.1):
-        self.api_key = os.getenv('LLAMA_PARSE_API_KEY')
         self.footer_height_ratio = footer_height_ratio
         self.pdftabletotext = PDFTableToTextConverter()
         self.input_file = None
         self.output_file = None
         self.temp_clean_dir = None
-
-        
-        # Thêm kiểm tra API key để báo lỗi sớm
-        if not self.api_key:
-            print("WARNING: LLAMA_PARSE_API_KEY is not set in environment variables.")
 
     def is_scanned_pdf_fitz(self, pdf_path):
         doc = None
@@ -215,37 +208,6 @@ class PDFprocessor:
             return None
             
         return all_text.strip()
-
-    async def turn_pdf_to_markdown_llamaparse(self, pdf_path):
-        if not self.api_key:
-            print("Lỗi: API key của LlamaParse chưa được cung cấp. Không thể sử dụng LlamaParse.")
-            return None
-            
-        print(f'LlamaParse: Chuyển file {pdf_path} thành dạng markdown bằng LlamaParse...')
-        parse = LlamaParse(
-            result_type='markdown',
-            verbose=True,
-            api_key=self.api_key,
-            auto_mode=True
-        )
-        try:
-            reader = SimpleDirectoryReader(
-                input_files=[pdf_path],
-                file_extractor={'.pdf': parse}
-            )
-            documents = await reader.aload_data()
-
-            all_text = ""
-
-            for doc in documents:
-                text = doc.text
-                cleaned_text = '\n'.join([line for line in text.splitlines() if line.strip()])
-                all_text += cleaned_text + '\n'
-
-            return all_text.strip()
-        except Exception as e:
-            print(f'Lỗi LlamaParse khi xử lý file {pdf_path}: {e}')
-            return None
     
     def turn_pdf_to_markdown_local(self, pdf_path):
         try:
@@ -272,9 +234,6 @@ class PDFprocessor:
                 if scaned_pdf_text:
                     markdown_content = "\n".join([line for line in scaned_pdf_text.splitlines() if line.strip()])
             else:
-                # llamaparse_text = await self.turn_pdf_to_markdown_llamaparse(pdf_file)
-                # if llamaparse_text:
-                #     markdown_content = "\n".join([line for line in llamaparse_text.splitlines() if line.strip()])
                 tmp_text =  self.turn_pdf_to_markdown_local(pdf_file)
                 if tmp_text:
                     markdown_content = "\n".join([line for line in tmp_text.splitlines() if line.strip()])
@@ -344,9 +303,6 @@ class PDFprocessor:
             else:
                 print('Noi dung rong')
         else:
-            # parsed_text = await self.turn_pdf_to_markdown_llamaparse(temp_pdf_path)
-            # if parsed_text:
-            #     markdown_content = "\n".join([line for line in parsed_text.splitlines() if line.strip()])
             tmp_text = self.turn_pdf_to_markdown_local(temp_pdf_path)
             if tmp_text:
                 markdown_content = "\n".join([line for line in tmp_text.splitlines() if line.strip()])
@@ -361,9 +317,9 @@ class PDFprocessor:
         else:
             print("Không thể chuyển đổi file sang markdown.")
 
-        # if os.path.exists(temp_pdf_path):
-        #     os.remove(temp_pdf_path)
-        #     print(f"-> Đã xóa file tạm: {temp_pdf_path}")
+        if os.path.exists(temp_pdf_path):
+            os.remove(temp_pdf_path)
+            print(f"-> Đã xóa file tạm: {temp_pdf_path}")
     
     def run(self, input_pdf_path, output_md_path):
         self.input_file = input_pdf_path
@@ -465,7 +421,10 @@ if __name__ == '__main__':
     for i in res:
         print(i['heading'])
         print(i['text'])
+        print(len(i['text']))
+
         print('\n-----------------------------------------------\n')
+        
 
 # processor = PDFprocessor(root_dir='data')
 # test = processor._remove_footer_from_pdf(in_path='data/raw_documents/Tiết kiệm/Điều khoản, điều kiện về tiền gửi có kỳ hạn.pdf',out_path='data/markdown/temp_clean/test.pdf')
