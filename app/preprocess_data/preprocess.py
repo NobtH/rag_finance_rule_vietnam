@@ -326,7 +326,6 @@ class PDFprocessor:
         self.output_file = output_md_path
         print(f"Bắt đầu xử lý file: {input_pdf_path}")
         
-        # tạo thư mục tạm nếu chưa có
         if not self.temp_clean_dir:
             import tempfile
             self.temp_clean_dir = tempfile.mkdtemp(prefix="pdf_clean_")
@@ -404,14 +403,6 @@ class PDFprocessor:
 
         self.save_markdown(temp_pdf_files)
 
-# async def main():
-
-#     processor = PDFprocessor(root_dir='data') 
-    
-#     processor.preprocess_and_save_data()
-#     # await processor.markdown_single_file('data/raw documents/Tài khoản/Điều khoản và điều kiện mở và sử dụng tài khoản.pdf',
-#     #                                      'data/markdown/Tài khoản/Điều khoản và điều kiện mở và sử dụng tài khoản.md')
-
 if __name__ == '__main__':
     processor = PDFprocessor()
     # processor.preprocess_and_save_data()
@@ -425,6 +416,3 @@ if __name__ == '__main__':
 
         print('\n-----------------------------------------------\n')
         
-
-# processor = PDFprocessor(root_dir='data')
-# test = processor._remove_footer_from_pdf(in_path='data/raw_documents/Tiết kiệm/Điều khoản, điều kiện về tiền gửi có kỳ hạn.pdf',out_path='data/markdown/temp_clean/test.pdf')
