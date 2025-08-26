@@ -60,6 +60,67 @@ class PDFprocessor:
             print(f"Có lỗi xảy ra: {e}")
             return None
         
+    def get_headings_with_position(self, pdf_file_path, max_check_pages=1, max_candidates=5):
+        """
+        Lấy ra danh sách heading đầu tiên cùng tọa độ (bbox).
+        Args:
+            pdf_file_path (str): đường dẫn pdf
+            max_check_pages (int): chỉ kiểm tra bao nhiêu trang đầu
+            max_candidates (int): số lượng heading đầu tiên cần xét
+        Returns:
+            list[dict]: [{'text': ..., 'page': ..., 'bbox': (x0,y0,x1,y1)}]
+        """
+        res = []
+        try:
+            doc = fitz.open(pdf_file_path)
+            for page_index in range(min(max_check_pages, len(doc))):
+                page = doc[page_index]
+                text_dict = page.get_text("dict")
+                for block in text_dict["blocks"]:
+                    if "lines" in block:
+                        for line in block["lines"]:
+                            line_text = " ".join([span["text"] for span in line["spans"]]).strip()
+                            if not line_text:
+                                continue
+                            # chỉ lấy những dòng dài một chút
+                            if len(line_text) < 8:
+                                continue
+                            # bbox line
+                            bbox = line["bbox"]  # (x0,y0,x1,y1)
+                            res.append({
+                                "text": line_text,
+                                "page": page_index+1,
+                                "bbox": bbox
+                            })
+                            if len(res) >= max_candidates:
+                                return res
+            doc.close()
+        except Exception as e:
+            print(f"Lỗi khi lấy heading với tọa độ: {e}")
+        return res
+
+    def decide_file_title(self, pdf_file_path):
+        """
+        Quyết định file_title dựa vào vị trí heading trong trang đầu.
+        Ưu tiên heading nào nằm trong vùng giữa (30% - 60% chiều cao trang).
+        """
+        candidates = self.get_headings_with_position(pdf_file_path)
+        if not candidates:
+            return None
+
+        doc = fitz.open(pdf_file_path)
+        first_page = doc[0]
+        page_height = first_page.rect.height
+        doc.close()
+
+        for cand in candidates:
+            y0 = cand["bbox"][1]
+            y_mid_ratio = y0 / page_height
+            if 0.3 <= y_mid_ratio <= 0.6:  # trong vùng giữa trang
+                return cand["text"]
+        # fallback: lấy heading đầu tiên
+        return candidates[0]["text"]
+        
     def get_title(self, pdf_file_path):
         text_info = self.get_file_title(pdf_file_path)
         res = []
@@ -404,16 +465,15 @@ class PDFprocessor:
 
 if __name__ == '__main__':
     processor = PDFprocessor()
-    res = processor.get_file_title('data/raw documents/Vay/THÔNG TIN CHI TIẾT CÁC LOẠI VAY DÀNH CHO KHÁCH HÀNG CÁ NHÂN.pdf')
-    for tmp in res:
-        print(tmp['text'])
-        print(tmp['size'])
-        print(tmp['font'])
-        print(tmp['page'])
-        print('*'*50)
+    # res = processor.get_file_title('data/raw documents/Vay/THÔNG TIN CHI TIẾT CÁC LOẠI VAY DÀNH CHO KHÁCH HÀNG CÁ NHÂN.pdf')
+    # for tmp in res:
+    #     print(tmp['text'])
+    #     print(tmp['size'])
+    #     print(tmp['font'])
+    #     print(tmp['page'])
+    #     print('*'*50)
 
-    # processor.preprocess_and_save_data("data/raw documents", "data/markdown")
-
+    processor.preprocess_and_save_data("data/raw documents", "data/markdown")
 
     # input_file = 'data/raw documents/Khuyến mãi/Các chương trình khuyến mãi.pdf'
     # output_file = 'data/markdown/Khuyến mãi/Các chương trình khuyến mãi.md'
