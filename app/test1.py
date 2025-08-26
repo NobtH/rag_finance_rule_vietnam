@@ -3,8 +3,8 @@ from rag.rag1 import RAG
 test = RAG()
 # test.vector_store.delete_table('document_table')
 # test.vector_store.delete_table('chunk_table')
-# test.document_embedding()
-# test.chunk_and_embediing()
+test.document_embedding()
+test.chunk_and_embediing()
 question = 'thông tin các loại taì khoản cho cá nhân'
 
 results = test.vector_store.keyword_search(question, limit_docs=10, limit_chunks=10)

@@ -124,8 +124,9 @@ class Chunking:
 
     def chunk_single_md_file(self, md_file_path):
         """
-        Chia một file markdown thành các chunk dựa trên cấu trúc tài liệu.
-        Không gán 'cid' tại bước này, chỉ trả về các chunk thô.
+        Chia một file markdown thành các chunk:
+        - Cứ gặp dòng bắt đầu bằng '#' thì coi là bắt đầu chunk mới.
+        - Nếu chunk ngắn quá thì gộp chung với chunk tiếp theo.
         """
         print(f'-----Bắt đầu chia chunk file: {md_file_path}')
 
@@ -134,15 +135,12 @@ class Chunking:
         
         lines = text.splitlines()
         chunks = []
-
-        # Xác định chiến lược duy nhất cho tài liệu
-        chunking_strategy = self.get_chunking_strategy(lines)
-        print(f"-> Cấu trúc tài liệu: Dạng '{chunking_strategy}'")
+        current_chunk = {'text': '', 'topic': None, 'metadata': None}
 
         file_topic = self.extract_file_topic(lines)
 
+        # load metadata (nếu có)
         json_file_path = os.path.splitext(md_file_path)[0] + '.pdf.json'
-
         metadata = None
         if os.path.exists(json_file_path):
             try:
@@ -150,86 +148,176 @@ class Chunking:
                     data = json.load(f)
                     if data:
                         metadata = json.dumps(data, ensure_ascii=False)
-                    else:
-                        metadata = None
             except:
-                print(f'Loi doc metadata tu file {json_file_path}')
-        
-        # Logic xác định một dòng có phải là tiêu đề hợp lệ không
-        def is_new_chunk_start(line, strategy):
-            line = line.strip() 
-            if strategy == 'dieu':
-                # Ví dụ: "Điều 5.", "Điều 10:"
-                return re.match(r'^#\s*Điều\s+\d+[\.:]?', line, re.IGNORECASE)
-            
-            elif strategy == 'roman':
-                # Ví dụ: "# I"
-                return re.match(r'^#\s*(?=[MDCLXVI]+\b)[MDCLXVI]+\s*[\.:]?', line, re.IGNORECASE)
-
-            elif strategy == 'numbered':
-                # Ví dụ: "# 1."
-                return re.match(r'^#\s*\d+[\.:]?', line)
-            
-            elif strategy == 'general':
-                # Tiêu đề dạng "# ..." hoặc dòng in HOA dài > 3 từ
-                return (line.startswith('# ') or (line == line.upper() and len(line.split()) > 3))
-
-            return False
-        
-        # Xử lý phần mở đầu và các chunk còn lại
-        current_chunk = {'text': '', 'topic': file_topic, 'metadata': metadata}
-        title_found = False
+                print(f'Lỗi đọc metadata từ file {json_file_path}')
 
         for line in lines:
             line = line.strip()
             if not line:
                 continue
-            
-            is_title = is_new_chunk_start(line, chunking_strategy)
-            
-            if not title_found and not is_title:
-                # Gom phần mở đầu
-                current_chunk['text'] += line + '\n'
+
+            if line.startswith('#'):  # bắt đầu một chunk mới
+                # Lưu chunk cũ (nếu có)
+                if current_chunk['text']:
+                    current_chunk['topic'] = file_topic
+                    chunks.append(current_chunk)
+
+                # Mở chunk mới
+                current_chunk = {
+                    'text': line + '\n',
+                    'topic': file_topic,
+                    'metadata': metadata
+                }
             else:
-                title_found = True
-                if is_title:
-                    if 'tmp_chunk' in locals() and tmp_chunk:
-                        current_chunk['text'] = tmp_chunk['text'] + current_chunk['text']
-                        tmp_chunk = None
+                current_chunk['text'] += line + '\n'
 
-                    if current_chunk['text']:
-                        current_chunk['topic'] = file_topic
-
-                        if len(current_chunk['text'].splitlines()) >= 4 and len(current_chunk['text']) > 40:
-                            chunks.append(current_chunk)
-                        else: 
-                            tmp_chunk = current_chunk
-                    
-                    current_chunk = {
-                        'text': line + '\n',
-                        'topic': file_topic,
-                        'metadata': metadata
-                    }
-                    # print(current_chunk['metadata'])
-                else:
-                    current_chunk['text'] += line + '\n'
-        
-        # Lưu chunk cuối cùng
+        # lưu chunk cuối
         if current_chunk['text']:
             current_chunk['topic'] = file_topic
             chunks.append(current_chunk)
 
-
-        final_chunks = []
+        # Bước gộp các chunk quá ngắn
+        merged_chunks = []
+        buffer_chunk = None
         for chunk in chunks:
+            if len(chunk['text'].splitlines()) < 4 or len(chunk['text']) < 40:
+                # nếu ngắn quá thì giữ lại trong buffer để gộp với chunk tiếp theo
+                if buffer_chunk:
+                    # gộp buffer + chunk
+                    buffer_chunk['text'] += '\n' + chunk['text']
+                    merged_chunks.append(buffer_chunk)
+                    buffer_chunk = None
+                else:
+                    buffer_chunk = chunk
+            else:
+                if buffer_chunk:
+                    # gộp buffer vào chunk hiện tại
+                    chunk['text'] = buffer_chunk['text'] + '\n' + chunk['text']
+                    buffer_chunk = None
+                merged_chunks.append(chunk)
+
+        if buffer_chunk:  # nếu vẫn còn dư 1 cái ngắn ở cuối
+            merged_chunks.append(buffer_chunk)
+
+        # Xử lý max_chunk_size
+        final_chunks = []
+        for chunk in merged_chunks:
             if len(chunk['text'].split()) > self.max_chunk_size:
                 final_chunks.extend(self.split_text_by_size(chunk['text'], chunk['topic'], chunk['metadata']))
             else:
                 final_chunks.append(chunk)
 
-
         print(f'-----Hoàn thành chia chunk file: {md_file_path}. Đã tạo ra {len(final_chunks)} chunks.')
         return final_chunks
+
+    # def chunk_single_md_file(self, md_file_path):
+    #     """
+    #     Chia một file markdown thành các chunk dựa trên cấu trúc tài liệu.
+    #     Không gán 'cid' tại bước này, chỉ trả về các chunk thô.
+    #     """
+    #     print(f'-----Bắt đầu chia chunk file: {md_file_path}')
+
+    #     with open(md_file_path, 'r', encoding='utf-8') as f:
+    #         text = f.read()
+        
+    #     lines = text.splitlines()
+    #     chunks = []
+
+    #     # Xác định chiến lược duy nhất cho tài liệu
+    #     chunking_strategy = self.get_chunking_strategy(lines)
+    #     print(f"-> Cấu trúc tài liệu: Dạng '{chunking_strategy}'")
+
+    #     file_topic = self.extract_file_topic(lines)
+
+    #     json_file_path = os.path.splitext(md_file_path)[0] + '.pdf.json'
+
+    #     metadata = None
+    #     if os.path.exists(json_file_path):
+    #         try:
+    #             with open(json_file_path, 'r', encoding='utf-8') as f:
+    #                 data = json.load(f)
+    #                 if data:
+    #                     metadata = json.dumps(data, ensure_ascii=False)
+    #                 else:
+    #                     metadata = None
+    #         except:
+    #             print(f'Loi doc metadata tu file {json_file_path}')
+        
+    #     # Logic xác định một dòng có phải là tiêu đề hợp lệ không
+    #     def is_new_chunk_start(line, strategy):
+    #         line = line.strip() 
+    #         if strategy == 'dieu':
+    #             # Ví dụ: "Điều 5.", "Điều 10:"
+    #             return re.match(r'^#\s*Điều\s+\d+[\.:]?', line, re.IGNORECASE)
+            
+    #         elif strategy == 'roman':
+    #             # Ví dụ: "# I"
+    #             return re.match(r'^#\s*(?=[MDCLXVI]+\b)[MDCLXVI]+\s*[\.:]?', line, re.IGNORECASE)
+
+    #         elif strategy == 'numbered':
+    #             # Ví dụ: "# 1."
+    #             return re.match(r'^#\s*\d+[\.:]?', line)
+            
+    #         elif strategy == 'general':
+    #             # Tiêu đề dạng "# ..." hoặc dòng in HOA dài > 3 từ
+    #             return (line.startswith('# ') or (line == line.upper() and len(line.split()) > 3))
+
+    #         return False
+        
+    #     # Xử lý phần mở đầu và các chunk còn lại
+    #     current_chunk = {'text': '', 'topic': file_topic, 'metadata': metadata}
+    #     title_found = False
+
+    #     for line in lines:
+    #         line = line.strip()
+    #         if not line:
+    #             continue
+            
+    #         is_title = is_new_chunk_start(line, chunking_strategy)
+            
+    #         if not title_found and not is_title:
+    #             # Gom phần mở đầu
+    #             current_chunk['text'] += line + '\n'
+    #         else:
+    #             title_found = True
+    #             if is_title:
+    #                 if 'tmp_chunk' in locals() and tmp_chunk:
+    #                     current_chunk['text'] = tmp_chunk['text'] + current_chunk['text']
+    #                     tmp_chunk = None
+
+    #                 if current_chunk['text']:
+    #                     current_chunk['topic'] = file_topic
+
+    #                     if len(current_chunk['text'].splitlines()) >= 4 and len(current_chunk['text']) > 40:
+    #                         chunks.append(current_chunk)
+    #                     else: 
+    #                         tmp_chunk = current_chunk
+                    
+    #                 current_chunk = {
+    #                     'text': line + '\n',
+    #                     'topic': file_topic,
+    #                     'metadata': metadata
+    #                 }
+    #                 # print(current_chunk['metadata'])
+    #             else:
+    #                 current_chunk['text'] += line + '\n'
+        
+    #     # Lưu chunk cuối cùng
+    #     if current_chunk['text']:
+    #         current_chunk['topic'] = file_topic
+    #         chunks.append(current_chunk)
+
+
+    #     final_chunks = []
+    #     for chunk in chunks:
+    #         if len(chunk['text'].split()) > self.max_chunk_size:
+    #             final_chunks.extend(self.split_text_by_size(chunk['text'], chunk['topic'], chunk['metadata']))
+    #         else:
+    #             final_chunks.append(chunk)
+
+
+    #     print(f'-----Hoàn thành chia chunk file: {md_file_path}. Đã tạo ra {len(final_chunks)} chunks.')
+    #     return final_chunks
 
     def chunk_all_md_file(self):
         """

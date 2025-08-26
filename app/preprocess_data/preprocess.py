@@ -1,12 +1,9 @@
 import os
 import fitz
 from dotenv import load_dotenv
-from llama_index.core import SimpleDirectoryReader
-import asyncio
 import shutil
 from pdf2image import convert_from_path
 import pytesseract
-import pypandoc
 import re
 from table_pdf_to_md import *
 from table_pdf_to_md_text import PDFTableToTextConverter
@@ -20,6 +17,56 @@ class PDFprocessor:
         self.input_file = None
         self.output_file = None
         self.temp_clean_dir = None
+
+    def read_pdf_infomation(self, pdf_file_path):
+        doc = fitz.open(pdf_file_path)
+
+        num_pages = doc.page_count
+        return num_pages
+    
+    def get_file_title(self, pdf_file_path):
+        """
+        Returns:
+            list: Danh sách các dictionary chứa thông tin về text và trang, hoặc None nếu có lỗi.
+        """
+        try:
+            doc = fitz.open(pdf_file_path)
+            max_font_size = 0.0
+            text_info = []
+
+            for so_trang, trang in enumerate(doc):
+                text_dict = trang.get_text("dict")
+
+                for block in text_dict["blocks"]:
+                    if "lines" in block:
+                        for line in block["lines"]:
+                            for span in line["spans"]:
+                                current_font_size = span["size"]
+                                if current_font_size > max_font_size:
+                                    max_font_size = current_font_size
+                                    text_info = []
+
+                                if current_font_size == max_font_size:
+                                    text_info.append({
+                                        "text": span["text"],
+                                        "page": so_trang + 1,
+                                        "size": current_font_size,
+                                        "font": span["font"]
+                                    })
+            doc.close()
+            return text_info
+
+        except Exception as e:
+            print(f"Có lỗi xảy ra: {e}")
+            return None
+        
+    def get_title(self, pdf_file_path):
+        text_info = self.get_file_title(pdf_file_path)
+        res = []
+        for tmp in text_info:
+            if tmp['page'] == 1:
+                res.append(tmp['text'])
+        return res
 
     def is_scanned_pdf_fitz(self, pdf_path):
         doc = None
@@ -74,23 +121,27 @@ class PDFprocessor:
                 doc_in.close()
             if doc_out and not doc_out.is_closed:
                 doc_out.close()
-
-    def create_temp_pdf(self):
-        print(f"Bắt đầu loại bỏ footer từ các file trong: {self.input_file}")
-        temp_pdf_files = []
-        for root, _, files in os.walk(self.output_file):
+    
+    def copy_json_file(self, pdf_root_dir, output_md_dir):
+        """
+        Copy toàn bộ file .json từ pdf_root_dir sang output_md_dir,
+        giữ nguyên cấu trúc thư mục.
+        """
+        for root, _, files in os.walk(pdf_root_dir):
             for file_name in files:
-                if file_name.endswith('.pdf'):
-                    original_pdf_path = os.path.join(root, file_name)
-                    relative_path = os.path.relpath(original_pdf_path, self.input_file)
-                    temp_pdf_path = os.path.join(self.temp_clean_dir, relative_path)
-                    
-                    os.makedirs(os.path.dirname(temp_pdf_path), exist_ok=True)
-                    
-                    if self._remove_footer_from_pdf(original_pdf_path, temp_pdf_path):
-                        temp_pdf_files.append(temp_pdf_path)
-        
-        return temp_pdf_files
+                if file_name.endswith('.json'):
+                    original_json_path = os.path.join(root, file_name)
+                    relative_path = os.path.relpath(original_json_path, pdf_root_dir)
+                    output_json_path = os.path.join(output_md_dir, relative_path)
+
+                    os.makedirs(os.path.dirname(output_json_path), exist_ok=True)
+
+                    try:
+                        shutil.copy(original_json_path, output_json_path)
+                        print(f"-> Đã sao chép: {original_json_path} -> {output_json_path}")
+                    except Exception as e:
+                        print(f"Lỗi khi sao chép file {original_json_path}: {e}")
+
     
     def get_markdown_strategy(self, lines):
         """
@@ -182,7 +233,7 @@ class PDFprocessor:
                 all_text = re.sub(r'^#\s*(.*)', replace_heading, all_text, flags=re.MULTILINE)
 
         return all_text.strip()
-    
+
     def scanned_pdf_to_markdown(self, pdf_path):
         print(f'Tesseract-OCR: Chuyển file scanned {pdf_path} thành dạng markdown')
         all_text = ""
@@ -197,7 +248,7 @@ class PDFprocessor:
                     if not line or len(line) <= 5:
                         continue
 
-                    if line == line.upper() and re.search(r'[a-zA-ZáàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệiíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÉÈẺẼẸÊẾỀỂỄỆIÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨỤƯỨỪỬỮỰÝỲỶỸỴĐ]', line):
+                    if line == line.upper() and re.search(r'[a-zA-ZáàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệiíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÉÈẺẼẸÊẾỀỂỄỆIÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨỤƯỨỪỬỮỰÝỲỶỸỴĐ]', line) and len(line) > 20:
                         all_text += f"# {line}\n"
                     elif re.match(r'^Điều\s+\d+(\.|:)', line, re.IGNORECASE):
                         all_text += f"# {line} \n"
@@ -222,104 +273,6 @@ class PDFprocessor:
         except:
             print('Loi khi chuyen ve md local')
             return None
-
-    def save_markdown(self, temp_pdf_files):
-        print("Bắt đầu chuyển đổi các file PDF tạm sang markdown...")
-        
-        for pdf_file in temp_pdf_files:
-            markdown_content = None 
-            
-            if self.is_scanned_pdf_fitz(pdf_file):
-                scaned_pdf_text =  self.scanned_pdf_to_markdown(pdf_file)
-                if scaned_pdf_text:
-                    markdown_content = "\n".join([line for line in scaned_pdf_text.splitlines() if line.strip()])
-            else:
-                tmp_text =  self.turn_pdf_to_markdown_local(pdf_file)
-                if tmp_text:
-                    markdown_content = "\n".join([line for line in tmp_text.splitlines() if line.strip()])
-            
-            if markdown_content:
-                file_name_without_ext = os.path.splitext(os.path.basename(pdf_file))[0]
-                markdown_file_name = f"{file_name_without_ext}.md"
-                
-                relative_path = os.path.relpath(os.path.dirname(pdf_file), self.temp_clean_dir)
-                markdown_folder_path = os.path.join(self.output_file, relative_path)
-                os.makedirs(markdown_folder_path, exist_ok=True)
-                
-                markdown_output_path = os.path.join(markdown_folder_path, markdown_file_name)
-                
-                try:
-                    with open(markdown_output_path, 'w', encoding='utf-8') as f:
-                        f.write(markdown_content)
-                    print(f"-> Đã lưu nội dung markdown tại: {markdown_output_path}")
-                except Exception as e:
-                    print(f"Lỗi khi lưu file markdown {markdown_output_path}: {e}")
-            else:
-                print(f"Không có nội dung markdown được tạo cho file: {pdf_file}")
-        
-        if os.path.exists(self.temp_clean_dir):
-            shutil.rmtree(self.temp_clean_dir)
-            print(f"-> Đã dọn dẹp thư mục tạm: {self.temp_clean_dir}")
-
-    def copy_json_file(self):
-        for root, _, files in os.walk(self.input_file):
-            for file_name in files:
-                if file_name.endswith('.json'):
-                    original_json_path = os.path.join(root, file_name)
-                    relative_path = os.path.relpath(original_json_path, self.input_file)
-                    output_json_path = os.path.join(self.output_file, relative_path)
-
-                    os.makedirs(os.path.dirname(output_json_path), exist_ok=True)
-                    
-                    try:
-                        shutil.copy(original_json_path, output_json_path)
-                        print(f"-> Đã sao chép: {original_json_path} -> {output_json_path}")
-                    except Exception as e:
-                        print(f"Lỗi khi sao chép file {original_json_path}: {e}")
-
-    def markdown_single_file(self, input_pdf_path, output_md_path):
-        self.input_file = input_pdf_path
-        self.output_file = output_md_path
-        print(f"Bắt đầu xử lý file: {input_pdf_path}")
-        
-        os.makedirs(os.path.dirname(output_md_path), exist_ok=True)
-        
-        temp_pdf_path = os.path.join(self.temp_clean_dir, os.path.basename(input_pdf_path))
-        print(temp_pdf_path)
-        os.makedirs(os.path.dirname(temp_pdf_path), exist_ok=True)
-        
-        if not self._remove_footer_from_pdf(input_pdf_path, temp_pdf_path):
-            print("Lỗi khi loại bỏ footer. Dừng xử lý.")
-            if os.path.exists(temp_pdf_path):
-                os.remove(temp_pdf_path)
-            return
-
-        markdown_content = None
-
-        if self.is_scanned_pdf_fitz(temp_pdf_path):
-            scanned_text =  self.scanned_pdf_to_markdown(temp_pdf_path)
-            if scanned_text:
-                markdown_content = "\n".join([line for line in scanned_text.splitlines() if line.strip()])
-            else:
-                print('Noi dung rong')
-        else:
-            tmp_text = self.turn_pdf_to_markdown_local(temp_pdf_path)
-            if tmp_text:
-                markdown_content = "\n".join([line for line in tmp_text.splitlines() if line.strip()])
-
-        if markdown_content:
-            try:
-                with open(output_md_path, 'w', encoding='utf-8') as f:
-                    f.write(markdown_content)
-                print(f"-> Đã lưu nội dung markdown tại: {output_md_path}")
-            except Exception as e:
-                print(f"Lỗi khi lưu file markdown: {e}")
-        else:
-            print("Không thể chuyển đổi file sang markdown.")
-
-        if os.path.exists(temp_pdf_path):
-            os.remove(temp_pdf_path)
-            print(f"-> Đã xóa file tạm: {temp_pdf_path}")
     
     def run(self, input_pdf_path, output_md_path):
         self.input_file = input_pdf_path
@@ -332,7 +285,7 @@ class PDFprocessor:
         os.makedirs(self.temp_clean_dir, exist_ok=True)
 
         temp_pdf_path = os.path.join(self.temp_clean_dir, os.path.basename(input_pdf_path))
-        os.makedirs(os.path.dirname(temp_pdf_path), exist_ok=True)
+        os.makedirs(os.path.dirname(temp_pdf_path), exist_ok=True)        
 
         # loại bỏ footer
         if not self._remove_footer_from_pdf(input_pdf_path, temp_pdf_path):
@@ -365,11 +318,15 @@ class PDFprocessor:
         except Exception as e:
             print(f"Lỗi khi lưu file markdown {output_md_path}: {e}")
 
-        # tách heading và text
+                # thử lấy title từ font lớn nhất
+        pdf_title = self.get_title(input_pdf_path)
+        print(f"PDF title (font lớn nhất): {pdf_title}")
+
         data = []
         current_heading = None
         current_text = []
-
+        first_heading_found = False 
+        
         for line in markdown_content.splitlines():
             line = line.strip()
             if not line:
@@ -379,40 +336,92 @@ class PDFprocessor:
                 if current_heading is not None:
                     data.append({
                         "heading": current_heading,
-                        "text": "\n".join(current_text).strip() if current_text else None
+                        "text": "\n".join(current_text).strip() if current_text else None,
+                        "file_title": current_is_title
                     })
+
+                if not first_heading_found:
+                    current_is_title = 1
+                    first_heading_found = True
+                else:
+                    current_is_title = 0
+
                 current_heading = line
                 current_text = []
+
             else:
                 current_text.append(line)
 
         if current_heading is not None:
             data.append({
                 "heading": current_heading,
-                "text": "\n".join(current_text).strip() if current_text else None
+                "text": "\n".join(current_text).strip() if current_text else None,
+                "file_title": current_is_title
             })
 
-        return data
-
-    def preprocess_and_save_data(self):
+        return data 
+    
+    def process_folder(self, input_pdf_dir, output_md_dir):
         """
-        Hàm chính để xử lý toàn bộ quá trình: loại bỏ footer, chuyển đổi và lưu markdown.
+        Xử lý toàn bộ file PDF trong input_pdf_dir (kể cả subfolder),
+        và lưu file .md tương ứng trong output_md_dir,
+        giữ nguyên cấu trúc folder.
         """
-        self.copy_json_file()
-        temp_pdf_files = self.create_temp_pdf()
+        if not os.path.exists(input_pdf_dir):
+            print(f"Thư mục input không tồn tại: {input_pdf_dir}")
+            return
+        
+        for root, dirs, files in os.walk(input_pdf_dir):
+            # Tính đường dẫn tương ứng trong output
+            relative_path = os.path.relpath(root, input_pdf_dir)
+            output_root = os.path.join(output_md_dir, relative_path)
+            os.makedirs(output_root, exist_ok=True)
 
-        self.save_markdown(temp_pdf_files)
+            for file_name in files:
+                if not file_name.lower().endswith(".pdf"):
+                    continue  # bỏ qua file không phải pdf
+
+                input_path = os.path.join(root, file_name)
+                output_path = os.path.join(
+                    output_root, 
+                    os.path.splitext(file_name)[0] + ".md"
+                )
+
+                print(f"\n=== Đang xử lý: {input_path} ===")
+                try:
+                    data = self.run(input_path, output_path)
+                    print(f"-> Hoàn thành: {output_path}, tổng {len(data)} block")
+                except Exception as e:
+                    print(f"Lỗi khi xử lý {input_path}: {e}")
+
+    def preprocess_and_save_data(self, input_folder_dir, output_folder_dir):
+        """
+        Hàm chính để xử lý toàn bộ quá trình: copy json, loại bỏ footer, chuyển đổi và lưu markdown.
+        pdf_root_dir: thư mục gốc chứa các file pdf (có thể có nhiều folder con).
+        """
+        self.copy_json_file(input_folder_dir, output_folder_dir)
+        self.process_folder(input_folder_dir, output_folder_dir)
 
 if __name__ == '__main__':
     processor = PDFprocessor()
-    # processor.preprocess_and_save_data()
-    input_file = 'data/raw documents/Tài khoản/Hành vi không được thực hiện-TKTT&thẻ.pdf'
-    output_file = 'data/markdown/Tài khoản/Hành vi không được thực hiện-TKTT&thẻ.md'
-    res = processor.run(input_file, output_file)
-    for i in res:
-        print(i['heading'])
-        print(i['text'])
-        print(len(i['text']))
+    res = processor.get_file_title('data/raw documents/Vay/THÔNG TIN CHI TIẾT CÁC LOẠI VAY DÀNH CHO KHÁCH HÀNG CÁ NHÂN.pdf')
+    for tmp in res:
+        print(tmp['text'])
+        print(tmp['size'])
+        print(tmp['font'])
+        print(tmp['page'])
+        print('*'*50)
 
-        print('\n-----------------------------------------------\n')
-        
+    # processor.preprocess_and_save_data("data/raw documents", "data/markdown")
+
+
+    # input_file = 'data/raw documents/Khuyến mãi/Các chương trình khuyến mãi.pdf'
+    # output_file = 'data/markdown/Khuyến mãi/Các chương trình khuyến mãi.md'
+    # res = processor.run(input_file, output_file)
+    # for i in res:
+    #     print(i['heading'])
+    #     print(i['text'])
+    #     print(f"title: {i['file_title']}")
+    #     if i['text'] is not None:
+    #         print(len(i['text']))
+    #     print('-----------------------------------------------\n')

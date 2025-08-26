@@ -1,5 +1,5 @@
 Sacombank
-# PHỤ LỤC
+PHỤ LỤC
 # ĐIỀU KHOẢN, ĐIỀU KIỆN VỀ TIỀN GỬI CÓ KỲ HẠN
 (áp dụng đối với KHCN)
 đính kèm Hợp đồng tiền gửi có kỳ hạn số ............................ ngày...... đ....... Í.......«e
@@ -107,7 +107,7 @@ Tiền lãi =
 - Số ngày duy trì số dư thực tế: Là số ngày mà số dư thực tế cuối mỗi ngày không thay
 -_ Số dư thực tế: Là số dư cuối ngày tính lãi của số dư tiền gửi thực tế.
 # Điều 7. BIỆN PHÁP TRA CỨU KHOẢN TIỀN GỬI CÓ KỲ HẠN VÀ BẢO MẬT THÔNG TIN 
-# KHÁCH HÀNG
+KHÁCH HÀNG
 1. KH được quyền tra cứu khoản tiền gửi có kỳ hạn thông qua các phương thức do
 Sacombank cung cấp, bao gồm:
 - _ Yêu cầu cung cấp thông tin tại các địa điểm giao dịch thuộc mạng lưới hoạt động

@@ -152,14 +152,6 @@ class PSQLVectorStore:
         print(search_query)
 
         with self.conn.cursor() as cur:
-            cur.execute(f"""
-                SELECT id, filename
-                FROM {self.doc_table_name}
-                WHERE %s ILIKE ANY(SELECT '%' || unnest(keywords)) 
-            """, search_query)
-            docs = cur.fetchall()
-
-        with self.conn.cursor() as cur:
             # ===== Tìm doc_id liên quan dựa trên metadata keywords =====
             cur.execute(f"""
                 SELECT id, file_name, ts_rank(keywords_tsvector, to_tsquery('simple', %s), 2) AS bm25_score
