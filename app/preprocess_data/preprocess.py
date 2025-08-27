@@ -7,6 +7,9 @@ import pytesseract
 import re
 from table_pdf_to_md import *
 from table_pdf_to_md_text import PDFTableToTextConverter
+from get_pos_func import *
+import tempfile
+import json
 
 load_dotenv()
 
@@ -18,116 +21,19 @@ class PDFprocessor:
         self.output_file = None
         self.temp_clean_dir = None
 
-    def read_pdf_infomation(self, pdf_file_path):
+    def get_num_pages(self, pdf_file_path):
         doc = fitz.open(pdf_file_path)
 
         num_pages = doc.page_count
         return num_pages
     
-    def get_file_title(self, pdf_file_path):
-        """
-        Returns:
-            list: Danh sách các dictionary chứa thông tin về text và trang, hoặc None nếu có lỗi.
-        """
-        try:
-            doc = fitz.open(pdf_file_path)
-            max_font_size = 0.0
-            text_info = []
-
-            for so_trang, trang in enumerate(doc):
-                text_dict = trang.get_text("dict")
-
-                for block in text_dict["blocks"]:
-                    if "lines" in block:
-                        for line in block["lines"]:
-                            for span in line["spans"]:
-                                current_font_size = span["size"]
-                                if current_font_size > max_font_size:
-                                    max_font_size = current_font_size
-                                    text_info = []
-
-                                if current_font_size == max_font_size:
-                                    text_info.append({
-                                        "text": span["text"],
-                                        "page": so_trang + 1,
-                                        "size": current_font_size,
-                                        "font": span["font"]
-                                    })
-            doc.close()
-            return text_info
-
-        except Exception as e:
-            print(f"Có lỗi xảy ra: {e}")
-            return None
-        
-    def get_headings_with_position(self, pdf_file_path, max_check_pages=1, max_candidates=5):
-        """
-        Lấy ra danh sách heading đầu tiên cùng tọa độ (bbox).
-        Args:
-            pdf_file_path (str): đường dẫn pdf
-            max_check_pages (int): chỉ kiểm tra bao nhiêu trang đầu
-            max_candidates (int): số lượng heading đầu tiên cần xét
-        Returns:
-            list[dict]: [{'text': ..., 'page': ..., 'bbox': (x0,y0,x1,y1)}]
-        """
-        res = []
-        try:
-            doc = fitz.open(pdf_file_path)
-            for page_index in range(min(max_check_pages, len(doc))):
-                page = doc[page_index]
-                text_dict = page.get_text("dict")
-                for block in text_dict["blocks"]:
-                    if "lines" in block:
-                        for line in block["lines"]:
-                            line_text = " ".join([span["text"] for span in line["spans"]]).strip()
-                            if not line_text:
-                                continue
-                            # chỉ lấy những dòng dài một chút
-                            if len(line_text) < 8:
-                                continue
-                            # bbox line
-                            bbox = line["bbox"]  # (x0,y0,x1,y1)
-                            res.append({
-                                "text": line_text,
-                                "page": page_index+1,
-                                "bbox": bbox
-                            })
-                            if len(res) >= max_candidates:
-                                return res
-            doc.close()
-        except Exception as e:
-            print(f"Lỗi khi lấy heading với tọa độ: {e}")
-        return res
-
-    def decide_file_title(self, pdf_file_path):
-        """
-        Quyết định file_title dựa vào vị trí heading trong trang đầu.
-        Ưu tiên heading nào nằm trong vùng giữa (30% - 60% chiều cao trang).
-        """
-        candidates = self.get_headings_with_position(pdf_file_path)
-        if not candidates:
-            return None
-
-        doc = fitz.open(pdf_file_path)
-        first_page = doc[0]
-        page_height = first_page.rect.height
-        doc.close()
-
-        for cand in candidates:
-            y0 = cand["bbox"][1]
-            y_mid_ratio = y0 / page_height
-            if 0.3 <= y_mid_ratio <= 0.6:  # trong vùng giữa trang
-                return cand["text"]
-        # fallback: lấy heading đầu tiên
-        return candidates[0]["text"]
-        
-    def get_title(self, pdf_file_path):
-        text_info = self.get_file_title(pdf_file_path)
-        res = []
-        for tmp in text_info:
-            if tmp['page'] == 1:
-                res.append(tmp['text'])
-        return res
+    def get_title_with_pos(self, pdf_path):
+        text_with_pos = get_first_lines_with_coords(pdf_path)
+        if text_with_pos:
+            cen_text = extract_indented_lines(text_with_pos)
+            # Chuẩn hóa cen_text: xóa khoảng trắng và chuyển thành chữ thường
+            return [re.sub(r'\s+', '', t.strip()).lower() for t, _ in cen_text]
+        return []
 
     def is_scanned_pdf_fitz(self, pdf_path):
         doc = None
@@ -202,7 +108,6 @@ class PDFprocessor:
                         print(f"-> Đã sao chép: {original_json_path} -> {output_json_path}")
                     except Exception as e:
                         print(f"Lỗi khi sao chép file {original_json_path}: {e}")
-
     
     def get_markdown_strategy(self, lines):
         """
@@ -341,21 +246,20 @@ class PDFprocessor:
         print(f"Bắt đầu xử lý file: {input_pdf_path}")
         
         if not self.temp_clean_dir:
-            import tempfile
             self.temp_clean_dir = tempfile.mkdtemp(prefix="pdf_clean_")
         os.makedirs(self.temp_clean_dir, exist_ok=True)
 
         temp_pdf_path = os.path.join(self.temp_clean_dir, os.path.basename(input_pdf_path))
         os.makedirs(os.path.dirname(temp_pdf_path), exist_ok=True)        
 
-        # loại bỏ footer
+        # Loại bỏ footer (hàm giả định)
         if not self._remove_footer_from_pdf(input_pdf_path, temp_pdf_path):
             print("Lỗi khi loại bỏ footer. Dừng xử lý.")
             if os.path.exists(temp_pdf_path):
                 os.remove(temp_pdf_path)
             return []
 
-        # OCR hoặc local parse
+        # OCR hoặc local parse (hàm giả định)
         markdown_content = None
         if self.is_scanned_pdf_fitz(temp_pdf_path):
             scanned_text = self.scanned_pdf_to_markdown(temp_pdf_path)
@@ -379,14 +283,16 @@ class PDFprocessor:
         except Exception as e:
             print(f"Lỗi khi lưu file markdown {output_md_path}: {e}")
 
-                # thử lấy title từ font lớn nhất
-        pdf_title = self.get_title(input_pdf_path)
-        print(f"PDF title (font lớn nhất): {pdf_title}")
-
+        # LOGIC MỚI: Lấy title từ vị trí và so sánh với heading
+        cen_text_normalized = self.get_title_with_pos(temp_pdf_path)
+        print(cen_text_normalized)
+        
+        use_first_heading_as_default = not cen_text_normalized
+        first_heading_found = False
+        
         data = []
         current_heading = None
         current_text = []
-        first_heading_found = False 
         
         for line in markdown_content.splitlines():
             line = line.strip()
@@ -395,17 +301,26 @@ class PDFprocessor:
 
             if line.startswith("#"):  # heading mới
                 if current_heading is not None:
+                    # Lưu heading và nội dung của khối trước
                     data.append({
                         "heading": current_heading,
                         "text": "\n".join(current_text).strip() if current_text else None,
                         "file_title": current_is_title
                     })
 
-                if not first_heading_found:
+                current_is_title = 0
+                heading_text = line.strip("# ").strip()
+                # Chuẩn hóa heading_text để so sánh
+                heading_text_normalized = re.sub(r'\s+', '', heading_text).lower()
+                print(heading_text_normalized)
+
+                if use_first_heading_as_default and not first_heading_found:
+                    # Trường hợp mặc định: sử dụng heading đầu tiên làm title
                     current_is_title = 1
                     first_heading_found = True
-                else:
-                    current_is_title = 0
+                elif heading_text_normalized in cen_text_normalized:
+                    # Trường hợp so khớp: heading khớp với một trong các dòng thụt vào
+                    current_is_title = 1
 
                 current_heading = line
                 current_text = []
@@ -413,6 +328,7 @@ class PDFprocessor:
             else:
                 current_text.append(line)
 
+        # Lưu heading và nội dung cuối cùng
         if current_heading is not None:
             data.append({
                 "heading": current_heading,
@@ -420,40 +336,58 @@ class PDFprocessor:
                 "file_title": current_is_title
             })
 
-        return data 
+        return data
     
-    def process_folder(self, input_pdf_dir, output_md_dir):
-        """
-        Xử lý toàn bộ file PDF trong input_pdf_dir (kể cả subfolder),
-        và lưu file .md tương ứng trong output_md_dir,
-        giữ nguyên cấu trúc folder.
-        """
+    
+    def process_folder(self, input_pdf_dir, output_md_dir, output_json_path="all_data.json"):
         if not os.path.exists(input_pdf_dir):
             print(f"Thư mục input không tồn tại: {input_pdf_dir}")
             return
-        
+
+        all_data = []
+
         for root, dirs, files in os.walk(input_pdf_dir):
-            # Tính đường dẫn tương ứng trong output
             relative_path = os.path.relpath(root, input_pdf_dir)
             output_root = os.path.join(output_md_dir, relative_path)
             os.makedirs(output_root, exist_ok=True)
 
+            topic_feature = os.path.basename(root)
+
             for file_name in files:
                 if not file_name.lower().endswith(".pdf"):
-                    continue  # bỏ qua file không phải pdf
+                    continue
 
                 input_path = os.path.join(root, file_name)
-                output_path = os.path.join(
-                    output_root, 
-                    os.path.splitext(file_name)[0] + ".md"
-                )
+                base_name = os.path.splitext(file_name)[0]
+                output_md_path = os.path.join(output_root, base_name + ".md")
 
                 print(f"\n=== Đang xử lý: {input_path} ===")
                 try:
-                    data = self.run(input_path, output_path)
-                    print(f"-> Hoàn thành: {output_path}, tổng {len(data)} block")
+                    data = self.run(input_path, output_md_path)
+
+                    # Thêm metadata cho từng block
+                    for block in data:
+                        all_data.append({
+                            "text": block.get("text", ""),
+                            "metadata": {
+                                "heading": block.get("heading", ""),
+                                "is_title": str(block.get("file_title", "")),
+                                "original_filename": file_name,
+                                "file_type": "pdf",
+                                "topic_feature": topic_feature
+                            }
+                        })
+
+                    print(f"-> Hoàn thành: {output_md_path}, tổng {len(data)} block")
                 except Exception as e:
                     print(f"Lỗi khi xử lý {input_path}: {e}")
+
+        # Sau khi duyệt xong toàn bộ file thì lưu JSON duy nhất
+        final_json_path = os.path.join(output_md_dir, output_json_path)
+        with open(final_json_path, "w", encoding="utf-8") as f:
+            json.dump(all_data, f, ensure_ascii=False, indent=2)
+
+        print(f"\n>>> Đã lưu toàn bộ dữ liệu JSON vào: {final_json_path}, tổng {len(all_data)} block")
 
     def preprocess_and_save_data(self, input_folder_dir, output_folder_dir):
         """
@@ -475,13 +409,13 @@ if __name__ == '__main__':
 
     processor.preprocess_and_save_data("data/raw documents", "data/markdown")
 
-    # input_file = 'data/raw documents/Khuyến mãi/Các chương trình khuyến mãi.pdf'
-    # output_file = 'data/markdown/Khuyến mãi/Các chương trình khuyến mãi.md'
+    # input_file = 'data/raw documents/Thẻ/Điều khoản và điều kiện phát hành và sử dụng thẻ.pdf'
+    # output_file = 'data/raw documents/Thẻ/Điều khoản và điều kiện phát hành và sử dụng thẻ.pdf.md'
     # res = processor.run(input_file, output_file)
-    # for i in res:
+    # for i in res[0:5]:
     #     print(i['heading'])
     #     print(i['text'])
     #     print(f"title: {i['file_title']}")
     #     if i['text'] is not None:
     #         print(len(i['text']))
-    #     print('-----------------------------------------------\n')
+    #     print('------------------------------------------------------------------\n')
