@@ -1,5 +1,5 @@
 # TÓM   TẮT QUY  ĐỊNH  TIỀN  GỬI TIẾT  KIỆM
-1. Đối tượng gửi tiền tiết kiệm
+# 1. Đối tượng gửi tiền tiết kiệm
 -  Công dân Việt Nam từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ theo quy định của
 pháp luật.
 -  Công dân Việt Nam từ đủ 15 tuổi đến chưa đủ 18 tuổi không bị hạn chế năng lực hành vi dân sự
@@ -30,6 +30,7 @@ hết khoản tiền gửi (tính ngày đầu bỏ ngày cuối của thời h�
 c) Thời điểm xác định số dư để tính lãi: là cuối mỗi ngày trong thời hạn tính lãi.
 d) Phương pháp tính lãi:
 (i) Yếu tố tính lãi:
+▪  Thời hạn tính lãi: quy định theo điểm (b) Khoản này.
 ▪  Số dư thực tế: số dư cuối mỗi ngày.
 ▪  Số ngày duy trì số dư thực tế: là số ngày mà số dư thực tế cuối mỗi ngày không thay đổi.
 ▪  Lãi suất tính lãi: được tính theo tỷ lệ % năm; một năm có 365 ngày.
@@ -56,6 +57,7 @@ Sacombank. Trường hợp người giao dịch là người không viết đư�
 không nhìn được, thủ tục chi trả thực hiện theo hướng dẫn của Sacombank (thực hiện điểm chỉ
 thay thế cho việc ký, mời/chỉ định người làm chứng hoặc người phiên dịch).
 c) Sacombank đối chiếu, cập nhật thông tin KH theo quy định của pháp luật về phòng, chống rửa
+tiền.
 d) Sacombank thực hiện thủ tục nhận tiền và giao Thẻ tiết kiệm cho KH.
 e) Đối với việc gửi TGTK vào Thẻ tiết kiệm đã cấp:
 - Trường hợp gửi bằng tiền mặt: KH xuất trình Thẻ tiết kiệm đã cấp và thực hiện thủ tục gửi
@@ -88,6 +90,7 @@ thực hiện theo hướng dẫn của Sacombank phù hợp với quy định p
 # 8. Quy định về ngày đến hạn và việc chi lãi khi ngày đến hạn rơi vào ngày nghỉ, ngày nghỉ lễ
 a) Cách xác định ngày đến hạn:
 -  Đối với kỳ hạn ngày: Ngày đến hạn được xác định bằng Ngày gửi tiền cộng kỳ hạn gửi
+tiền.
 -  Đối với kỳ hạn tháng: Ngày đến hạn là ngày tương ứng với ngày mở tiền gửi tại tháng cuối
 cùng của thời hạn gửi tiền.
 -  Trường hợp tháng cuối cùng của thời hạn gửi tiền không có ngày tương ứng thì ngày đến hạn
@@ -164,9 +167,12 @@ dịch của Sacombank.
 ▪ Trường hợp KH tìm thấy Thẻ tiết kiệm sau khi đã thông báo mất với Sacombank, KH cần
 xuất trình Thẻ tiết kiệm đã tìm thấy để Sacombank thu hồi.
 -  Trường hợp Thẻ tiết kiệm bị rách nát hoặc không còn toàn vẹn (bị hỏng) mà không phải do chỉnh
+sửa:
 ▪ KH xuất trình Thẻ tiết kiệm bị rách nát hoặc không còn toàn vẹn (bị hỏng) để Sacombank thu
+hồi.
 ▪ Nếu việc hỏng Thẻ tiết kiệm dẫn đến không xác định được đầy đủ yếu tố gồm số seri Thẻ
 tiết kiệm, tên KH, số tiền, chữ ký và dấu của Sacombank trên Thẻ tiết kiệm thì xử lý như
+trường hợp Thẻ tiết kiệm bị mất.
 ▪ Nếu việc hỏng Thẻ tiết kiệm nhưng vẫn xác định được đầy đủ nội dung ghi trên Thẻ tiết kiệm
 bị hỏng thì KH lập Thông báo hỏng tại địa điểm giao dịch đã phát hành Thẻ tiết kiệm của
 Sacombank để được Sacombank cấp lại Thẻ tiết kiệm hoặc chi trả cho KH.

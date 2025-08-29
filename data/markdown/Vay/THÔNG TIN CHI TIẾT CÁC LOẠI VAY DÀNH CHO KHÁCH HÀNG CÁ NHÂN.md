@@ -100,11 +100,13 @@ doanh, tiết kiệm chi phí.
 - Đặc tính:
 Số tiền vay tùy vào phương án kinh doanh, vốn tự có, khả năng trả nợ.
 Thời hạn vay đến 01 năm đối với vay hạn mức và 10 năm đối với vay từng
+lần.
 Tài sản đảm bảo: bất động sản, phương tiện vận chuyển, máy móc thiết bị,
 hoặc không tài sản đảm bảo.
 - Điều kiện:
 CCCD, xác nhận thông tin cư trú.
 Giấy phép kinh doanh và các chứng từ chứng minh mục đích sử dụng vốn
+vay.
 Hồ sơ chứng minh thu nhập, khả năng trả nợ.
 Hồ sơ tài sản bảo đảm.
 - Tích điểm đổi quà:
@@ -184,7 +186,9 @@ Bạn có thể vay cho bản thân hoặc người thân đi du học (con cái
 em ruột của bản thân hoặc vợ/ chồng...).
 - Đặc tính
 Số tiền vay tối đa 100% nhu cầu (học phí và chi phí du học).
+Thời gian lên đến 10 năm.
 Tài sản bảo đảm là nhà/ đất, xe ô tô con dưới 9 chỗ, thẻ tiết kiệm/ giấy tờ có
+giá.
 - Điều kiện:
 CCCD, xác nhận thông tin cư trú.
 Hộ chiếu, Visa du học sinh, chứng từ liên quan đến khóa học, giấy tờ chứng

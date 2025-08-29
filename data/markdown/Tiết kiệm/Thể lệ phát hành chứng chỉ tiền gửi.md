@@ -127,6 +127,7 @@ của Sacombank được niêm yết tại website https://www.sacombank.com.vn 
 từng thời kỳ.
 # 12. Kéo dài kỳ hạn CCTG: CCTG không áp dụng kéo dài kỳ hạn. Vào ngày đến hạn, nếu
 KH không đến thanh toán, vốn gốc (phương thức lãnh lãi hàng tháng) hoặc vốn gốc và
+lãi (phương thức lãnh lãi cuối kỳ_lãi nhập vốn) của CCTG được hưởng lãi suất tiền gửi
 không kỳ hạn do Sacombank công bố theo từng thời kỳ cho đến ngày KH yêu cầu
 thanh toán CCTG.
 # 13. Biện pháp tra cứu thông tin TK và biện pháp thông báo khi có sự thay đổi số dư TK
@@ -158,6 +159,7 @@ yêu cầu của Sacombank để xác định KH.
 ▪ Trường hợp KH tìm thấy CCTG sau khi đã thông báo mất với Sacombank, KH
 cần xuất trình CCTG đã tìm thấy để Sacombank thu hồi.
 -  Trường hợp CCTG bị rách nát hoặc không còn toàn vẹn (bị hỏng) mà không phải do chỉnh
+sửa:
 ▪ KH xuất trình CCTG bị rách nát hoặc không còn toàn vẹn (bị hỏng) để
 Sacombank thu hồi trước khi cấp lại.
 ▪ Nếu việc hỏng CCTG dẫn đến không xác định được đầy đủ yếu tố gồm số seri

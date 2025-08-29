@@ -36,7 +36,7 @@ thanh toán tại Hợp đồng này nhưng vẫn đảm bảo là tài khoản 
 xem như các Bên đồng ý thay đổi nội dung thỏa thuận về tài khoản thanh toán gửi
 tiền gửi có kỳ hạn.
 2. Vào ngày gửi tiền, trường hợp Sacombank không nhận được hoặc nhận nhưng chưa đầy
-+? ~Ã kIẢT X~Ấ~ ÄZ kL23~ kL..Aa^ và LẤ& X2 112 ~ XY vvÀ/L~Xz~ kÀt ly ^~3~ k1 k~<~ li ⁄A~~ 2,
+đủ số tiền gốc đã thỏa thuận vì bất cứ lý do gì và/hoặc tài khoản thanh toán không đủ
 Sacombank
 số dư để gửi tiền và/hoặc thông tin tài khoản thanh toán chuyển đến không phải tài
 khoản của KH thì các điều khoản liên quan đến thời hạn gửi tiền và lãi suất không có giá
@@ -105,6 +105,7 @@ thanh toán hết khoản tiền gửi (tính ngày đầu, bỏ ngày cuối c�
 Tiền lãi =
 -_ Lãi suất: Theo mức lãi suất thỏa thuận tại Hợp đồng tiền gửi có kỳ hạn.
 - Số ngày duy trì số dư thực tế: Là số ngày mà số dư thực tế cuối mỗi ngày không thay
+đổi.
 -_ Số dư thực tế: Là số dư cuối ngày tính lãi của số dư tiền gửi thực tế.
 # Điều 7. BIỆN PHÁP TRA CỨU KHOẢN TIỀN GỬI CÓ KỲ HẠN VÀ BẢO MẬT THÔNG TIN 
 KHÁCH HÀNG
@@ -167,7 +168,7 @@ Quyền của Sacombank
 - Được yêu cầu KH chuyển đầy đủ số tiền gửi vào ngày gửi tiền đã thoả thuận trong
 Hợp đồng.
 - Được thu phí các loại phí dịch vụ phát sinh theo yêu cầu của KH (nếu có) theo đúng
-LIỔ,/, xb£ IA~ BÀ» ~⁄¬~ C^~~~^lS^=lz
+biểu phí hiện hành của Sacombank.
 Sacombank
 Không chịu trách nhiệm về việc xác định tính hợp pháp và các vấn đề liên quan khác
 đến nguồn gốc số tiền gửi của KH.
@@ -229,6 +230,7 @@ Thông báo và cung cấp thông tin chính xác các nội dung liên quan đ�
 có kỳ hạn tại Hợp đồng này trong trường hợp Hợp đồng bị rách, nhàu nát, mất.
 Chủ động tra cứu thông tin của Hợp đồng theo các phương thức tra cứu do
 Sacombank cung cấp nhằm quản lý và kiểm tra thông tin, tính hiệu lực của Hợp đồng
+này.
 Thanh toán đầy đủ các loại phí dịch vụ phát sinh khi giao dịch tại Sacombank theo
 đúng biểu phí hiện hành của Sacombank.
 Các nghĩa vụ khác theo Hợp đồng này và quy định pháp luật.

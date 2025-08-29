@@ -1,5 +1,5 @@
-# ĐIỀU KIỆN VÀ ĐIỀU KHOẢN
-# CHO VAY BẢO ĐẢM BẰNG  SỐ DƯ TIỀN GỬI TRỰC TUYẾN
+# ĐIỀU KIỆN VÀ ĐIỀU KHOẢN - CHO VAY BẢO ĐẢM BẰNG  SỐ DƯ TIỀN GỬI TRỰC TUYẾN
+
 Bằng việc xác nhận đồng ý với Điều kiện và điều khoản này cùng với toàn bộ thông điệp dữ
 liệu Khách hàng (viết tắt là Bên vay) đã khởi tạo, nhập liệu/chọn tại hệ thống và/hoặc tại màn
 hình đăng ký vay bảo đảm bằng số dư tiền gửi trên kênh trực tuyến (trên ứng dụng Sacombank
@@ -9,7 +9,7 @@ Pay) của Bên cho vay là Sacombank là một phần không tách rời của 
 thích đầy đủ các thông tin liên quan đến khoản vay để quyết định vay trước khi xác nhận đồng
 ý Điều kiện và điều khoản này; (ii) Bên vay đã đọc, hiểu và đã chấp nhận bị ràng buộc bởi các
 quyền và nghĩa vụ theo Hợp đồng này.
-# ĐIỀU 1: GIẢI THÍCH TỪ NGỮ: 
+ĐIỀU 1: GIẢI THÍCH TỪ NGỮ:
 Trong Điều kiện và điều khoản này, các từ ngữ sau đây được áp dụng trong quá trình thực hiện
 thủ tục vay bảo đảm bằng số dư tiền gửi và được hiểu như sau:
 1.1. Sacombank là Ngân hàng TMCP Sài Gòn Thương Tín, mã số doanh nghiệp
@@ -19,6 +19,7 @@ Hồ Chí Minh.
 Pay và thỏa điều kiện cho vay bảo đảm bằng số dư tiền gửi của Sacombank tại từng
 thời điểm.
 1.3. Điểm giao dịch là các Chi nhánh và Phòng giao dịch của Sacombank trên lãnh thổ Việt
+Nam.
 1.4. Sacombank Pay: Là ứng dụng được cài đặt và sử dụng trên thiết bị di động (bao gồm
 điện thoại di động thông minh và thiết bị di động thông minh) có kết nối Internet do
 Sacombank phát triển cho phép Người dùng tìm kiếm và cập nhật kịp thời các ưu đãi
@@ -30,6 +31,7 @@ Nam (VND) của Bên vay mở thông qua kênh trực tuyến (eBanking/Sacomban
 và/hoặc tại quầy giao dịch của Sacombank và được hưởng lãi suất có kỳ hạn tương ứng
 cùng phương thức tái tục (tái tục vốn/tái tục vốn và lãi) và phương thức lãnh lãi phù
 hợp và thỏa điều kiện là tài sản đảm bảo theo quy định của Sacombank tại từng thời
+điểm.
 1.6. Tài khoản tiền vay (TKTV) là TKTV trực tuyến bằng VND, do Sacombank tạo theo
 yêu cầu của Bên vay để quản lý các thông tin liên quan đến khoản vay, gồm: số tiền
 vay, mức lãi suất vay, thời hạn vay, ngày trả nợ vay và các phí liên quan đến khoản vay
@@ -37,6 +39,7 @@ vay, mức lãi suất vay, thời hạn vay, ngày trả nợ vay và các phí
 1.7. Tài khoản nhận giải ngân: là tài khoản thanh toán (TKTT) của chính Bên vay mở tại
 Sacombank và được Bên vay chỉ định và/hoặc được hệ thống mặc định liên kết để giải
 ngân khoản vay. Tài khoản nhận giải ngân được đăng ký trích nợ tự động thanh toán
+nợ gốc, lãi vay và các khoản phí liên quan (nếu có).
 1.8. Ngày đến hạn: là ngày mà Bên vay phải trả hết nợ gốc, lãi tiền vay và các chi phí phát
 sinh (nếu có) cho Sacombank. Hệ thống của Sacombank đã thông báo cho Bên vay tại
 màn hình đăng ký vay bảo đảm bằng số dư tiền gửi trên kênh trực tuyến.
@@ -44,7 +47,7 @@ màn hình đăng ký vay bảo đảm bằng số dư tiền gửi trên kênh 
 1.10. Các khái niệm khác: được định nghĩa trong Điều kiện và điều khoản sử dụng dịch vụ
 ứng dụng Sacombank Pay,… (sau đây gọi là Điều kiện và điều khoản sử dụng dịch vụ
 kênh trực tuyến của Sacombank).
-# ĐIỀU 2: QUY TRÌNH, SỐ TIỀN VAY 
+ĐIỀU 2: QUY TRÌNH, SỐ TIỀN VAY
 2.1. Quy trình vay: Khi có nhu cầu vay vốn, Bên vay đăng nhập ứng dụng Sacombank Pay
 của Sacombank, khởi tạo, nhập liệu/chọn các thông tin để đề nghị nhu cầu vay vốn. Hệ
 thống Sacombank khởi tạo TKTV. Theo đó, Bên vay đồng ý vay Sacombank một khoản
@@ -62,7 +65,7 @@ thể được thay đổi trong từng thời kỳ.
 khoản nhận giải ngân đã đăng ký với Sacombank. Tài khoản nhận giải ngân không đồng
 thời là tài khoản được Sacombank cấp hạn mức thấu chi và/hoặc tài khoản có số dư khả
 dụng âm và/hoặc tài khoản đang bị phong tỏa theo quy định của pháp luật.
-# ĐIỀU 3: THỜI HẠN CHO VAY 
+ĐIỀU 3: THỜI HẠN CHO VAY
 Thời hạn cho vay: là thời hạn do Bên vay đồng ý theo kết quả tính toán tại hệ thống của
 Sacombank, tối đa bằng thời hạn gửi còn lại của SDTG. Thời hạn vay là khoảng thời gian được
 tính từ ngày tiếp theo của ngày giải ngân đầu tiên cho Bên vay đến thời điểm Bên vay phải trả

@@ -1,5 +1,5 @@
-# ĐIỀU KIỆN  VÀ ĐIỀU KHOẢN
-# CHO VAY  TÍN CHẤP TỪ LƯƠNG  TRỰC  TUYẾN
+# ĐIỀU KIỆN  VÀ ĐIỀU KHOẢN - CHO VAY  TÍN CHẤP TỪ LƯƠNG  TRỰC  TUYẾN
+
 Bằng việc xác nhận đồng ý với Điều kiện và điều khoản này cùng với toàn bộ thông điệp dữ liệu
 Khách hàng (viết tắt là Bên vay) đã khởi tạo, nhập liệu/chọn tại hệ thống và/hoặc tại màn hình đăng
 ký Vay tín chấp từ lương trực tuyến (trên ứng dụng Sacombank Pay) của Bên cho vay là Sacombank
@@ -8,7 +8,7 @@ là một phần không tách rời của Giấy đề nghị vay vốn kiêm h�
 vay đã được Sacombank cung cấp, giải thích đầy đủ các thông tin liên quan đến khoản vay để quyết
 định vay trước khi xác nhận đồng ý Điều kiện và điều khoản này, (ii) Bên vay đã đọc, hiểu và chấp
 nhận bị ràng buộc bởi các quyền và nghĩa vụ theo Hợp đồng này.
-# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ: 
+ĐIỀU 1. GIẢI THÍCH TỪ NGỮ:
 Trong Điều kiện và điều khoản này, các từ ngữ sau đây được áp dụng trong quá trình thực hiện thủ
 tục vay tín chấp từ lương trực tuyến và được hiểu như sau:
 1.1. Sacombank là Ngân hàng TMCP Sài Gòn Thương Tín, mã số doanh nghiệp 0301103908, địa
@@ -32,7 +32,7 @@ và các khoản phí có liên quan:
 1.8. Các khái niệm khác: được định nghĩa trong Điều kiện và điều khoản sử dụng dịch vụ ứng dụng
 Sacombank Pay,... sau đây gọi là Điều kiện và điều khoản sử dụng dịch vụ kênh trực tuyến
 của Sacombank.
-# ĐIỀU 2. QUY TRÌNH, SỐ TIỀN VAY.
+ĐIỀU 2. QUY TRÌNH, SỐ TIỀN VAY.
 2.1. Quy trình vay: Khi có nhu cầu vay vốn, Bên vay đăng nhập ứng dụng Sacombank Pay của
 Sacombank, khởi tạo, nhập liệu/chọn các thông tin để đề nghị nhu cầu vay vốn. Hệ thống
 Sacombank khởi tạo TKTV. Theo đó, Bên vay đồng ý vay Sacombank một khoản vay phục
@@ -48,7 +48,7 @@ thời điểm. Các tham số này do Sacombank quy định và có thể đư�
 nhận giải ngân đã đăng ký với Sacombank. Tài khoản nhận giải ngân không đồng thời là tài
 khoản được Sacombank cấp hạn mức thấu chi và/hoặc tài khoản có số dư khả dụng âm và/hoặc
 tài khoản đang bị phong tỏa theo quy định của pháp luật.
-# ĐIỀU 3. THỜI HẠN CHO VAY 
+ĐIỀU 3. THỜI HẠN CHO VAY
 Thời hạn cho vay: là thời hạn do Bên vay đồng ý chọn tại hệ thống của Sacombank tối đa 24
 tháng. Các tham số này do Sacombank quy định và có thể được thay đổi trong từng thời kỳ.
 Thời hạn vay là khoảng thời gian được tính từ ngày tiếp theo của ngày giải ngân đầu tiên cho

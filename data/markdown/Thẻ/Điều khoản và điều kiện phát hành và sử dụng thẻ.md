@@ -38,7 +38,6 @@ Sacombank.
 phát hành Thẻ và chịu trách nhiệm đối với mọi Giao Dịch Thẻ, phí và lệ phí liên quan đến Thẻ (gồm
 việc sử dụng Thẻ của Chủ Thẻ Phụ).
 1.14 Chủ Thẻ Phụ: cá nhân được Chủ Thẻ Chính cho phép sử dụng Thẻ và cam kết bằng văn bản thực hiện
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 1/19
 toàn bộ nghĩa vụ liên quan việc sử dụng Thẻ theo Hợp Đồng.
 1.15 Tổ Chức Thanh Toán Thẻ (TCTTT): tổ chức tín dụng, chi nhánh ngân hàng nước ngoài thanh toán
 thẻ theo quy định của Ngân hàng Nhà nước (NHNN).
@@ -82,7 +81,6 @@ Khoản Thẻ của Thẻ Ghi Nợ là TKTT của Chủ Thẻ Chính mở tại 
 thời điểm nhất định.
 1.29 Thời Hạn Hiệu Lực Thẻ: là thời hạn Chủ Thẻ được phép sử dụng Thẻ. Thời Hạn Hiệu Lực Thẻ đối
 với Thẻ Trả Trước Định Danh không vượt quá 03 năm.
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 2/19
 1.30 Ngày Hết Hạn: ngày cuối cùng của tháng hết Thời Hạn Hiệu Lực Thẻ.
 Trường hợp Chủ Thẻ là người nước ngoài thì phải có thời hạn cư trú tại Việt Nam từ 12 tháng (360
 ngày) trở lên kể từ thời điểm đề nghị phát hành Thẻ; Thời Hạn Hiệu Lực Thẻ không vượt quá thời hạn
@@ -125,7 +123,6 @@ gian lận.
 a) Bảo quản Thẻ, bảo mật PIN, OTP, các mã số xác nhận Chủ Thẻ khác, các biện pháp xác thực/hình thức
 xác nhận khác, thông tin Thẻ, thông tin giao dịch, mật khẩu truy cập Ngân Hàng Số, không để lộ thông
 tin Thẻ;
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 3/19
 b) Thông báo và phối hợp với Sacombank để xử lý khi xảy ra các trường hợp bị mất/thất lạc/đánh cắp Thẻ
 hoặc có yêu cầu tra soát, khiếu nại;
 c) Bất kỳ sự sử dụng Thẻ nào (bao gồm trong trường hợp lộ thông tin Thẻ/bị mất/thất lạc/đánh cắp Thẻ
@@ -168,7 +165,6 @@ rửa tiền, tài trợ khủng bố, tài trợ phổ biến vũ khí hủy di
 i) Các hành vi vi phạm pháp luật khác và quy định tại Hợp Đồng này.
 2.8  Vay Tiêu Dùng Từ Hạn Mức Thẻ Tín Dụng
 a) Việc Chủ Thẻ đăng ký Vay Tiêu Dùng bằng phương tiện điện tử/trên Ngân Hàng Số và sử dụng các
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 4/19
 phương thức xác thực/hình thức xác nhận theo quy định của Sacombank trong từng thời kỳ là cơ sở để
 (i) chứng minh Hợp đồng vay đã được ký kết giữa Chủ Thẻ và Sacombank; và (ii) xác nhận Chủ Thẻ
 đã được Sacombank cung cấp đầy đủ, đã đọc, hiểu rõ trước khi giao kết và chấp nhận tuân thủ Hợp
@@ -211,7 +207,6 @@ Thẻ khác mà Sacombank áp dụng trong từng thời kỳ.
 phát hành và sử dụng Thẻ hoặc Chủ Thẻ hủy hiệu lực Thẻ/không kích hoạt một trong hai loại Thẻ trên
 Thẻ Tích Hợp, Chủ Thẻ đồng ý chỉ sử dụng độc lập loại Thẻ còn lại và Sacombank được quyền chuyển
 đổi loại Thẻ còn lại đó sang sản phẩm Thẻ khác phù hợp. Tính năng, tiện ích và chính sách áp dụng đối
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 5/19
 với sản phẩm Thẻ mới đó thực hiện theo quy định của Sacombank trong từng thời kỳ.
 3.6  Sacombank không chịu trách nhiệm về việc mua bán hàng hóa/cung ứng dịch vụ giữa ĐVCNT và Chủ
 Thẻ cũng như các thiệt hại, mất mát phát sinh từ việc sử dụng Thẻ để thực hiện Giao Dịch Rút Tiền
@@ -249,13 +244,13 @@ hiện bằng phương tiện điện tử với bất kỳ lý do nào.
 3.12 Trường hợp Sacombank áp dụng và Chủ Thẻ có yêu cầu, Chủ Thẻ có thể nhận Thẻ Vật Lý đối với Thẻ
 Phi Vật Lý đã phát hành bằng phương tiện điện tử tại địa chỉ Chủ Thẻ đã đăng ký hoặc Sacombank áp
 dụng. Khi nhận Thẻ Vật Lý, Chủ Thẻ phải kích hoạt Thẻ Vật Lý để có thể thực hiện toàn bộ Giao Dịch
+Thẻ.
 3.13 Trường hợp giao Thẻ tại địa chỉ ở nước ngoài theo yêu cầu của Chủ Thẻ, trước khi giao Thẻ, Chủ Thẻ
 đồng ý thanh toán chi phí giao Thẻ theo thông báo/thỏa thuận với Sacombank và chi phí vận chuyển
 được ghi nợ trực tiếp trong Tài Khoản Thẻ.
 3.14 Đối với khoản cấp tín dụng qua Thẻ Tín Dụng, Sacombank có quyền yêu cầu Chủ Thẻ báo cáo việc sử
 dụng khoản cấp tín dụng qua Thẻ Tín Dụng và cung cấp tài liệu, dữ liệu chứng minh khoản cấp tín dụng
 qua Thẻ Tín Dụng được sử dụng đúng mục đích.
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 6/19
 3.15 Sacombank sẽ theo dõi thời hạn hiệu lực giấy tờ tùy thân, giấy tờ chứng minh thời hạn cư trú tại Việt
 Nam của Chủ Thẻ theo quy định pháp luật; thông báo cho Chủ Thẻ tối thiểu 30 ngày trước ngày hết
 hiệu lực của giấy tờ tùy thân, giấy tờ chứng minh thời hạn cư trú tại Việt Nam để kịp thời yêu cầu Chủ
@@ -298,7 +293,6 @@ j) Xử lý kết quả tra soát, khiếu nại:
 Sacombank sẽ bồi hoàn cho Chủ Thẻ theo thỏa thuận và quy định pháp luật đối với những tổn thất phát
 sinh không do lỗi của Chủ Thẻ và/hoặc không thuộc các trường hợp Bất Khả Kháng theo quy định tại
 # Điều 11.1 Điều Khoản và Điều Kiện này. 
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 7/19
 - Nếu hết thời hạn trên mà vẫn chưa xác định được nguyên nhân hay lỗi thuộc bên nào thì trong vòng 15
 ngày làm việc tiếp theo, Sacombank sẽ thỏa thuận với Chủ Thẻ về phương án xử lý hoặc tạm thời bồi
 hoàn tổn thất cho Chủ Thẻ cho đến khi có kết luận cuối cùng của Cơ quan nhà nước (CQNN) phân định
@@ -339,7 +333,6 @@ ràng buộc nếu Chủ Thẻ tiếp tục sử dụng dịch vụ sau khi Bi�
 - Khi có yêu cầu của Chủ Thẻ, Số Dư của Thẻ Định Danh còn lại chưa sử dụng sẽ được hoàn lại cho Chủ
 Thẻ bằng tiền mặt hoặc chuyển khoản. Chủ Thẻ chịu trách nhiệm chi trả các loại phí liên quan đến việc
 hoàn lại Số Dư (nếu có).
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 8/19
 4.3  Bất kỳ giao dịch, phí, chi phí được thanh toán bằng loại tiền khác với loại tiền của Tài Khoản Thẻ sẽ
 được tự động chuyển đổi sang loại tiền của Tài Khoản Thẻ ngay khi sử dụng. Tỷ giá chuyển đổi do
 Sacombank hoặc TCTQT quy định và thông báo trong từng thời kỳ.
@@ -381,7 +374,6 @@ Sacombank.
 c) Trường hợp Chủ Thẻ được Sacombank cấp tín dụng dưới bất kỳ hình thức nào, tại bất kỳ thời điểm nào
 và có TSBĐ thì TSBĐ đó đương nhiên được dùng để đảm bảo cho nghĩa vụ thanh toán theo Hợp Đồng
 này. Việc Chủ Thẻ chấm dứt/bị chấm dứt cấp tín dụng tại Sacombank vì bất kỳ lý do gì có thể dẫn đến
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 9/19
 việc Sacombank hủy hiệu lực Thẻ của Chủ Thẻ và/hoặc xử lý TSBĐ.
 5.3  Thời hạn thanh toán:
 Chủ Thẻ phải thanh toán cho Sacombank vào hoặc trước Ngày Đến Hạn. Nếu Ngày Đến Hạn rơi vào
@@ -423,7 +415,6 @@ b) Thời hạn tính lãi:
 đến ngày liền kề trước ngày thanh toán.
 (ii) Giao Dịch Mua Hàng Hóa/Thanh Toán Thẻ Trực Tuyến:
 - Trường hợp Chủ Thẻ thanh toán đầy đủ Số Tiền Đến Hạn vào hoặc trước ngày nêu tại TBGD, Chủ Thẻ
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 10/19
 được miễn lãi đối với tất cả các giao dịch trong TBGD hiện tại.
 - Trường hợp Chủ Thẻ không thanh toán hoặc thanh toán không đầy đủ Số Tiền Đến Hạn vào hoặc trước
 ngày nêu tại TBGD (vi phạm điều kiện miễn lãi): Lãi được tính từ ngày phát sinh giao dịch cho đến
@@ -463,9 +454,8 @@ Sacombank, của bất kỳ CQNN hoặc tổ chức nào khác; và
 - Có quyền ưu tiên so với các chủ nợ khác trong việc truy đòi bất kỳ khoản nợ nào của Chủ Thẻ tại
 Sacombank theo thủ tục hợp pháp bằng việc giữ lại bất kỳ số tiền hoặc bất kỳ tài sản nào được giữ bởi
 Sacombank hoặc bởi Sacombank thay mặt cho Chủ Thẻ.
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 11/19
 # ĐIỀU 6. TẠM DỪNG  GIAO DỊCH THẺ, TỪ CHỐI  THANH TOÁN  THẺ, THU HỒI, TẠM
-KHÓA/KHÓA, HỦY HIỆU LỰC THẺ
+# KHÓA/KHÓA, HỦY HIỆU LỰC THẺ
 Trừ trường hợp pháp luật có quy định khác, Sacombank có quyền tạm dừng Giao Dịch Thẻ, từ chối
 thanh toán Thẻ, thu hồi Thẻ, tạm khóa/khóa Thẻ, hủy hiệu lực Thẻ trong quá trình sử dụng của Chủ Thẻ
 trong các trường hợp:
@@ -506,7 +496,6 @@ d) Giao Dịch Thẻ không do chính Chủ Thẻ thực hiện;
 e) Trong các trường hợp tạm dừng Giao Dịch Thẻ, thu hồi Thẻ, hủy hiệu lực Thẻ theo quy định tại Điều
 Khoản và Điều Kiện này;
 f) Các trường hợp khác theo quy định tại Hợp Đồng và quy định của Sacombank phù hợp với quy định
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 12/19
 pháp luật trong từng thời kỳ.
 6.4  Khóa Thẻ:
 a) Chủ Thẻ thông báo mất Thẻ/lộ thông tin Thẻ;
@@ -549,7 +538,6 @@ Dư trên Tài Khoản Thẻ trong thời hạn theo quy định của Sacombank
 - Đối với Thẻ liên kết, trường hợp Chủ Thẻ chấm dứt/bị chấm dứt tư cách Thành viên/Hội viên hoặc khi
 việc hợp tác giữa Sacombank và Đối tác chấm dứt/hết hiệu lực hoặc theo thỏa thuận giữa Sacombank
 và Đối tác trong từng thời kỳ;
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 13/19
 - Các trường hợp khác theo quy định tại Hợp Đồng và quy định của Sacombank phù hợp với quy định
 pháp luật trong từng thời kỳ.
 c) Nguyên tắc thực hiện:
@@ -594,7 +582,6 @@ Thẻ và các thông tin cần thiết khác liên quan đến Thẻ (không ba
 lịch sử Giao Dịch Thẻ và các thông tin cần thiết khác liên quan đến Thẻ của chính mình.
 7.4  Chủ Thẻ đồng ý cho Sacombank/Bên thứ ba thay mặt Sacombank thu thập thông tin của Chủ Thẻ từ
 nguồn Chủ Thẻ cung cấp và/hoặc do Sacombank tổng hợp từ quá trình Chủ Thẻ sử dụng dịch vụ trên
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 14/19
 các kênh giao dịch với Sacombank và/hoặc từ các đối tác của Sacombank để triển khai sản phẩm, dịch
 vụ cho Chủ Thẻ và/hoặc các nguồn thông tin công khai, hợp pháp khác của Chủ Thẻ theo quy định của
 pháp luật bao gồm nhưng không giới hạn các thông tin sau:
@@ -619,6 +606,7 @@ và tuân thủ quy định của Sacombank và của pháp luật; quy hoạch 
 sản phẩm ngân hàng, thực hiện các nghĩa vụ về báo cáo, tài chính, kế toán và thuế hoặc hoạt động có
 mục đích kiểm toán, lưu trữ và điều hành, để ngăn chặn, phát hiện hành vi gian lận, rửa tiền, tài trợ
 khủng bố, tài trợ phổ biến vũ khí hủy diệt hàng loạt, giao dịch bất hợp pháp hoặc nghi ngờ là bất hợp
+pháp.
 e) Các mục đích khác do Sacombank thông báo trên cơ sở phù hợp quy định pháp luật.
 7.6  Chủ Thẻ đồng ý tự chịu trách nhiệm bảo mật đối với các thông tin mà Chủ Thẻ cung cấp cho Sacombank;
 đồng thời tự chịu trách nhiệm trong trường hợp các thông tin liên quan đến Thẻ/Chủ Thẻ/Giao Dịch
@@ -638,8 +626,8 @@ hoặc (iii) Nhân viên của Sacombank và/hoặc các đại lý hoặc nhà 
 tư vấn, các tổ chức tham gia xử lý giao dịch cho Chủ Thẻ bất kể đó là tổ chức được thành lập và hoạt
 động tại Việt Nam hay không; và/hoặc các bên thứ ba khác đã ký hợp đồng hợp tác với Sacombank.
 Bên thứ ba phải có cam kết chịu ràng buộc tuân thủ các quy định bảo mật tương tự nội dung tại Điều
+này.
 d) Trong phạm vi các giao dịch do Chủ Thẻ thiết lập, Sacombank được cung cấp thông tin họ tên của Chủ
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 15/19
 Thẻ cho người thụ hưởng của giao dịch nếu người thụ hưởng yêu cầu nhằm phục vụ cho công tác tra
 soát, đối chiếu số liệu của người thụ hưởng.
 Khi cung cấp thông tin theo quy định tại Khoản này, Sacombank đảm bảo các thông tin được cung cấp
@@ -682,7 +670,6 @@ chúng, hoặc ngày niêm yết tại các Điểm giao dịch Sacombank.
 tin liên lạc cuối cùng mà Chủ Thẻ đăng ký tại Sacombank bị tiếp cận bởi bất kỳ tổ chức, cá nhân nào
 khác ngoài Chủ Thẻ.
 8.4  Bất kỳ thông báo nào cho bất kỳ một Chủ Thẻ nào được xem là đã thông báo cho tất cả các Chủ Thẻ.
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 16/19
 # ĐIỀU 9. THẺ BỊ MẤT/ĐÁNH CẮP/THẤT LẠC, BỊ HỎNG DO LỖI KỸ THUẬT, ĐỂ LỘ THÔNG TIN
 9.1  Trường hợp Thẻ bị mất/đánh cắp/thất lạc hoặc nghi ngờ lộ thông tin Thẻ hoặc bị sử dụng bởi một người
 khác không phải Chủ Thẻ, Chủ Thẻ phải thông báo và yêu cầu Sacombank khóa Thẻ qua Tổng đài, gửi
@@ -703,7 +690,7 @@ cho Chủ Thẻ.
 9.6  Trường hợp Thẻ bị lợi dụng, gây ra thiệt hại, Sacombank và Chủ Thẻ phân định trách nhiệm và thương
 lượng cách xử lý hậu quả. Trường hợp hai bên không thống nhất thì việc xử lý được thực hiện theo quy
 định pháp luật.
-# ĐIỀU 10. THẺ TRẢ TRƯỚC IN HÌNH 
+# ĐIỀU 10. THẺ TRẢ TRƯỚC IN HÌNH
 10.1 Hình ảnh do Chủ Thẻ cung cấp để in hình lên Thẻ Trả Trước phải phù hợp với quy định pháp luật và
 quy định của Sacombank trong từng thời kỳ. Trong mọi trường hợp, Sacombank có quyền từ chối in
 hình lên Thẻ hoặc yêu cầu Chủ Thẻ cung cấp hình ảnh khác phù hợp.
@@ -724,7 +711,6 @@ và thu hồi các Thẻ đã phát hành.
 10.6 Chủ Thẻ đồng ý bồi thường cho Sacombank đối với bất kỳ thiệt hại nào phát sinh từ việc Sacombank
 phát hành Thẻ in hình theo yêu cầu của Chủ Thẻ bao gồm nhưng không giới hạn trường hợp hình ảnh
 do Chủ Thẻ cung cấp có chứa phần mềm gián điệp, mã độc.
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 17/19
 # ĐIỀU 11. BẤT KHẢ KHÁNG 
 11.1 Bất Khả Kháng bao gồm thiên tai; chiến tranh; sự cố điện; sự hư hỏng/lỗi của Máy Giao Dịch Tự Động
 /POS hoặc bất kỳ máy móc, thiết bị nào khác để phục vụ cho hoạt động của Thẻ hoặc hệ thống xử lý dữ
@@ -768,7 +754,5 @@ b) Bản Hợp Đồng giấy được chuyển đổi từ dữ liệu điện 
 yêu cầu tại quầy; hoặc
 c) Phương thức khác do Sacombank triển khai trong từng thời kỳ.
 12.9 Sacombank sẽ lưu giữ Hợp Đồng cho đến khi Hợp Đồng hết hiệu lực. Trường hợp Hợp Đồng do Chủ
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 18/19
 Thẻ giữ bị mất hoặc hư hỏng, Sacombank sẽ cung cấp bản sao Hợp Đồng cho Chủ Thẻ sau khi nhận
 được yêu cầu từ Chủ Thẻ.
-BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 19/19

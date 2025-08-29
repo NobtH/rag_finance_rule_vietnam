@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "original_filename": "DANH SACH MCC HOAN TIEN 1.pdf",
+  "file_type": "pdf",
+  "mime_type": "application/pdf",
+  "title": "DANH MỤC MCC HOÀN TIỀN",
+  "description": "Danh mục mã MCC (Merchant Category Code) được Sacombank áp dụng để xác định các giao dịch đủ điều kiện hoàn tiền cho thẻ tín dụng. Bao gồm nhóm vé máy bay, khách sạn và đại lý du lịch.",
+  "topic": [
+    "MCC hoàn tiền",
+    "thẻ tín dụng",
+    "Sacombank",
+    "vé máy bay",
+    "khách sạn",
+    "đại lý du lịch"
+  ],
+  "topic_or": [
+    "MCC",
+    "danh mục hoàn tiền",
+    "giao dịch thẻ tín dụng",
+    "mã ngành nghề",
+    "quy định hoàn tiền"
+  ],
+  "topic_and": [
+    "Sacombank",
+    "MCC",
+    "hoàn tiền"
+  ],
+  "topic_feature": [
+    "danh mục MCC hoàn tiền thẻ tín dụng"
+  ],
+  "language": "vi",
+  "expiration_date": null,
+  "effective_date": null,
+  "related_document": [
+    "Điều khoản và điều kiện phát hành và sử dụng thẻ.pdf",
+    "PL_Quy dinh hoan tien Credit_231130 1.pdf",
+  ],
+  "source_url": "https://www.sacombank.com.vn/content/dam/sacombank/files/ca-nhan/the/tin-dung/DANH%20SACH%20MCC%20HOAN%20TIEN%201.pdf",
+  "tags": [
+    "Sacombank",
+    "MCC",
+    "Danh mục hoàn tiền",
+    "Thẻ tín dụng",
+    "Giao dịch vé máy bay",
+    "Khách sạn",
+    "Đại lý du lịch"
+  ],
+  "category": "Sản phẩm ngân hàng",
+  "document_type": "Danh mục MCC hoàn tiền",
+  "status": "có hiệu lực"
+}

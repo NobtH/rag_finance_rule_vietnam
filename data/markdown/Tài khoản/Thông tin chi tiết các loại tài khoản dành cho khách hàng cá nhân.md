@@ -10,6 +10,7 @@ triệu điểm chấp nhận thẻ (POS) trên toàn thế giới.
 - Đặc tính
 Dành cho khách hàng Việt Nam và nước ngoài.
 Loại tiền mở tài khoản: VND, USD, EUR, AUD, CAD, CHF, GBP, JPY,
+SGD.
 Gói sản phẩm bao gồm: Tài khoản thanh toán, thẻ thanh toán, alert báo giao
 dịch tự động, Sacombank Pay, thẻ tín dụng.
 Hạn mức giao dịch online: áp dụng hạn mức theo quy định từng kênh giao
@@ -28,6 +29,7 @@ Giao dịch mọi lúc mọi nơi.
 Miễn phí giao dịch trên Ngân hàng số.
 Đa kênh và tiện lợi, đáp ứng mọi nhu cầu giao dịch của khách hàng.
 - Đặc tính:
+Combo bao gồm các sản phẩm dịch vụ:
 Tài khoản thanh toán.
 Thẻ thanh toán nội địa/quốc tế.
 Sacombank Pay.
@@ -59,6 +61,7 @@ SMS biến động số dư, SMS xác thực giao dịch.
 Khách hàng từ 15 tuổi trở lên mang CMND/CCCD/Hộ chiếu đến Sacombank gần
 nhất để nhận được tư vấn.
 - Ưu đãi:
+Miễn phí trọn đời.
 Tham gia nhiều chương trình khuyến mãi hấp dẫn diễn ra quanh năm của
 Sacombank (quay số, hoàn tiền giao dịch…).
 - Tích điểm đổi quà:

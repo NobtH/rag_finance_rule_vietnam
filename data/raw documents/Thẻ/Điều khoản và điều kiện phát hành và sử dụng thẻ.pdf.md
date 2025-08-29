@@ -249,6 +249,7 @@ hiện bằng phương tiện điện tử với bất kỳ lý do nào.
 3.12 Trường hợp Sacombank áp dụng và Chủ Thẻ có yêu cầu, Chủ Thẻ có thể nhận Thẻ Vật Lý đối với Thẻ
 Phi Vật Lý đã phát hành bằng phương tiện điện tử tại địa chỉ Chủ Thẻ đã đăng ký hoặc Sacombank áp
 dụng. Khi nhận Thẻ Vật Lý, Chủ Thẻ phải kích hoạt Thẻ Vật Lý để có thể thực hiện toàn bộ Giao Dịch
+Thẻ.
 3.13 Trường hợp giao Thẻ tại địa chỉ ở nước ngoài theo yêu cầu của Chủ Thẻ, trước khi giao Thẻ, Chủ Thẻ
 đồng ý thanh toán chi phí giao Thẻ theo thông báo/thỏa thuận với Sacombank và chi phí vận chuyển
 được ghi nợ trực tiếp trong Tài Khoản Thẻ.
@@ -437,6 +438,7 @@ c) Phương pháp tính lãi:
   Lãi suất tính lãi: được tính theo tỷ lệ %/năm theo quy định tại Điểm a) Khoản này.
 (ii) Công thức tính lãi: Số tiền lãi của một ngày được tính toán như sau
 Số tiền lãi ngày =  Số dư thực tế x Lãi suất tính lãi
+365
 5.7  Vi phạm:
 a) Việc không thanh toán hoặc thanh toán ít hơn Số Tiền Tối Thiểu nêu tại TBGD lần thứ 1 trước TBGD
 liền kề tiếp theo (TBGD lần thứ 2) sẽ tạo nên sự vi phạm Hợp Đồng. Khi đó, Sacombank thực hiện
@@ -465,7 +467,7 @@ Sacombank theo thủ tục hợp pháp bằng việc giữ lại bất kỳ số
 Sacombank hoặc bởi Sacombank thay mặt cho Chủ Thẻ.
 BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 11/19
 # ĐIỀU 6. TẠM DỪNG  GIAO DỊCH THẺ, TỪ CHỐI  THANH TOÁN  THẺ, THU HỒI, TẠM
-KHÓA/KHÓA, HỦY HIỆU LỰC THẺ
+# KHÓA/KHÓA, HỦY HIỆU LỰC THẺ
 Trừ trường hợp pháp luật có quy định khác, Sacombank có quyền tạm dừng Giao Dịch Thẻ, từ chối
 thanh toán Thẻ, thu hồi Thẻ, tạm khóa/khóa Thẻ, hủy hiệu lực Thẻ trong quá trình sử dụng của Chủ Thẻ
 trong các trường hợp:
@@ -619,6 +621,7 @@ và tuân thủ quy định của Sacombank và của pháp luật; quy hoạch 
 sản phẩm ngân hàng, thực hiện các nghĩa vụ về báo cáo, tài chính, kế toán và thuế hoặc hoạt động có
 mục đích kiểm toán, lưu trữ và điều hành, để ngăn chặn, phát hiện hành vi gian lận, rửa tiền, tài trợ
 khủng bố, tài trợ phổ biến vũ khí hủy diệt hàng loạt, giao dịch bất hợp pháp hoặc nghi ngờ là bất hợp
+pháp.
 e) Các mục đích khác do Sacombank thông báo trên cơ sở phù hợp quy định pháp luật.
 7.6  Chủ Thẻ đồng ý tự chịu trách nhiệm bảo mật đối với các thông tin mà Chủ Thẻ cung cấp cho Sacombank;
 đồng thời tự chịu trách nhiệm trong trường hợp các thông tin liên quan đến Thẻ/Chủ Thẻ/Giao Dịch
@@ -638,6 +641,7 @@ hoặc (iii) Nhân viên của Sacombank và/hoặc các đại lý hoặc nhà 
 tư vấn, các tổ chức tham gia xử lý giao dịch cho Chủ Thẻ bất kể đó là tổ chức được thành lập và hoạt
 động tại Việt Nam hay không; và/hoặc các bên thứ ba khác đã ký hợp đồng hợp tác với Sacombank.
 Bên thứ ba phải có cam kết chịu ràng buộc tuân thủ các quy định bảo mật tương tự nội dung tại Điều
+này.
 d) Trong phạm vi các giao dịch do Chủ Thẻ thiết lập, Sacombank được cung cấp thông tin họ tên của Chủ
 BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 15/19
 Thẻ cho người thụ hưởng của giao dịch nếu người thụ hưởng yêu cầu nhằm phục vụ cho công tác tra
@@ -684,6 +688,7 @@ khác ngoài Chủ Thẻ.
 8.4  Bất kỳ thông báo nào cho bất kỳ một Chủ Thẻ nào được xem là đã thông báo cho tất cả các Chủ Thẻ.
 BM-THE.PHTCN.04_VN - 2.1 (26/05/2025)                             Trang 16/19
 # ĐIỀU 9. THẺ BỊ MẤT/ĐÁNH CẮP/THẤT LẠC, BỊ HỎNG DO LỖI KỸ THUẬT, ĐỂ LỘ THÔNG TIN
+THẺ
 9.1  Trường hợp Thẻ bị mất/đánh cắp/thất lạc hoặc nghi ngờ lộ thông tin Thẻ hoặc bị sử dụng bởi một người
 khác không phải Chủ Thẻ, Chủ Thẻ phải thông báo và yêu cầu Sacombank khóa Thẻ qua Tổng đài, gửi
 tin nhắn SMS hoặc phương thức khác theo quy định của Sacombank.
@@ -703,7 +708,7 @@ cho Chủ Thẻ.
 9.6  Trường hợp Thẻ bị lợi dụng, gây ra thiệt hại, Sacombank và Chủ Thẻ phân định trách nhiệm và thương
 lượng cách xử lý hậu quả. Trường hợp hai bên không thống nhất thì việc xử lý được thực hiện theo quy
 định pháp luật.
-# ĐIỀU 10. THẺ TRẢ TRƯỚC IN HÌNH 
+# ĐIỀU 10. THẺ TRẢ TRƯỚC IN HÌNH
 10.1 Hình ảnh do Chủ Thẻ cung cấp để in hình lên Thẻ Trả Trước phải phù hợp với quy định pháp luật và
 quy định của Sacombank trong từng thời kỳ. Trong mọi trường hợp, Sacombank có quyền từ chối in
 hình lên Thẻ hoặc yêu cầu Chủ Thẻ cung cấp hình ảnh khác phù hợp.

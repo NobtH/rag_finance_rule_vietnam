@@ -189,7 +189,7 @@ def extract_content_in_order(pdf_path: str) -> str:
 if __name__ == "__main__":
     # Để kiểm tra, hãy tạo một file PDF mẫu (ví dụ: complex_table_sample.pdf)
     # có văn bản xen kẽ với bảng phức tạp (gộp ô, nhiều header).
-    pdf_file_path = r"D:\TA\01_Projects\01_Active_Projects\high_level_rag_functionality\Data\Test_Data\LÃI SUẤT HUY ĐỘNG - KHÁCH HÀNG CÁ NHÂN.pdf" # Hãy đảm bảo có file này trong cùng thư mục
+    pdf_file_path = r"data/raw documents/Thẻ/Điều khoản và điều kiện phát hành và sử dụng thẻ.pdf" # Hãy đảm bảo có file này trong cùng thư mục
     
     
     try:

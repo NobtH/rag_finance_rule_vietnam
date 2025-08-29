@@ -184,3 +184,21 @@ def extract_content_in_order(pdf_path: str) -> str:
                 full_content.append("\n")
 
     return "\n".join(full_content)
+
+if __name__ == "__main__":
+    # Tạo một file PDF mẫu có bảng phức tạp để kiểm tra
+    # Hoặc dùng một file có sẵn và thay đổi đường dẫn
+    pdf_file_path = r"data/raw documents/Thẻ/Điều khoản và điều kiện phát hành và sử dụng thẻ.pdf" # Hãy đảm bảo có file này trong cùng thư mục
+    
+    try:
+        extracted_content = extract_content_in_order(pdf_file_path)
+        print(extracted_content)
+        
+        with open("extracted_content_advanced.md", "w", encoding="utf-8") as f:
+            f.write(extracted_content)
+        print(f"\n\nNội dung đã được trích xuất và lưu vào file 'extracted_content_advanced.md'")
+
+    except FileNotFoundError:
+        print(f"Lỗi: Không tìm thấy file '{pdf_file_path}'. Vui lòng tạo file PDF mẫu để kiểm tra.")
+    except Exception as e:
+        print(f"Đã xảy ra lỗi: {e}")

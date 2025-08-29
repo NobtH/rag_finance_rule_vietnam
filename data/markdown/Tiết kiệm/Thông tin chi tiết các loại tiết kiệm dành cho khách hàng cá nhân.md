@@ -30,6 +30,7 @@ gian thực gửi (mốc 1 lãi suất các tháng đầu, mốc 2 lãi suất 6
 Được cấp Thẻ tiết kiệm để theo dõi số dư.
 Miễn phí dịch vụ thông báo giao dịch nộp tiền vào Thẻ tiết kiệm.
 - Đặc tính:
+Kỳ hạn: 7, 9, 12, 15, 18, 24, 36 tháng
 Phương thức lãnh lãi: cuối kỳ
 Số tiền mở tài khoản và rút vốn từng phần tối thiểu:
 ○  Tại quầy: 1.000.000 VND
@@ -54,6 +55,7 @@ Quà tặng hiện vật, Dặm bay - Dặm thưởng.
 - Tiện ích:
 Tặng lãi suất thưởng khi gửi từ 12 tháng trở lên.
 Ưu đãi giảm lãi suất vay cầm cố Thẻ Tiết kiệm khi gửi từ ½ kỳ hạn trở
+lên.
 Thông báo giao dịch (nộp, rút, tái tục,..) qua Sacombank Pay
 - Đặc tính:
 Dành cho Khách hàng từ 40 tuổi trở lên.
@@ -61,6 +63,7 @@ Kỳ hạn: từ 6 đến 36 tháng.
 Mức gửi tối thiểu: 10.000.000 VND hoặc 1.000 USD.
 Phương thức lãnh lãi: hàng tháng, hàng quý, cuối kỳ.
 - Điều kiện:
+Cung cấp CMND/CCCD/Hộ  chiếu.
 - Tích điểm:
 Được tích lũy điểm đổi hàng trăm quà tặng hấp dẫn, thuộc nhiều lĩnh vực:
 Siêu thị, Mua sắm, Điện máy, Nhà hàng - Ẩm thực, Thời trang - Làm đẹp,
@@ -91,6 +94,7 @@ Nhóm khách hàng áp dụng:
 (VND).
 ○  Công dân Việt Nam cư trú tại nước ngoài và sử dụng các đồng
 ngoại tệ theo danh sách: USD, EUR, AUD, CAD, CHF, GBP, JPY,
+SGD.
 Số tiền mở tối thiểu: 50.000 VND, 50 USD/EUR hoặc ngoại tệ khác
 tương đương.
 - Điều kiện:
@@ -119,6 +123,7 @@ Khách hàng Việt Nam dưới 15 tuổi.
 Kỳ hạn: 6 tháng, 1 đến 5 năm.
 Số tiền mở tài khoản tối thiểu: 100.000 VND hoặc 5 USD.
 Số tiền nộp thêm tối thiểu mỗi lần (*)
+1. Tại quầy: 100.000 VND hoặc 5 USD
 2. Sacombank Pay/ATM/CDM/iBanking: chỉ nộp tiền VND, Số tiền tối
 thiểu theo quy định của từng kênh.
 (*) Khách hàng không nộp thêm tiền vào tài khoản nếu thời gian còn lại

@@ -1,9 +1,11 @@
 # THỂ  LỆ PHÁT  HÀNH   CHỨNG    CHỈ  TIỀN GỬI
-# I. Mục đích 
+
+I. Mục đích
 Chứng chỉ tiền gửi (CCTG) này được phát hành nhằm mục đích tăng quy mô vốn hoạt động của Ngân
 hàng TMCP Sài Gòn Thương Tín (Sacombank), tăng nguồn vốn trung dài hạn, nâng cao các tỷ lệ bảo
 đảm an toàn trong hoạt động ngân hàng, cơ cấu nguồn vốn huy động của Sacombank theo hướng ổn
-# II. Quyền lợi 
+định.
+II. Quyền lợi
 • Lãi suất của CCTG:
 -  Năm đầu tiên: Bằng lãi suất huy động đồng Việt Nam bình quân kỳ hạn 12 tháng lãi cuối kỳ của
 Khách hàng cá nhân được niêm yết trên Website 4 Ngân hàng có vốn Nhà nước gồm Ngân hàng
@@ -27,10 +29,11 @@ tại thời điểm nhận được đề nghị thanh toán của khách hàng
 được hưởng lãi suất tiền gửi không kỳ hạn do Sacombank công bố theo từng thời kỳ cho đến ngày
 Khách hàng yêu cầu thanh toán CCTG.
 • CCTG do Sacombank phát hành có giá trị thanh toán trong toàn hệ thống Sacombank tại Việt Nam.
-# III. Thủ tục 
+III. Thủ tục
 Khi giao dịch, Khách hàng phải xuất trình CCTG, Chứng minh nhân dân/Căn cước công dân/Căn
+cước/Hộ chiếu còn hiệu lực, ký tên đúng chữ ký mẫu đã đăng ký và thực hiện theo các biểu mẫu của
 Sacombank.
-# IV. Quy định khác 
+IV. Quy định khác
 • CCTG có các đặc điểm sau:
 a) Không được đảm bảo bằng tài sản của Sacombank;
 b) Sacombank được trả nợ trước thời gian đáo hạn với điều kiện sau khi thực hiện vẫn đảm bảo các
@@ -49,3 +52,4 @@ theo quy định của đợt phát hành CCTG và quy định về phát hành 
 • Các quy định khác được thực hiện theo quy định của Sacombank và theo quy định của pháp luật trong
 từng thời kỳ.
 Để biết thêm thông tin chi tiết, Quý khách vui lòng liên hệ Chi nhánh/Phòng giao dịch Sacombank gần
+nhất.
