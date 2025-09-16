@@ -1,6 +1,6 @@
-# ĐIỀU  KHOẢN   & ĐIỀU KIỆN - SỬ DỤNG  DỊCH  VỤ TRẢ  GÓP  LÃI SUẤT  0%
-
-1.  Điều kiện sử dụng Dịch Vụ Trả Góp Lãi Suất 0% (“Dịch Vụ”)
+# ĐIỀU  KHOẢN   & ĐIỀU KIỆN
+# SỬ DỤNG  DỊCH  VỤ TRẢ  GÓP  LÃI SUẤT  0%
+# 1.  Điều kiện sử dụng Dịch Vụ Trả Góp Lãi Suất 0% (“Dịch Vụ”)
 1.1. Dịch Vụ chỉ áp dụng đối với khách hàng là CBNV được ủy quyền sử dụng thẻ tín dụng
 doanh nghiệp và chủ thẻ của thẻ tín dụng Sacombank (sau đây gọi chung là “Chủ thẻ”) theo
 thông báo trong từng thời kỳ.
@@ -15,7 +15,7 @@ hoặc (e) Thẻ có mức Dư Nợ thấp hơn quy định của Sacombank tron
 1.4. Yêu cầu đăng ký trả góp sẽ bị hủy bỏ nếu không thỏa điều kiện trong vòng 25 ngày kể từ
 ngày giao dịch và được thông báo cho Chủ thẻ qua ứng dụng Sacombank Pay/ứng dụng
 Ngân hàng triển khai trong từng thời kỳ.
-2.  Nội dung Dịch Vụ
+# 2.  Nội dung Dịch Vụ
 2.1. Số tiền đăng ký trả góp được thanh toán nhiều lần bằng cách chia đều cho số tháng theo Kỳ hạn
 trả góp thành các Khoản phải trả cố định hàng tháng vào các tháng liên tục. Khoản phải trả
 cố định hàng tháng sẽ được ghi nợ vào TK Thẻ của Chủ thẻ và là một phần của tổng số tiền
@@ -41,7 +41,7 @@ hoặc việc cung ứng hàng hóa, dịch vụ hoặc bất kỳ tranh chấp 
 liên kết trả góp (ĐVLK) liên quan đến việc sử dụng Dịch Vụ. Chủ thẻ theo đây ủy quyền
 cho Sacombank tiếp tục ghi nợ các Khoản phải trả cố định hàng tháng vào TK Thẻ của Chủ
 thẻ bất kể tranh chấp nào xảy ra.
-3.  Chấm dứt
+# 3.  Chấm dứt
 3.1. Sacombank có quyền tạm ngưng, hủy bỏ hoặc chấm dứt cung cấp Dịch Vụ tại bất kỳ thời
 điểm nào bằng việc thông báo đến Chủ thẻ trong các trường hợp sau:
 a. Chủ thẻ vi phạm bất kỳ cam kết, thỏa thuận, hợp đồng nào với Sacombank; hoặc
@@ -55,7 +55,7 @@ Dịch Vụ sẽ ngay lập tức được ghi nợ tự động vào TK Thẻ c
 của Sacombank; (ii) Liên hệ ĐVLK (nếu đăng ký trả góp tại ĐVLK).
 3.4. Trường hợp Chủ thẻ yêu cầu chấm dứt Dịch Vụ khi chưa hết kỳ hạn trả góp, Chủ thẻ có
 trách nhiệm thanh toán Dư Nợ cho Sacombank theo TBGD Sacombank đã gửi cho Chủ thẻ.
-4.  Điều khoản chung
+# 4.  Điều khoản chung
 4.1. Sacombank có quyền chấp nhận hoặc từ chối yêu cầu sử dụng Dịch Vụ của Chủ thẻ.
 4.2. Sacombank có quyền điều chỉnh các quy định trong Bản Điều Khoản & Điều Kiện này bằng
 cách thông báo đến Chủ thẻ theo các phương thức Sacombank áp dụng trong từng thời kỳ.

@@ -1,7 +1,6 @@
 # QUY ĐỊNH MIỄN GIẢM PHÍ THƯỜNG NIÊN THEO DOANH SỐ GIAO DỊCH
-
 (Hiệu lực từ 5/10/2022)
-1. Điều kiện
+# 1. Điều kiện
 - Áp dụng thẻ tín dụng chính còn hoạt động, có kỳ thu phí thường niên từ năm 2.
 - Doanh số giao dịch thỏa điều kiện là doanh số của các giao dịch hợp lệ được kết toán trên hệ thống
 Sacombank trước 30 ngày so với kỳ thu phí thường niên đang xét.
@@ -17,7 +16,7 @@ một phần hoặc toàn bộ, giao dịch thuộc danh mục chi tiêu (MCC) s
 •  Giao dịch DCC - Dynamic currency conversion: giao dịch bằng Việt Nam đồng tại điểm giao dịch
 có máy chủ đặt tại nước ngoài (giao dịch tại Agoda, Amazon,…)
 •  Các danh mục loại trừ sẽ được bổ sung, điều chỉnh trong từng thời kỳ.
-2. Quy định thu hồi số tiền đã miễn giảm
+# 2. Quy định thu hồi số tiền đã miễn giảm
 Sacombank sẽ thu hồi số tiền đã miễn/giảm và không cần báo trước cho Chủ Thẻ khi xảy ra một trong
 các trường hợp sau:
 •  Sacombank nghi ngờ hoặc có căn cứ xác định giao dịch không thực hiện bởi Chủ Thẻ;

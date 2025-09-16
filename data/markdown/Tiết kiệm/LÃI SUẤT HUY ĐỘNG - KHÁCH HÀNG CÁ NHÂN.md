@@ -42,7 +42,7 @@ tục theo lãi suất tại Mục I _ Phần B bên dưới.
 - Đối với tiết kiệm có kỳ hạn CAD và JPY tái tục với lãi suất 0% cho tất cả các kỳ hạn.
 - Theo quyết định số 1124/QĐ-NHNN ngày 16/6/2023, trần lãi suất NHNN áp dụng cho kỳ hạn từ 1 đến
 dưới 6 tháng (VND) là 4.75%/năm.
-# II. TIỀN GỬI CÓ KỲ HẠN, CHỨNG CHỈ TIỀN GỬI (≤36 tháng): áp dụng mức lãi suất tại Mục I. 
+# II. TIỀN GỬI CÓ KỲ HẠN, CHỨNG CHỈ TIỀN GỬI (≤36 tháng): áp dụng mức lãi suất tại Mục I.
 # III. TIẾT KIỆM PHÙ ĐỔNG (TKPĐ):
 1.. Đối với Tài khoản TKPĐ mở mới và tái tục kể từ ngày 01/06/2021: áp dụng lãi suất cố định
 trong suốt kỳ hạn gửi tiền với cơ chế lãi suất như sau:
@@ -61,7 +61,7 @@ Mốc lãi suất 1        Mốc lãi suất 2
 chỉnh theo sự tăng/giảm lãi suất của Sacombank trong từng thời kỳ theo quy định của sản phẩm:
 - USD: 0%năm cho tất cả kỳ hạn
 - VND: 4.20% năm cho tất cả kỳ hạn.
-# IV. TIẾT KIỆM TÍCH GÓP SIÊU LINH HOẠT: Áp dụng lãi suất cố định trong suốt kỳ hạn gửi 
+# IV. TIẾT KIỆM TÍCH GÓP SIÊU LINH HOẠT: Áp dụng lãi suất cố định trong suốt kỳ hạn gửi
 tiền theo 2 mốc lãi suất như sau:
 Lãi suất (%/năm)
 Kỳ hạn
@@ -81,12 +81,12 @@ Lãi suất thưởng được cộng vào lãi cuối kỳ.
 Từ 6 - 11 tháng + 0.2%/năm
 Loại hình lãnh lãi hàng tháng, hàng quý được quy đổi tương
 Từ 12 tháng trở lên + 0.3%/năm ứng từ Lãi cuối kỳ
-# VI. TIẾT KIỆM ĐẠI PHÁT: ngưng huy động, các tài khoản hiện hữu tái tục theo lãi suất phương thức lãnh 
+# VI. TIẾT KIỆM ĐẠI PHÁT: ngưng huy động, các tài khoản hiện hữu tái tục theo lãi suất phương thức lãnh
 lãi cuối kỳ của Tiết kiệm có kỳ hạn truyền thống cùng kỳ hạn với Tiết kiệm Đại Phát tại Mục I trên.
-# VII. TIỀN GỬI TƯƠNG LAI: ngưng huy động, các tài khoản hiện hữu tái tục theo lãi suất sau: 
+# VII. TIỀN GỬI TƯƠNG LAI: ngưng huy động, các tài khoản hiện hữu tái tục theo lãi suất sau:
 Kỳ hạn                1 -> 5 NĂM
 Lãi suất (%/năm)           4.75%
-# VIII. TIẾT KIỆM TÍCH TÀI: ngưng huy động từ 05/04/2023 
+# VIII. TIẾT KIỆM TÍCH TÀI: ngưng huy động từ 05/04/2023
 Loại tiền            Kỳ hạn       Lãi suất (%/năm)
 VND                                 4.20%
 6, 9,12, 24 tháng
@@ -94,7 +94,7 @@ USD                                 0.00%
 Lưu ý đối với VND, áp dụng lãi suất trên cho kỳ hạn 6 tháng và kỳ hạn 9,12, 24 tháng mở trước ngày 05/04/2023
 chưa đến hạn. Trường hợp kỳ hạn 9,12, 24 tháng đến hạn tái tục theo lãi suất tại Mục IV_Tiết kiệm Tích góp
 siêu linh hoạt.
-# IX. TIẾT KIỆM TRUNG HẠN ĐẮC LỢI: ngưng huy động, các tài khoản hiện hữu tái tục theo lãi suất sau: 
+# IX. TIẾT KIỆM TRUNG HẠN ĐẮC LỢI: ngưng huy động, các tài khoản hiện hữu tái tục theo lãi suất sau:
 LÃI SUẤT (%/năm)
 Kỳ hạn
 Hàng năm   Hàng quý   Hàng tháng
@@ -129,14 +129,14 @@ của các tài khoản mở mới này trên kênh trực tuyến (eBanking, Sa
 hữu (tài khoản mở trước 17g00 ngày 11/06/2015) tái tục, theo Khung lãi suất huy động tại quầy, Mục
 I_Phần A.
 - Đối với tiền gửi có kỳ hạn trực tuyến USD, mở mới và tái tục lãi suất 0%/năm cho tất cả các kỳ hạn.
-# II. TIỀN GỬI TƯƠNG LAI TRỰC TUYẾN: ngưng huy động, các tài khoản hiện hữu tái tục theo lãi suất tại 
+# II. TIỀN GỬI TƯƠNG LAI TRỰC TUYẾN: ngưng huy động, các tài khoản hiện hữu tái tục theo lãi suất tại
 Phần A - Mục VII - Tiền gửi Tương lai.
-# III. TIẾT KIỆM TÍCH GÓP: ngưng huy động từ 05/04/2023 
+# III. TIẾT KIỆM TÍCH GÓP: ngưng huy động từ 05/04/2023
 - Áp dụng lãi suất tại Phần A - Mục VIII - Tiết kiệm Tích tài cho các tài khoản có kỳ hạn 6 tháng và
 kỳ hạn 9, 12, 24 tháng mở trước ngày 05/04/2023 chưa đến hạn.
 - Áp dụng lãi suất tại Phần A - Mục IV- Tiết kiệm Tích góp siêu linh hoạt cho các tài khoản có kỳ
 hạn 9,12, 24 tháng tái tục từ ngày 05/04/2023.
-# IV. TIẾT KIỆM TÍCH GÓP SIÊU LINH HOẠT TRỰC TUYẾN: áp dụng lãi suất tại Phần A - Mục IV - 
+# IV. TIẾT KIỆM TÍCH GÓP SIÊU LINH HOẠT TRỰC TUYẾN: áp dụng lãi suất tại Phần A - Mục IV -
 Tiết kiệm Tích góp siêu linh hoạt.
 # C. TÀI KHOẢN   THANH  TOÁN   (TKTT), TIẾT KIỆM KHÔNG   KỲ HẠN  (TK
 # KKH), TK KÝ  QUỸ, TK VỐN  ĐẦU  TƯ GIÁN  TIẾP

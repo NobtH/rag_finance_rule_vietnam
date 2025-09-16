@@ -8,17 +8,29 @@ import re
 from table_pdf_to_md import *
 from get_pos_func import *
 import tempfile
+from remove_header_footer_func import *
 import json
 
 load_dotenv()
 
 class PDFprocessor:
-    def __init__(self, footer_height_ratio=0.08, header_height_ratio=0.02):
+    def __init__(self, footer_height_ratio=0, header_height_ratio=0):
         self.footer_height_ratio = footer_height_ratio
         self.header_height_ratio = header_height_ratio
         self.input_file = None
         self.output_file = None
         self.temp_clean_dir = None
+
+    def uppercase_ratio(self, line):
+        no_space = line.replace(' ', '')
+        tokens = re.findall(r'[A-Za-zÀ-Ỹà-ỹ]', line)
+
+        if not tokens:
+            return 0.0
+
+        upper_count = sum(1 for ch in tokens if ch.isupper())
+
+        return upper_count/len(tokens) * 100
 
     def get_num_pages(self, pdf_file_path):
         doc = fitz.open(pdf_file_path)
@@ -40,7 +52,7 @@ class PDFprocessor:
             doc = fitz.open(pdf_path)
             # Kiểm tra xem file có ít văn bản hay không
             text = doc[0].get_text("text")
-            if len(text.strip()) < 100:
+            if len(text.replace(' ','').strip()) < 200:
                 return True
             else:
                 return False
@@ -149,81 +161,90 @@ class PDFprocessor:
         stategy = self.get_markdown_strategy(lines)
         print(stategy)
         
-        headings = []  # lưu lại heading dạng (vị trí, text)
+        headings = []  # lưu lại heading
 
         for idx, line in enumerate(lines):
             line = line.strip()
             if not line or len(line) <= 3:
                 continue
-            
-            if line == line.upper() and re.search(r'[A-ZÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÉÈẺẼẸÊẾỀỂỄỆÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨỤƯỨỪỬỮỰÝỲỶỸỴĐ]', line) and len(line.replace(' ','')) > 20:
-                if not line.startswith('#'):
-                    all_text += f"# {line}\n"
-                    headings.append(line)
-                    # print('general')
-                continue
 
+            marked = False  # gắn cờ: dòng này đã đánh heading chưa?
+
+            # Trường hợp đặc biệt: dòng đầu tiên
             if idx == 0 and len(line) > 10:
                 all_text += f"# {line}\n"
                 headings.append(line)
-                continue
+                marked = True
 
-            if stategy == 'dieu':
-                if re.match(r'^Điều\s+\d+(\.|:)', line, re.IGNORECASE):
-                    all_text += f"# {line} \n"
+            # Case chính theo stategy
+            elif stategy in ['dieu', 'muc']:
+                m = re.match(r'^(Điều|Mục)\s+\d+(\.|:)', line, re.IGNORECASE)
+                if m:
+                    all_text += f"# {line}\n"
                     headings.append(line)
-                    # print('Dieu')
-                else:
-                    all_text += f"{line}\n"
-
-            elif stategy == 'muc':
-                if re.match(r'^Mục\s+\d+(\.|:)', line, re.IGNORECASE):
-                    all_text += f"# {line} \n"
-                    headings.append(line)
-                    # print('muc')
+                    marked = True
                 else:
                     all_text += f"{line}\n"
 
             elif stategy == 'roman':
-                if re.match(r'^\s*(?=[LXVI]+\b)[LXVI]+\s*[\.:]', line):
-                    all_text += f"# {line} \n"
+                if re.match(r'^\s*(?=[LXVI]+\b)[LXVI]+\s*[\.:]', line) and (not line.replace(' ','').startswith(('-'))):
+                    all_text += f"# {line}\n"
                     headings.append(line)
-                    # print('roman')
+                    marked = True
                 else:
                     all_text += f"{line}\n"
 
             elif stategy == 'numbered':
-                m1 = re.match(r'^\s*(\d+)\s*\.\s*$', line)
-                m2 = re.match(r'^\s*(\d+)\.\s*(.+)', line)
-                
+                m1 = re.match(r'^\s*(\d+)\s*\.(?!\d)\s*$', line)
+                m2 = re.match(r'^\s*(\d+)\.(?!\d)\s*(.+)', line)
+
                 if m1:
                     number = int(m1.group(1))
-                    if number > tmp_num:
-                        all_text += f"# {line} \n"
+                    if number == tmp_num + 1:
+                        all_text += f"# {line}\n"
+                        print('num')
                         headings.append(line)
-                        # print('number')
                         tmp_num = number
+                        marked = True
                     else:
                         all_text += f"{line}\n"
+
                 elif m2:
                     number = int(m2.group(1))
-                    if number > tmp_num:
+                    if number == tmp_num + 1:
                         all_text += f"# {line}\n"
+                        print('num')
                         headings.append(line)
                         tmp_num = number
+                        marked = True
                     else:
                         all_text += f"{line}\n"
                 else:
                     all_text += f"{line}\n"
-                    
-            elif stategy == 'general':
-                    all_text += f'{line}\n'
 
+            elif stategy == 'general':
+                # với stategy general thì áp dụng luôn rule general
+                if self.is_general_heading(line):
+                    all_text += f"# {line}\n"
+                    headings.append(line)
+                    marked = True
+                else:
+                    all_text += f"{line}\n"
+            else:
+                all_text += f"{line}\n"
+
+            # 🔁 Nếu chưa đánh heading thì check lại rule general
+            if not marked and self.is_general_heading(line):
+                # sửa dòng cuối thành heading
+                all_text = all_text.rstrip('\n')
+                all_text = re.sub(rf"{re.escape(line)}$", f"# {line}", all_text) + "\n"
+                headings.append(line)
+
+        # Xử lý đặc biệt cho numbered + heading dài
         if stategy == 'numbered' and headings:
             if all(len(h) > 50 for h in headings):
                 def replace_heading(match):
                     line = match.group(0).lstrip("#").strip()
-                    # Nếu line toàn chữ hoa thì giữ lại #
                     if line == line.upper():
                         return f"# {line}"
                     else:
@@ -232,6 +253,15 @@ class PDFprocessor:
                 all_text = re.sub(r'^#\s*(.*)', replace_heading, all_text, flags=re.MULTILINE)
 
         return all_text.strip()
+
+
+    def is_general_heading(self, line: str) -> bool:
+        return (
+            self.uppercase_ratio(line) >= 60
+            and re.search(r'[A-ZÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÉÈẺẼẸÊẾỀỂỄỆÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨỤƯỨỪỬỮỰÝỲỶỸỴĐ]', line)
+            and len(line.replace(' ','')) > 20
+            and not line.startswith(('#', '-', '*', '+'))
+        )
 
     def scanned_pdf_to_markdown(self, pdf_path):
         print(f'Tesseract-OCR: Chuyển file scanned {pdf_path} thành dạng markdown')
@@ -248,7 +278,7 @@ class PDFprocessor:
 
                 # full_lines.extend(lines)
             
-            pages = remove_headers_and_footers(page_text, k_lines=3, sim_threshold=0.8)
+            pages = remove_headers_and_footers_v2(page_text, max_check_lines=5)
             for page in pages:
                 lines = page.splitlines()
                 full_lines.extend(lines)
@@ -263,7 +293,7 @@ class PDFprocessor:
     def turn_pdf_to_markdown_local(self, pdf_path):
         try:
             print('Chuyen ve md bang local')
-            text = extract_content_in_order(pdf_path=pdf_path, k_lines=2, sim_threshold=0.75, min_ratio=0.6)
+            text = extract_content_in_order(pdf_path=pdf_path, k_lines=5)
             # print(text)
 
             lines = text.splitlines()
@@ -272,8 +302,8 @@ class PDFprocessor:
             # print(all_text)
 
             return all_text
-        except:
-            print('Loi khi chuyen ve md local')
+        except Exception as e:
+            print(f'Loi khi chuyen ve md local: {e}')
             return None
         
     def prepare_temp_pdf(self, input_pdf_path):
@@ -448,52 +478,52 @@ class PDFprocessor:
             num_pages = self.get_num_pages(temp_pdf_path)
 
             # Nếu PDF > 2 trang → xử lý bình thường
-            if num_pages > 2:
-                if output_md_path:
-                    self.save_markdown(output_md_path, markdown_content)
-
-                all_data = self.split_heading_text(markdown_content, temp_pdf_path, input_pdf_path)
-                merged_data = self.merge_headings(all_data)
-                return merged_data
-
-            # Nếu PDF ≤ 2 trang → chỉ lấy file_title từ heading is_title=1
-            all_data = self.split_heading_text(markdown_content, temp_pdf_path, input_pdf_path)
-
-            file_title_parts = []
-            merged_texts = []
-
-            for item in all_data:
-                if item["metadata"]["is_title"] == "1":
-                    clean_heading = item["metadata"]["heading"].replace("#", "").strip()
-                    if clean_heading:
-                        file_title_parts.append(clean_heading)
-                    if item["text"]:
-                        merged_texts.append(item["text"])
-                else:
-                    tmp_text = item['metadata']['heading'].replace('# ','').strip() + '\n' + item['text']
-                    if tmp_text:
-                        merged_texts.append(tmp_text)
-
-            file_title = " - ".join(file_title_parts) if file_title_parts else os.path.basename(input_pdf_path)
-            merged_text = "\n".join(merged_texts).strip()
-
-            # Ghi lại markdown đã chỉnh sửa
-            fixed_markdown = f"# {file_title}\n\n{merged_text}" if merged_text else f"# {file_title}"
-
+            # if num_pages > 2:
             if output_md_path:
-                self.save_markdown(output_md_path, fixed_markdown)
+                self.save_markdown(output_md_path, markdown_content)
 
-            data = [{
-                "text": merged_text,
-                "metadata": {
-                    "heading": file_title.replace('#', '').strip(),
-                    "is_title": "1",
-                    "original_filename": os.path.basename(input_pdf_path),
-                    "file_type": "pdf",
-                }
-            }]
+            all_data = self.split_heading_text(markdown_content, temp_pdf_path, input_pdf_path)
+            merged_data = self.merge_headings(all_data)
+            return merged_data
+        
+         # # Nếu PDF ≤ 2 trang → chỉ lấy file_title từ heading is_title=1
+            # all_data = self.split_heading_text(markdown_content, temp_pdf_path, input_pdf_path)
 
-            return data
+            # file_title_parts = []
+            # merged_texts = []
+
+            # for item in all_data:
+            #     if item["metadata"]["is_title"] == "1":
+            #         clean_heading = item["metadata"]["heading"].replace("#", "").strip()
+            #         if clean_heading:
+            #             file_title_parts.append(clean_heading)
+            #         if item["text"]:
+            #             merged_texts.append(item["text"])
+            #     else:
+            #         tmp_text = item['metadata']['heading'].replace('# ','').strip() + '\n' + item['text']
+            #         if tmp_text:
+            #             merged_texts.append(tmp_text)
+
+            # file_title = " - ".join(file_title_parts) if file_title_parts else os.path.basename(input_pdf_path)
+            # merged_text = "\n".join(merged_texts).strip()
+
+            # # Ghi lại markdown đã chỉnh sửa
+            # fixed_markdown = f"# {file_title}\n\n{merged_text}" if merged_text else f"# {file_title}"
+
+            # if output_md_path:
+            #     self.save_markdown(output_md_path, fixed_markdown)
+
+            # data = [{
+            #     "text": merged_text,
+            #     "metadata": {
+            #         "heading": file_title.replace('#', '').strip(),
+            #         "is_title": "1",
+            #         "original_filename": os.path.basename(input_pdf_path),
+            #         "file_type": "pdf",
+            #     }
+            # }]
+
+            # return data
 
         finally:
             if temp_pdf_path and os.path.exists(temp_pdf_path):
@@ -558,18 +588,26 @@ class PDFprocessor:
 
 if __name__ == '__main__':
     processor = PDFprocessor()
+    # print(processor.uppercase_ratio('# - Ngoại tệ: EUR, USD, AUD, CAD, CHF, GBP, JPY, SGD: 0%năm.'))
 
     # Cho folder
     data = processor.preprocess_and_save_data("data/raw documents", "data/markdown", generate_md=True)
     # for i in data:
-    #     print(i['metadata']['original_filename'])
-    #     print(i['metadata']['heading'])
-    #     print(i['metadata']['is_title'])
-    #     print('-' * 80)
+    #     if i['metadata']['heading'] == 1:
+    #         print(i['metadata']['original_filename'])
+    #         print(i['metadata']['heading'])
+    #         print(i['metadata']['is_title'])
+    #         print('-' * 80)
 
-    # # Cho file
-    # input_file = 'data/raw documents/Thẻ/Thẻ/Tín dụng/Platinum American Express/DANH SACH MCC HOAN TIEN 1.pdf'
-    # output_file = 'data/raw documents/Thẻ/Thẻ/Tín dụng/Platinum American Express/DANH SACH MCC HOAN TIEN 1.pdf.md'
+    # Cho file
+
+    # input_file = 'data/raw documents/Cài đặt/DIEU KHOAN CHUNG VE BAO VE VA XU LY DU LIEU CA NHAN.pdf'
+    # output_file = 'data/raw documents/Cài đặt/DIEU KHOAN CHUNG VE BAO VE VA XU LY DU LIEU CA NHAN.pdf.md'
+    # input_file = 'data/raw documents/Thẻ/Thẻ/Tín dụng/Sacombank Visa Signature/Quyen_loi_bao_hiem_the_cao_cap (1).pdf'
+    # output_file = 'data/raw documents/Thẻ/Thẻ/Tín dụng/Sacombank Visa Signature/Quyen_loi_bao_hiem_the_cao_cap (1).pdf.md'
+    # input_file = 'data/raw documents/Tiết kiệm/Điều khoản và điều kiện mở và sử dụng tiết kiệm tích góp siêu linh hoạt.pdf'
+    # output_file = 'data/raw documents/Tiết kiệm/Điều khoản và điều kiện mở và sử dụng tiết kiệm tích góp siêu linh hoạt.pdf.md'
+    
     # print('start')
     # res = processor.run(input_file, output_file)
     # for i in res:

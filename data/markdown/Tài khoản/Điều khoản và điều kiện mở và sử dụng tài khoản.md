@@ -8,7 +8,7 @@ bản giấy hoặc nhấp chọn đồng ý tại màn hình đăng ký dịch 
 Sacombank cung cấp đầy đủ và xem xét kỹ các thông tin về Hợp đồng, sản phẩm, dịch vụ của
 Sacombank trước khi chấp nhận mở TK (ii) KH đã đọc, hiểu, chấp nhận bị ràng buộc bởi các quyền
 và nghĩa vụ tại bản điều khoản và điều kiện này.
-# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ 
+# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ
 Các từ ngữ sử dụng trong bản điều khoản và điều kiện này được hiểu như sau:
 1. Sacombank: là Ngân hàng TMCP Sài Gòn Thương Tín.
 2. Khách hàng (KH): bao gồm tổ chức hoặc cá nhân đề nghị mở TK và sử dụng TK và là chủ TK
@@ -84,6 +84,7 @@ e. Giới hạn số lượng TK: Tổng số TK tối đa mà một KH cá nhâ
 hay TK mở thông qua phương thức điện tử) hoặc theo quy định của Sacombank trong từng
 thời kỳ. Trường hợp KH có nhu cầu mở TK vượt quá Tổng số TK tối đa theo quy định,
 Sacombank có thể từ chối hoặc đồng ý và trường hợp Sacombank đồng ý mở TK, KH phải
+Trang 2/24
 lập Giấy đề nghị theo mẫu của Sacombank, cam kết sử dụng TK đúng mục đích, đồng ý chi
 trả phí quản lý TK và thực hiện các thủ tục khác theo quy định của Sacombank trong từng
 thời kỳ.
@@ -129,6 +130,7 @@ trực tuyến, KH đồng ý Sacombank sẽ sử dụng một hoặc một số
 diện, xác thực KH: mã xác thực, thông tin cá nhân, thông tin tài khoản, thẻ đã đăng ký tại
 Sacombank, giấy tờ tùy thân, thẻ ngân hàng, thẻ xác thực, yếu tố sinh trắc học, chữ ký số
 hoặc sử dụng bất kỳ yếu tố, phương thức xác thực nào mà KH đã từng đăng ký tại
+Trang 3/24
 Sacombank cho bất kỳ Kênh trực tuyến nào, … trên cơ sở phù hợp với phương thức xác
 thực mà Sacombank quy định cho dịch vụ, sản phẩm, giao dịch đó và quy định pháp luật
 có liên quan. Bất kỳ giao dịch nào đã được Sacombank thực hiện trên cơ sở kiểm tra (các)
@@ -172,6 +174,7 @@ dụng. Trường hợp có sự thay đổi về hạn mức giao dịch, Sacom
 hạn mức thay đổi cho KH trước chậm nhất 01 ngày làm việc. Trường hợp KH muốn thực
 hiện các giao dịch vượt quá hạn mức quy định của Sacombank, KH phải đăng ký với
 Sacombank và chấp nhận hoàn toàn rủi ro (nếu có) và phải được Sacombank chấp thuận.
+Trang 4/24
 4. Số dư duy trì tối thiểu trên TK: KH phải duy trì số dư tối thiểu trên TK theo quy định của
 Sacombank. Trường hợp số dư là ngoại tệ mà Sacombank đã bán cho KH để duy trì số dư tối
 thiểu thì KH phải bán lại cho Sacombank khi đóng TK.
@@ -217,6 +220,7 @@ hiện theo các quy trình thủ tục đăng ký và thanh toán phí tương 
 nhận thông báo về số dư, giao dịch trên TK.
 b. KH có thể đăng ký Dịch vụ Gửi Tin báo của Sacombank để nhận các thông báo về biến
 động số dư trên tài khoản. Để sử dụng Dịch vụ Gửi Tin báo thông qua tính năng thông báo
+Trang 5/24
 trên các Kênh trực tuyến, KH cần cài đặt phần mềm, ứng dụng và thực hiện các thao tác
 định danh, kích hoạt sử dụng theo hướng dẫn của Sacombank. KH có thể chủ động lựa
 chọn bật/tắt tính năng này tại (các) Kênh trực tuyến hoặc tùy từng thời điểm, Sacombank
@@ -259,6 +263,7 @@ a. TK trực tuyến cá nhân (VND) được đăng ký mở trên Ứng dụng
 b. TK trực tuyến  tổ  chức  (VND)  được  đăng  ký  mở   trên  website
 https://www.sacombank.com.vn.
 c. Các kênh đăng ký mở TK khác do Sacombank triển khai trong từng thời kỳ.
+Trang 6/24
 4. Quản lý TK trực tuyến:
 a. TK trực tuyến được giao dịch trên Kênh trực tuyến trong phạm vi các tính năng và hạn mức
 giao dịch theo quy định của Sacombank từng thời kỳ. TK trực tuyến chỉ được thực hiện ủy
@@ -301,6 +306,7 @@ theo pháp luật kiêm nhiệm Người phụ trách kế toán).
 (ii) TK trực tuyến được đăng ký và sử dụng dịch vụ Internet Banking & Mobile Banking –
 phân hệ thanh toán, dịch vụ Gửi tin báo (mặc định đăng ký theo thông tin số điện
 thoại/email của Người đại diện chủ TK) và phát hành Thẻ ghi nợ Doanh nghiệp.
+Trang 7/24
 (iii) Chế độ phê duyệt tài chính khi sử dụng dịch vụ Internet Banking & Mobile Banking
 bao gồm chế độ “1 người tạo – 1 người duyệt” hoặc chế độ “Không cấp duyệt – 1
 người vừa tạo và duyệt”, cụ thể:
@@ -344,6 +350,7 @@ thời kỳ.
 với dữ liệu sinh trắc học công dân thông qua cơ sở dữ liệu căn cước công dân.
 (iii) Sau khi Sacombank áp dụng nhận biết và xác minh thông tin KH thông qua gặp mặt
 trực tiếp
+Trang 8/24
 (iv) Các giao dịch chuyển tiền để gửi tiết kiệm, tiền gửi có kỳ hạn bằng phương thức điện
 tử cho chính KH tại Sacombank.
 (v) Các trường hợp Sacombank được chủ động trích Nợ TK của KH theo thỏa thuận với
@@ -386,6 +393,7 @@ quá số dư Có trên TK.
 c. Thực hiện đúng, đầy đủ các điều kiện, quy trình đối với các dịch vụ thanh toán theo hướng
 dẫn của Sacombank phù hợp với quy định của pháp luật.
 d. Chấp hành các quy định về mở và sử dụng TK tại Hợp đồng này và quy định pháp luật.
+Trang 9/24
 e. Đảm bảo mẫu dấu đăng ký và giao dịch với Sacombank là mẫu dấu còn hiệu lực và khớp
 đúng với mẫu dấu được lưu giữ, sử dụng tại doanh nghiệp hoặc mẫu dẫu đã đăng ký/thông
 báo với cơ quan thẩm quyền theo quy định pháp luật. Tự chịu mọi trách nhiệm về việc mẫu
@@ -938,7 +946,7 @@ kết quả tra soát, khiếu nại.
 4. Trường hợp Sacombank, KH và các bên liên quan không thỏa thuận được và/hoặc không
 đồng ý với quá trình đề nghị tra soát, khiếu nại thì việc giải quyết tranh chấp được thực hiện
 theo quy định của pháp luật.
-# ĐIỀU 9. THÔNG BÁO 
+# ĐIỀU 9. THÔNG BÁO
 1. Trừ trường hợp có thỏa thuận khác, Sacombank sẽ thông báo cho KH các vấn đề liên quan
 tới TK cũng như sửa đổi, bổ sung, các điều chỉnh về quy định của Sacombank bằng một trong
 các phương thức liên hệ sau: gửi văn bản thông báo tới địa chỉ của KH, gọi điện thoại, gửi tin
@@ -958,6 +966,7 @@ trình thực hiện Hợp đồng và cơ quan nhà nước có thẩm quyền 
 đạt, niêm yết công khai nhằm yêu cầu KH thực hiện nghĩa vụ theo Hợp đồng này. KH phải
 thông báo cho Sacombank, cơ quan địa phương về sự thay đổi địa chỉ hoặc nơi cư trú/địa
 điểm kinh doanh mới.
+Trang 22/24
 4. Trường hợp KH vi phạm nghĩa vụ thông báo về sự thay đổi địa chỉ theo quy định tại Hợp đồng
 này bao gồm đã gạch tên khỏi hộ khẩu/ngừng kinh doanh tại địa chỉ cung cấp cho Sacombank
 và/hoặc xuất cảnh mà không thông báo địa chỉ, nơi cư trú mới, KH được xem là cố tình giấu
@@ -969,7 +978,7 @@ mặt/Toà án xét xử vụ án vắng mặt, kể cả trường hợp không
 email, nhắn tin đúng số điện thoại, gửi bưu điện có xác nhận của bưu điện nơi gửi, nếu gửi
 trực tiếp được coi là đã nhận sau khi có xác nhận của nhân sự các Bên, người thân (cùng nơi
 cư trú) hoặc nhân viên của KH, thời điểm Sacombank công bố trên Website của Sacombank.
-# ĐIỀU 10. BẤT KHẢ KHÁNG 
+# ĐIỀU 10. BẤT KHẢ KHÁNG
 1. Sự kiện bất khả kháng là sự kiện xảy ra một cách khách quan mà các bên không thể lường
 trước, không thể khắc phục được và nằm ngoài khả năng của các bên mặc dù đã áp dụng mọi
 biện pháp cần thiết, bao gồm nhưng không giới hạn các trường hợp dưới đây:
@@ -988,7 +997,7 @@ thông báo cho Chủ TK biết. Việc tạm ngưng này không được xem l�
 và sẽ không phát sinh trách nhiệm bồi thường của Sacombank đối với Chủ TK hoặc Bên thứ
 ba. Sau khi chấm dứt sự kiện bất khả kháng, các bên sẽ tiếp tục thực hiện các nội dung tại Hợp
 đồng.
-# ĐIỀU 11. ĐIỀU KHOẢN KHÁC 
+# ĐIỀU 11. ĐIỀU KHOẢN KHÁC
 1. Điều khoản và điều kiện này được điều chỉnh bởi Pháp luật Việt Nam.
 2. Sacombank có quyền sửa đổi, bổ sung những quy định trong bản điều khoản và điều kiện
 này tại từng thời điểm để đáp ứng yêu cầu của quy định pháp luật cũng như đảm bảo quyền
@@ -1001,6 +1010,7 @@ chúng hoặc niêm yết tại các Điểm giao dịch của Sacombank hoặc 
 khác.
 Các sửa đổi, bổ sung này mặc nhiên có giá trị hiệu lực với KH nếu KH tiếp tục sử dụng dịch
 vụ sau khi sự sửa đổi, bổ sung có hiệu lực. Trường hợp không đồng ý với việc sửa đổi, bổ
+Trang 23/24
 sung này, KH có quyền yêu cầu đóng tài khoản theo quy định tại điểm a khoản 2 Điều 5 của
 Hợp đồng này.
 3. Nếu có bất kỳ tranh chấp nào có phát sinh liên quan đến việc mở, sử dụng và quản lý TK thì
@@ -1017,3 +1027,4 @@ gửi thông qua email mà KH đăng ký với Sacombank hoặc KH tải Hợp �
 https://khachhangthanthiet.sacombank.com (ii) Bản Hợp đồng giấy được chuyển đổi từ dữ
 liệu điện tử được gửi trực tiếp cho KH khi KH yêu cầu tại quầy (iii) Hoặc các phương thức tra
 cứu khác do Sacombank triển khai trong từng thời kỳ.
+Trang 24/24

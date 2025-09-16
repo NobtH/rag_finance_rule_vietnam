@@ -1,11 +1,10 @@
 # ĐIỀU KIỆN VÀ ĐIỀU KHOẢN TẶNG LƯỢT PHÒNG CHỜ
-
-1. Thẻ hội viên Priority Pass: là ưu đãi tặng kèm dành cho chủ thẻ chính, chỉ phát hành kèm
+# 1. Thẻ hội viên Priority Pass: là ưu đãi tặng kèm dành cho chủ thẻ chính, chỉ phát hành kèm
 theo thẻ tín dụng hoặc theo thẻ thanh toán Visa Imperial Signature.
 Đối với thẻ tín dụng Visa Platinum, tặng thẻ hội viên Priority Pass khi khách hàng đạt doanh
 số giao dịch thanh toán hợp lệ 200 triệu đồng/12 tháng theo các đợt xét tặng vào tháng 01,
 04, 07, 10 và tặng kèm theo 2 lượt sử dụng phòng chờ.
-2. Quy đinh tặng lượt phòng chờ:
+# 2. Quy đinh tặng lượt phòng chờ:
 ✓  Tặng 02 lượt phòng chờ khi khách hàng đạt doanh số giao dịch thanh toán 100 triệu
 đồng/quý. Mỗi đợt tặng tối đa 6 lượt/quý/Khách hàng. Xét lượt tặng vào tháng 01, 04,07,10.
 ✓  Thời hạn sử dụng: 12 tháng kể từ tháng tặng.
@@ -31,6 +30,3 @@ Sacombank có quyền yêu cầu và khách hàng có trách nhiệm cung cấp 
 liên quan đến giao dịch của khách hàng (bao gồm nhưng không giới hạn hóa đơn cung
 ứng hàng hóa dịch vụ, hóa đơn thanh toán thẻ và các chứng từ khác) trong thời hạn 03
 ngày làm việc kể từ khi Sacombank yêu cầu. Hết thời hạn trên, nếu khách hàng không
-liên hệ Sacombank, không cung cấp chứng từ hoặc cung cấp không đầy đủ/chính xác,
-Sacombank có quyền không xét lượt ưu đãi và/hoặc tạm ngưng/thu hồi/hủy các lượt ưu
-đãi đã tặng.

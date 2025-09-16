@@ -4,7 +4,7 @@ Có hiệu lực từ: 08/08/2023
 Nội dung của các Điều Khoản và Điều Kiện này áp dụng cho Chủ Thẻ khi đăng ký và sử dụng Thẻ
 Sacombank trên Ví Apple. Bằng việc xác nhận “Đồng ý” hoặc “Agree” trên màn hình thêm Thẻ, Chủ
 Thẻ thừa nhận đã đọc, hiểu và chấp nhận bị ràng buộc bởi các điều khoản và điều kiện này.
-# Điều 1. Giải thích từ ngữ: 
+# Điều 1. Giải thích từ ngữ:
 1.1. “Sacombank”: là Ngân hàng TMCP Sài Gòn Thương Tín.
 1.2. “Sacombank Pay”: là ứng dụng do Sacombank phát triển, được cài đặt và sử dụng trên thiết
 bị di động (bao gồm điện thoại di động thông minh và thiết bị di động thông minh) có kết nối
@@ -47,7 +47,7 @@ kí tay của Chủ Thẻ trên văn bản gốc.
 hạn mật khẩu mPass, khuôn mặt, vân tay, chữ số…
 1.13. “Hạn Mức Sử Dụng Thẻ”: là hạn mức thanh toán, hạn mức chuyển khoản, hạn mức rút tiền
 mặt và các hạn mức giao dịch khác trong việc sử dụng Thẻ.
-# Điều 2. Điều kiện sử dụng Ví Apple 
+# Điều 2. Điều kiện sử dụng Ví Apple
 2.1. Để sử dụng Ví Apple cho mục đích thanh toán tiền hàng hóa, dịch vụ thông qua Apple Pay,
 Chủ Thẻ phải sử dụng Thiết Bị Di Động có yếu tố bảo mật hợp lệ tại các ĐVCNT chấp nhận
 giao dịch qua hình thức thanh toán Apple Pay. Đối với các ĐVCNT trực tiếp, ĐVCNT chấp
@@ -74,7 +74,7 @@ Thẻ ủy quyền/cho phép.
 được quyền áp dụng các biện pháp xác thực bổ sung nhằm đảm bảo tính chính xác, an
 toàn, bảo mật và hạn chế rủi ro phát sinh. Apple có toàn quyền quyết định khi yêu cầu xác
 thực và không cho phép Chủ Thẻ thêm trên Ví Apple.
-# Điều 3. Quản lý Thẻ, Thiết Bị Di Động và Ví Apple 
+# Điều 3. Quản lý Thẻ, Thiết Bị Di Động và Ví Apple
 3.1. Vào bất kỳ thời điểm nào, Chủ Thẻ phải bảo quản Thiết Bị Di Động, bảo mật và không để
 lộ Mật Khẩu Cá Nhân, các mã số xác nhận Chủ Thẻ khác, OTP, các phương thức xác thực
 giao dịch khác.
@@ -106,13 +106,13 @@ f. Sự ngắt quãng, trì hoãn, chậm trễ, tình trạng không sẵn sàn
 nào xảy ra trong quá trình đăng ký và sử dụng Thẻ trên Ví Apple do các nguyên nhân
 ngoài khả năng kiểm soát của Sacombank.
 g. Bất kỳ sự kiện bất khả kháng nào nằm ngoài khả năng kiểm soát của Sacombank.
-# Điều 4. Hạn Mức Sử Dụng Thẻ và Phí 
+# Điều 4. Hạn Mức Sử Dụng Thẻ và Phí
 4.1. Trừ trường hợp Apple quy định khác, hạn mức sử dụng Thẻ được áp dụng như hạn mức
 Chủ Thẻ đăng ký và/hoặc theo thông báo của Sacombank trong từng thời kỳ.
 4.2. Trường hợp Apple thu phí khi Chủ Thẻ đăng ký và sử dụng Thẻ trên Ví Apple, việc thu phí
 thực hiện theo quy định tại Điều Khoản và Điều Kiện phát hành và sử dụng Thẻ của
 Sacombank.
-# Điều 5. Cung cấp thông tin 
+# Điều 5. Cung cấp thông tin
 5.1. Chủ Thẻ đồng ý rằng Sacombank được quyền gửi thông báo giao dịch đến Thiết Bị Di Động
 được sử dụng để thực hiện giao dịch và có thể không phải là thiết bị di động có số điện thoại
 đăng ký với Sacombank.
@@ -121,7 +121,7 @@ cho các bên liên quan trong giao dịch. Do đó, Chủ Thẻ thừa nhận r
 Chủ Thẻ hoặc người được Chủ Thẻ ủy quyền/cho phép cung cấp, đồng thời, việc sử dụng
 và tiết lộ các thông tin này được điều chỉnh theo chính sách bảo mật của các bên liên quan
 trong giao dịch.
-# Điều 6. Tạm ngưng/Chấm dứt sử dụng 
+# Điều 6. Tạm ngưng/Chấm dứt sử dụng
 6.1. Vào bất kỳ thời điểm nào, Sacombank có thể chấm dứt việc sử dụng Thẻ trên Ví Apple.
 Sacombank có quyền điều chỉnh hay tạm ngừng các loại giao dịch bằng Thẻ qua hình thức
 thanh toán Apple Pay trên Ví Apple hoặc thay đổi tính tương thích cho việc thêm Thẻ với Ví
@@ -132,10 +132,10 @@ của người dùng mà không cần có thông báo trước nếu phát hiệ
 cầu bởi cơ quan Nhà nước có thẩm quyền tại Việt Nam hoặc theo quy định của pháp luật.
 6.3. Chủ Thẻ có thể yêu cầu tạm ngưng, chấm dứt sử dụng Thẻ trên Ví Apple bằng hình thức
 hủy liên kết Thẻ trên Ví Apple.
-# Điều 7. Luật điều chỉnh và Cơ quan giải quyết tranh chấp 
+# Điều 7. Luật điều chỉnh và Cơ quan giải quyết tranh chấp
 Điều Khoản và Điều Kiện này được điều chỉnh bởi pháp luật Việt Nam. Các tranh chấp phát
 sinh không thể giải quyết được bằng thương lượng sẽ được giải quyết tại Tòa án có thẩm quyền.
-# Điều 8. Quy định khác 
+# Điều 8. Quy định khác
 8.1. Sacombank có quyền sửa đổi, bổ sung các Điều Khoản và Điều Kiện này. Các sửa đổi, bổ
 sung sẽ có giá trị ràng buộc nếu Chủ Thẻ tiếp tục sử dụng dịch vụ sau khi việc sửa đổi, bổ
 sung có hiệu lực. Việc sửa đổi, bổ sung này chỉ có hiệu lực khi Sacombank tiến hành thông

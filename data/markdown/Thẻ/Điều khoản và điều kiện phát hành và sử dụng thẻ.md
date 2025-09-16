@@ -9,7 +9,7 @@ khai trong từng thời kỳ, Chủ Thẻ xác nhận đã được Sacombank c
 kết Hợp Đồng với Sacombank và chấp nhận tuân thủ: (i) các quy định, thông tin về sản phẩm, dịch vụ; (ii) nội
 dung Hợp Đồng, Điều Khoản và Điều Kiện này, các điều khoản và điều kiện về đăng ký và sử dụng dịch vụ tại
 Sacombank được niêm yết trên website chính thức của Sacombank www.sacombank.com.vn.
-# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ 
+# ĐIỀU 1. GIẢI THÍCH TỪ NGỮ
 1.1  Sacombank: Ngân hàng TMCP Sài Gòn Thương Tín.
 1.2  Thẻ: gồm Thẻ Ghi Nợ, Thẻ Tín Dụng và Thẻ Trả Trước.
 1.3  Thẻ Ghi Nợ (Thẻ Thanh Toán): Thẻ cho phép Chủ Thẻ giao dịch thẻ trong phạm vi số tiền trên tài
@@ -292,7 +292,7 @@ j) Xử lý kết quả tra soát, khiếu nại:
 - Trong thời hạn tối đa 05 ngày làm việc kể từ ngày thông báo kết quả tra soát, khiếu nại cho Chủ Thẻ,
 Sacombank sẽ bồi hoàn cho Chủ Thẻ theo thỏa thuận và quy định pháp luật đối với những tổn thất phát
 sinh không do lỗi của Chủ Thẻ và/hoặc không thuộc các trường hợp Bất Khả Kháng theo quy định tại
-# Điều 11.1 Điều Khoản và Điều Kiện này. 
+# Điều 11.1 Điều Khoản và Điều Kiện này.
 - Nếu hết thời hạn trên mà vẫn chưa xác định được nguyên nhân hay lỗi thuộc bên nào thì trong vòng 15
 ngày làm việc tiếp theo, Sacombank sẽ thỏa thuận với Chủ Thẻ về phương án xử lý hoặc tạm thời bồi
 hoàn tổn thất cho Chủ Thẻ cho đến khi có kết luận cuối cùng của Cơ quan nhà nước (CQNN) phân định
@@ -648,7 +648,7 @@ dẫn đến trang tin điện tử của Sacombank hoặc đối tác của Sac
 Cardholder request and/or agree to allow Sacombank to send SMS message, emails (electronic mail)
 containing information about links to website of Sacombank or websites of Sacombank's partners from
 time to time.
-# ĐIỀU 8. THÔNG BÁO 
+# ĐIỀU 8. THÔNG BÁO
 8.1  TBGD của Thẻ Tín Dụng:
 a) Hàng tháng, Sacombank sẽ gửi TBGD cho Chủ Thẻ Chính qua thư điện tử, Ngân Hàng Số hoặc phương
 thức khác theo quy định của Sacombank trong từng thời kỳ. Ngày lập và gửi TBGD do Sacombank ấn
@@ -711,7 +711,7 @@ và thu hồi các Thẻ đã phát hành.
 10.6 Chủ Thẻ đồng ý bồi thường cho Sacombank đối với bất kỳ thiệt hại nào phát sinh từ việc Sacombank
 phát hành Thẻ in hình theo yêu cầu của Chủ Thẻ bao gồm nhưng không giới hạn trường hợp hình ảnh
 do Chủ Thẻ cung cấp có chứa phần mềm gián điệp, mã độc.
-# ĐIỀU 11. BẤT KHẢ KHÁNG 
+# ĐIỀU 11. BẤT KHẢ KHÁNG
 11.1 Bất Khả Kháng bao gồm thiên tai; chiến tranh; sự cố điện; sự hư hỏng/lỗi của Máy Giao Dịch Tự Động
 /POS hoặc bất kỳ máy móc, thiết bị nào khác để phục vụ cho hoạt động của Thẻ hoặc hệ thống xử lý dữ
 liệu hoặc hệ thống viễn thông/internet hoặc dịch vụ trao đổi thông tin; theo yêu cầu của CQNN; sự thay
@@ -722,7 +722,7 @@ Chủ Thẻ bằng một trong các phương thức quy định tại Điều 8 
 việc tạm ngưng này không được xem là vi phạm của Sacombank và sẽ không phát sinh trách nhiệm bồi
 thường của Sacombank đối với Chủ Thẻ hoặc Bên thứ ba. Sau khi chấm dứt Bất Khả Kháng, các bên
 sẽ tiếp tục thực hiện các nội dung tại Hợp Đồng.
-# ĐIỀU 12. QUY ĐỊNH KHÁC 
+# ĐIỀU 12. QUY ĐỊNH KHÁC
 12.1 Khi xảy ra tranh chấp liên quan đến Hợp đồng phát hành và sử dụng thẻ, các bên ưu tiên giải quyết trên
 cơ sở thương lượng. Trường hợp không giải quyết được bằng thương lượng, một trong các bên có quyền
 khởi kiện tại Tòa án có thẩm quyền giải quyết. Khi đó, Chủ Thẻ đồng ý rằng Sacombank có toàn quyền

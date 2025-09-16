@@ -1,7 +1,7 @@
-# _ĐIỀU KHOẢN & ĐIỀU KIỆN SỬ DỤNG - DỊCH VỤ ƯU TIÊN LÀM THỦ TỤC NHANH TẠI SÂN BAY (FAST TRACK)
-
+# _ĐIỀU KHOẢN & ĐIỀU KIỆN SỬ DỤNG
+# DỊCH VỤ ƯU TIÊN LÀM THỦ TỤC NHANH TẠI SÂN BAY (FAST TRACK)
 Áp dụng từ ngày 15/05/2025
-1. Lượt ưu đãi
+# 1. Lượt ưu đãi
 ❖  Chủ thẻ Visa Infinite, World Mastercard: quy đổi từ lượt golf: 3 lượt fast track = 1 lượt golf
 ❖  Khách hàng VIP theo chính sách khách hàng*:
 - Khách hàng hạng Diamond: 12 lượt
@@ -10,7 +10,7 @@
 - Khách hàng Imperial 1: 12 lượt
 - Khách hàng Imperial 2: 6 lượt
 (*)Áp dụng mức cao nhất khi khách hàng được cả 02 ưu đãi từ khách hàng VIP và DVNHCC.
-2. Dịch vụ Fast track
+# 2. Dịch vụ Fast track
 ❖  Dịch vụ tiễn khách:
 + Nhân viên đón khách tại quầy thủ tục check in.
 + Hỗ trợ khách làm thủ tục check in và hành lý.
@@ -22,17 +22,19 @@
 + Hỗ trợ khách lấy hành lý và tiễn khách ra ngoài.
 ❖  Lưu ý: 1 lượt fast track được hiểu là 1 lượt đón khách ưu tiên hoặc tiễn khách ưu tiên trong sân bay,
 không bao gồm cả 2 dịch vụ.
-3. Phương thức sử dụng
+# 3. Phương thức sử dụng
 Khách hàng đặt dịch vụ qua tổng đài 024 73099366 hoặc gửi email đến service@cc-c.vn hoạt động từ
 8h00 đến 18h00 tất cả các ngày trong tuần và cung cấp các thông tin hỗ trợ cho việc đặt dịch vụ.
-4. Địa điểm áp dụng
+# 4. Địa điểm áp dụng
 Áp dụng cho các chuyến bay Quốc nội và Quốc tế có điểm đầu hoặc điểm cuối tại các sân bay:
 - Sân bay Quốc tế Nội Bài
 - Sân bay Quốc tế Tân Sơn Nhất
 - Sân bay Quốc tế Đà Nẵng
 - Sân bay Quốc tế Cam Ranh
 - Sân bay Quốc tế Phú Quốc
-5. Quy định chung
+Sacombank được quyền thay đổi địa điểm áp dụng mà không cần thông báo trước và Danh sách sẽ được
+cập nhật/thay đổi bổ sung trong từng thời kỳ trên Website.
+# 5. Quy định chung
 - Thời hạn sử dụng:
 + Thẻ Visa Infinite: 12 tháng kể từ tháng quy đổi.
 + Khách hàng VIP/DVNHCC: theo năm được ưu đãi.

@@ -34,6 +34,7 @@ Couture Hanoi      Nội
 7   Meritel Hà Nội     153 P. Hàng Bông, Ward, Hoàn Kiếm, Hà Nội Hà Nội
 8   Fraser Residence Hà Nội C5 P. Đỗ Nhuận, Xuân Đỉnh, Bắc Từ Liêm, Hà Nội Hà Nội
 9   Modena Vĩnh Yên    99 Lý Bôn, Đống Đa, Vĩnh Yên, Vĩnh Phúc Vĩnh Phúc
+10  Meliá Vinpearl Rivera Hải Đường Manhattan 9 Vinhomes Imperia, Ward, Urban Hải Phòng
 # STT   KHÁCH SẠN/RESORT                ĐỊA CHỈ                TỈNH/TP
 Phòng              Area, Hải Phòng
 Flamingo Cat Ba Beach
@@ -85,6 +86,8 @@ Muong Thanh Luxury Nha
 28                     60 Trần Phú, Lộc Thọ, Nha Trang, Khánh Hòa Khánh Hòa
 Trang
 Khách sạn Nha Trang
+29                     09 Yersin, Phường Lộc Thọ, Lộc Thọ, Nha Trang Khánh Hòa
+Palace
 # STT   KHÁCH SẠN/RESORT                ĐỊA CHỈ                TỈNH/TP
 Khách sạn Havana Nha
 30                     38 Trần Phú, Lộc Thọ, Nha Trang   Khánh Hòa

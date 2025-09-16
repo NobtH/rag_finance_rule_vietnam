@@ -1,4 +1,3 @@
-Sacombank
 # ĐIỀU KHOẢN VÀ ĐIỀU KIỆN MỞ VÀ SỬ DỤNG TIẾT KIỆM TÍCH GÓP SIÊU LINH HOẠT
 (áp dụng mở trên kênh trực tuyến)
 # TERMS AND CONDITIONS FOR OPENING AND USING THE SUPER FLEXIBLE SAVINGS DEPOSIT
@@ -21,7 +20,7 @@ acknowledges that Sacombank has fully provided and explained, has read, understo
 bound by these Terms and Conditions, information, and regulations of Sacombank regarding the product
 and services, and agrees to receive confirmation ofthe deposit via email after completing the Super Flexible
 Savings Depositopening procedure'!.
-# Điều 1. Giải thích từ ngữ 
+# Điều 1. Giải thích từ ngữ
 Article 1. Definitions
 Trong Hợp đồng này, các từ ngữ được hiểu như sau:
 In this Agreement, the following terms are understood as follows:
@@ -37,7 +36,7 @@ tiền nhiều lần vào TKTGSLH đã mở trong suốt kỳ hạn gửi tiền
 Super Flexible Savings Deposit is a term savings deposit in VND opened by Customer at Sacombank
 via online channels, allowing Customer to add funds multiple times throughout the deposit term.
 1 Khách hàng có thể cập nhật email ngay trên ứng dụng tại mục Thông tin cá nhân.
-Sacombank
+1⁄13
 Tài khoản nguồn là tài khoản thanh toán đồng Việt Nam của KH (đối với KH sử dụng kênh
 Sacombank Pay, tài khoản này phải được liên kết trên ứng dụng) do KH chỉ định để chuyển một số
 tiền nhất định trong tài khoản này để mở TKTGSLH cho chính KH.
@@ -48,7 +47,6 @@ Gửi tiền định kỳ là hình thức KH gửi thêm tiền vào TKTGSLH th
 trích tiền định kỳ, số tiền gửi định kỳ, tài khoản trích tiền định kỳ mà KH đã đăng ký với Sacombank.
 Regular Deposit is a method where Customer deposits additional funds into the Super Flexible Savings
 Deposit periodically, according to the frequency, day, amount, and source account as registered at
-Sacombank.
 Kênh trực tuyến là các kênh giao dịch ngân hàng trực tuyến của Sacombank nhằm cung cấp sản
 phẩm, dịch vụ ngân hàng và các tính năng, tiện ích khác đến KH thông qua thiết bị điện tử có kết
 nối mạng Internet. Kênh trực tuyến bao gồm ứng dụng Sacombank Pay và kênh trực tuyến khác
@@ -67,7 +65,7 @@ and official holidays (including substitute holidays) as prescribed by law or Sa
 lưới hoạt động hợp pháp của Sacombank.
 Counter ¡is the transaction counter of Sacombank, located at the Branches and Transaction Offices
 within Sacombank s legally established network.
-# Điều 2. Mở TKTGSLH 
+# Điều 2. Mở TKTGSLH
 Article 2. Opening of the Super Flexible Savings Deposit
 Đồng tiền gửi: VND.
 Currency of Deposit: VND.
@@ -82,7 +80,7 @@ Minimum Deposit for Opening Super Flexible Savings Deposit: 100,000 VND or anoth
 prescribed by Sacombankin each period, published on Sacombanks website.
 Mức lãi suất TKTGSLH:
 Interest rate of Super Flexible Savings Deposit
-Sacombank
+2/13
 a. Mức lãi suất được điều chỉnh tại ngày bắt đầu của thời hạn 6 tháng cuối của kỳ hạn gửi tiền
 (Ngày T) theo nguyên tắc sau:
 The interest rate is adjusted on the first day of the last 6 months ofthe deposit term (Date T) according
@@ -110,7 +108,7 @@ lãi nhập vốn (ii) Tái tục lãi không nhập vốn.
 Deposit Extension Method (Renewal): Customer can choose one of the two renewal method:s: (¡) Renew
 the principal including interests (compound interest) (ii) Renew the principal without interests (simple
 interest).
-# Điều 3. Quy định về gửi thêm tiền vào TKTGSLH 
+# Điều 3. Quy định về gửi thêm tiền vào TKTGSLH
 Article 3. Regulations on Additional Funds to the Super Flexible Savings Deposit
 1. KH có thể gửi thêm tiền vào TKTGSLH tại Quầy/ATM/CDM/ibanking/Kênh trực tuyến hoặc kênh giao
 dịch khác do Sacombank triển khai từng thời kỳ hoặc đăng ký gửi tiền định kỳ với Sacombank.
@@ -127,7 +125,7 @@ khoản trích tiền định kỳ của KH có đủ số dư để trích số
 In the case of regular deposits according to schedule payment quthorization or automatic debit
 (generally called payment authorization), Sacombank shallautomatically deduct funds from the Source
 Account to to the Super Flexible Savings Deposit according to the frequency, date, and amount registered
-Sacombank
+3/13
 by Customer. lfon the regular deposit date, Customers Source Account does not have enough balance
 for the agreed regular deposit amount, Sacombank shall not process the deposit on that date. When the
 account has sufficient funds, Sacombank may (but is not obligated to) automatically make up the
@@ -149,7 +147,7 @@ Sacombank during each period, published on Sacombank“s website.
 tính từ ngày gửi thêm tiền đến ngày đến hạn.
 In all cases, the additional deposit must be made prior or on the period of 30 days from the date adding
 funds to the maturify date.
-# Điều 4. Rút trước hạn 
+# Điều 4. Rút trước hạn
 Article 4. Premature Withdrawal
 1. KH được phép rút trước hạn từng phần hoặc toàn bộ số tiền gửi TKTGSLH (tất toán).
 Customer is entitled to withdraw partly or entire of the Super Flexible Savings Deposit before maturity
@@ -172,7 +170,7 @@ c.. Trường hợp số tiền gửi còn lại nhỏ hơn hoặc bằng số t
 rút, KH phải tất toán toàn bộ số tiền gửi.
 lfthe remaining deposit balance is less than or equal to the minimum withdrawal amount, Customer
 shall be required to liquidate the entire depositupon making a withdrawal.
-Sacombank
+4/13
 4. Lãi suất rút trước hạn:
 Premature Withdrawal Interest:
 a. Trường hợp rút trước hạn toàn bộ (tất toán): Toàn bộ tiền gửi rút trước hạn áp dụng mức lãi suất
@@ -185,10 +183,10 @@ to time.
 b.. Trường hợp rút trước hạn từng phần:
 For partial premature withdrawal:
 -_ Đối với phần tiền gửi rút trước hạn: Áp dụng lãi suất 0%/năm.
-For the portion of premature withdrawal: an interest rate of 0% per annum shall apply.
+For the portion ofpremature withdrawal: an interest rate of0% per annum shall apply.
 - . Đối với phần tiền gửi còn lại: áp dụng lãi suất có kỳ hạn đang áp dụng đối với TKTGSLH.
-For the remaining deposit: term depositinterest rate applicable to the foresaid deposit shallapply.
-# Điều 5. Tái tục 
+For the remaining deposit: term deposit interest rate applicable to the foresaid deposit shall apply.
+# Điều 5. Tái tục
 Article 5. Renewal
 1. Tại ngày đến hạn của TKTGSLH, nếu KH không thực hiện tất toán, TKTGSLH được tái tục tự động
 theo cách thức sau:
@@ -211,11 +209,11 @@ hình tiền gửi đã thỏa thuận, TKTGSLH được tự động tái tục
 On the renewdl date, if Sacombank no longer offers the previous term or the previously agreed deposit
 type, the Super Flexible Savings Deposit shall be automatically renewed according to the terms stated
 in point 1 of this Article, until Customer requests to settle the Super Flexible Savings Deposit.
-# Điều 6. Chỉ trả TKTGSLH 
+# Điều 6. Chỉ trả TKTGSLH
 Article 6. Payment of Super Flexible Savings Deposit
 1. KH có thể yêu cầu chỉ trả TKTGSLH thông qua Kênh trực tuyến hoặc tại Quầy hoặc các kênh giao dịch
 khác theo quy định của Sacombank từng thời điểm.
-Sacombank
+5/13
 Customer may request payment of Super Flexible Savings Deposit via Online Channels or at the Counter
 or other transaction channels as prescribed by Sacombank from time to time.
 Trường hợp KH gửi yêu cầu chỉ trả TKTGSLH trên Kênh trực tuyến, tiền gốc và lãi sẽ được chuyển vào
@@ -236,7 +234,6 @@ alternative payment account, Sacombank shall temporarily withhold the principal 
 any incurred interest on the withheld amount. Customer can only requestclosure of Source Account after
 the full disbursement of the Super Flexible Savings Deposit.
 Trường hợp yêu cầu chỉ trả TKTGSLH tại Quầy, KH phải tuân thủ các hướng dẫn thủ tục giao dịch của
-Sacombank.
 lfCustomer requests payment at Sacombank“s Counter, they must comply with Sacombank transaction
 procedures.
 Cách thức xác định ngày đến hạn:
@@ -252,15 +249,15 @@ Sacombank: ngày đến hạn là ngày nghỉ, ngày nghỉ lễ đó (không d
 đầu tiên).
 lf the maturity date falls on a holiday or public holiday according to the law or Sacombank
 regulations, the maturity date shall be the holiday (without being moved to the next business day).
-# Điều 7. Phí và phương thức thu phí 
+# Điều 7. Phí và phương thức thu phí
 Article 7. Fees and Fee Collection Methods
-Mức phí có liên quan theo biểu phí do Sacombank quy định được niêm yết công khai trên Website
+. Mức phí có liên quan theo biểu phí do Sacombank quy định được niêm yết công khai trên Website
 của Sacombank từng thời điểm và thu ngay/sau khi KH thực hiện giao dịch.
 The applicable fees, as per the fee schedule set by Sacombank, are publicly disclosed on Sacombanks
 website at any given time and will be charged immediately or after Customer conducts a transaction.
 . Sacombank được phép trích tiển tài khoản thanh toán của KH để thanh toán phí hoặc KH nộp phí
 cho Sacombank.
-Sacombank
+6/13
 Sacombank is authorized to deduct the fees directly from the Customer's payment account or Customer
 may remit the fees to Sacombank.
 . Trường hợp thay đổi phí, Sacombank sẽ niêm yết công khai trên Website của Sacombank tối thiểu
@@ -270,7 +267,7 @@ In the event of a fee change, Sacombank will publicly disclose the new fee sched
 one (1) day before its implementation. When Customer continues using the service, it shall constitute the
 acceptance of. the new schedule fees. Otherwise, Customer has the right to unilaterally terminate the
 service ifthey do not agree with the new fee schedule.
-# Điều 8. Quy định khác đối với TKTGSLH 
+# Điều 8. Quy định khác đối với TKTGSLH
 Article 8. Other Regulations Regarding the Super Flexible Savings Deposit
 Các giao dịch mở, gửi thêm tiền, rút từng phần, tất toán TKTGSLH trên Kênh trực tuyến (kể cả các
 giao dịch được khởi tạo trong ngày nghỉ, ngày nghỉ lễ) có hiệu lực ngay tại thời điểm KH xác nhận
@@ -304,19 +301,19 @@ The Super Flexible Savings Deposit cannot be opened undđer joint ownership agre
 Or representation.
 Khi KH giao dịch TKTGSLH tại Quầy thì phải sử dụng chữ ký khớp với chữ ký mẫu của mà KH đăng ký
 tại Quầy trước đó.
-Sacombank
+7/13
 When conducting transactions for the Super Flexible Savings Deposit at the Counter, Customer is obliged
 to provide matching signature in accordance with the sample signature registered at the Counter
 previously.
-TKTGSLH có thể được sử dụng làm tài sản bảo đảm theo quy định của Sacombank phù hợp quy định
+7. TKTGSLH có thể được sử dụng làm tài sản bảo đảm theo quy định của Sacombank phù hợp quy định
 pháp luật.
 The Super Flexible Savings Deposit can be used as collateral in accordance with Sacombank regulations
 and applicable laws.
-Trường hợp không thể trực tiếp đến Quầy để giao dịch, KH có thể ủy quyền cho người khác đến
+8. Trường hợp không thể trực tiếp đến Quầy để giao dịch, KH có thể ủy quyền cho người khác đến
 Sacombank giao dịch.
 In case Customer is unable to directly visit the Counter for transactions, Customer may quthorize a third
 party to conduct transactions on their behalf at Sacombank.
-Các quy định về phương pháp tính lãi, thủ tục gửi/chi trả tiền gửi tiết kiệm tại Địa điểm giao dịch,
+9. Các quy định về phương pháp tính lãi, thủ tục gửi/chỉ trả tiền gửi tiết kiệm tại Địa điểm giao dịch,
 quy định về rút tiền nếu ngày đến hạn trùng với ngày nghỉ, ngày nghỉ lễ, biện pháp tra cứu thông
 tin số dư tiền gửi: thực hiện theo quy định Tóm tắt quy định tiền gửi tiết kiệm tại Sacombank được
 niêm yết công khai tại Địa điểm giao dịch, Website của Sacombank và các quy định pháp luật liên
@@ -326,7 +323,7 @@ Transaction Locations, provisions for withdrawals if the maturity date coincides
 working day, and methods for searching the deposit balance will be governed by the summarized deposit
 regulations, which are publicly disclosed at Sacombank» Transaction Locations, on Sacombank
 website, and in relevant provision of laws.
-KH đồng ý rằng các thông tin của KH (bao gồm thông tin định danh, thông tin của các cá nhân là
+10. KH đồng ý rằng các thông tin của KH (bao gồm thông tin định danh, thông tin của các cá nhân là
 người đại diện, người liên quan, thông tin về tài khoản, tiền gửi và giao dịch) sẽ được Sacombank
 thu thập, sử dụng và bảo mật theo quy định pháp luật và quy định tại Điều khoản và điều kiện mở
 và sử dụng tài khoản và Điều khoản chung về bảo vệ và xử lý dữ liệu cá nhân được niêm yết tại các
@@ -337,11 +334,11 @@ utilized, and protected by Sacombank in accordance with applicable laws and the 
 Account Opening and Usage Terms and Conditions and the General Terms on the Protection and
 Processing ofPersonal Data, as publicly posted at Sacombanks Transaction Locationsandon the website
 https:⁄www.sacombank.com.vn.
-Các quy định khác tuân theo các quy định tại (các) điều khoản và điều kiện về sử dụng dịch vụ trên
+11. Các quy định khác tuân theo các quy định tại (các) điều khoản và điều kiện về sử dụng dịch vụ trên
 kênh trực tuyến tương ứng.
 Other regulations shall be governed by the terms and conditions for using services via the relevant online
 channels.
-Bất khả kháng:
+12. Bất khả kháng:
 Force Majeure
 a. Sự kiện bất khả kháng là sự kiện xảy ra một cách khách quan mà các bên không thể lường trước,
 không thể khắc phục được và nằm ngoài khả năng của các bên mặc dù đã áp dụng mọi biện
@@ -349,11 +346,11 @@ pháp cần thiết, bao gồm nhưng không giới hạn các trường hợp d
 A force majeure event is an occurrence that is objectively unexpected, beyond the control of the
 parties, and cannot be remedied despite all necessary efforts. This includes, but is not limited to, the
 following circumstances:
-Sacombank
+8/13
 - __ Thiên tai, thảm họa tự nhiên, hỏa hoạn, dịch bệnh, chiến tranh, khủng bố, bạo loạn, biểu
 tình, đình công, bãi công, và các hạn chế của Chính phủ, can thiệp của cơ quan nhà nước có
 thẩm quyền, sự thay đổi các chính sách theo quy định của pháp luật.
-Natural disasters, calamities, fires, epidemics, wars, terrorism, riots, protests, strikes, government
+Natural disasters, calamities, fires, epidemics, wars, terrorism, riots, protests, strikes,government
 restrictions, or intervention by competent authorities, including changes in legal policies.
 - __ Quyết định, yêu cầu của cơ quan nhà nước có thẩm quyền, các tổ chức quốc tế có liên quan
 đến các hoạt động phòng, chống rửa tiền, chống tài trợ khủng bố, chống tài trợ phổ biến
@@ -379,7 +376,7 @@ Sacombank will notify Customer via one of the communication methods registered b
 However, this suspension will not be deemed a breach by Sacombank, and no liability for damages
 will arise for Sacombank toward Customer or any third parties. After the force majeure event has
 ended, the parties will resume fulfilling their contractual obligations.
-# Điều 9. Quyền và nghĩa vụ của các bên 
+# Điều 9. Quyền và nghĩa vụ của các bên
 Article 9. Rights and Obligations of the Parties
 1. Quyền và nghĩa vụ của KH
 Customers Rights and Obligations
@@ -392,7 +389,7 @@ Deposit;
 khoản và điều kiện này;
 To receive full repayment of principal and interest on the deposit balance in accordance with these
 Terms and Conditions;
-Sacombank
+9⁄13
 Được sử dụng số tiền gửi trên TKTGSLH làm tài sản bảo đảm cho nghĩa vụ của mình và/hoặc
 nghĩa vụ của Bên thứ ba tại Sacombank và/hoặc tại tổ chức tín dụng khác phù hợp với quy
 định pháp luật;
@@ -418,7 +415,7 @@ the related procedures as instructed by Sacombank in accordance with the law;
 Cung cấp đầy đủ, rõ ràng, chính xác các thông tin liên quan về mở và sử dụng TKTGSLH. Thông
 báo kịp thời và gửi các giấy tờ liên quan cho Sacombank khi có sự thay đổi về thông tin trong
 hồ sơ thông tin KH;
-To provide full, accurate, and clear information related to the opening and use of the Super Flexible
+To provide full, accurate, and clear information related to the opening and use ofthe Super Flexible
 Savings Deposit and to notify Sacombank promptly of any changes to their information profile;
 Không được sử dụng TKTGSLH để thực hiện cho các giao dịch nhằm mục đích rửa tiền, tài trợ
 khủng bố, tài trợ phổ biến vũ khí hủy diệt hàng loạt, lừa đảo, gian lận hoặc các hành vi vi phạm
@@ -433,7 +430,7 @@ To pay dll service fees arising from transactions at Sacombank in accordance wit
 current fee schedule;
 Chủ động tra cứu thông tin TKTGSLH theo các phương thức tra cứu do Sacombank cung cấp
 nhằm quản lý và kiểm tra thông tin, tính hiệu lực của khoản tiền gửi;
-Sacombank
+10/13
 To actively search the Super Flexible Savings Deposit information through the methods provided
 by Sacombank to manage and verify the deposit's validity;
 Các nghĩa vụ khác theo Điều khoản và điều kiện này và quy định pháp luật.
@@ -475,7 +472,7 @@ Thanh toán đầy đủ, đúng hạn gốc, lãi phát sinh cho KH vào ngày 
 rút trước hạn của KH;
 To pay the principal and interest in full and on time to Customer on the maturity date or as per
 Customers early withdrawal request;
-Sacombank
+11⁄3
 - . Cung cấp các thông tin liên quan đến khoản tiền gửi theo yêu cầu của KH và/hoặc yêu cầu của
 cơ quan nhà nước có thẩm quyền;
 To provide Customer information related to the deposit upon Customer or a competent
@@ -484,7 +481,7 @@ quthority's request;
 To ensure the confidentiality of deposit information according to legal provisions;
 - . Các nghĩa vụ khác theo các quy định tại Điều khoản và điều kiện này và các quy định pháp luật.
 Other obligations as set out in these Terms and Conditions and applicable law.
-# Điều 10. Điềukhoản thi hành 
+# Điều 10. Điềukhoản thi hành
 Article 10. Enforcement of the Agreement
 1. Hợp đồng này có hiệu lực kể từ thời điểm KH xác nhận đồng ý với Điều khoản và điều kiện này và
 xác nhận giao dịch trên kênh trực tuyến cho đến khi hai bên hoàn thành xong các nghĩa vụ được xác
@@ -520,7 +517,7 @@ service and other related agreements with Sacombank.
 4. Trường hợp có bất kỳ tranh chấp nào phát sinh liên quan đến Hợp đồng này thì trước hết các bên sẽ
 cùng nhau giải quyết thông qua thương lượng, hòa giải. Trường hợp thương lượng, hòa giải không
 thành, các bên có quyền đưa vụ tranh chấp đó ra Tòa án có thẩm quyền ở Việt Nam để giải quyết.
-Sacombank
+12/13
 Luật Việt Nam sẽ được áp dụng để giải quyết các tranh chấp phát sinh từ Hợp đồng này.
 In case of any disputes arising from this Agreement, the parties will first attempt to resolve the issue
 through negotiation or mediation. lfnegotiation or mediation fails, the parties have the right to bring the
@@ -528,3 +525,4 @@ through negotiation or mediation. lfnegotiation or mediation fails, the parties 
 disputes arising from this Agreement.
 Nội dung tiếng Anh tại văn bản này là bản dịch và chỉ có giá trị tham khảo./The English content in this
 document will be treated as a translation and used for reference only.
+13/13

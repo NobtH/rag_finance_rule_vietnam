@@ -1,11 +1,10 @@
 # QUY ĐỊNH SỬ DỤNG PHÒNG CHỜ THƯƠNG  GIA NỘI ĐỊA
-
 Áp dụng từ ngày 15/05/2025
-1. Phương thức sử dụng
+# 1. Phương thức sử dụng
 -   Cung cấp thẻ tín dụng đang áp dụng ưu đãi và vé máy bay khi vào phòng chờ.
 -   Thẻ áp dụng: Sacombank Visa Infinite, Sacombank FLC Infinite, Sacombank World Mastercard,
 Sacombank Visa Signature, Sacombank Visa Platinum.
-2. Danh sách Phòng chờ áp dụng
+# 2. Danh sách Phòng chờ áp dụng
 Sân bay                             Phòng chờ
 a. Phòng chờ sân bay Quốc nội
 Phòng khách Le Saigonnais - Khu vực hành khách, gần cổng số 14, Ga đi Quốc nội.
@@ -41,6 +40,7 @@ Quốc tế T2, sân bay Quốc tế Nội Bài.
 Quốc tế Nội Bài
 Phòng khách Sông Hồng Quốc tế – Tầng 4, khu vực hành khách đi Quốc tế, Nhà ga
 Quốc tế T2, sân bay Quốc tế Nội Bài.
+Phòng khách Apricot Quốc tế – Tầng 3, khu vực hành khách đi Quốc tế, sân bay
 Sân bay                             Phòng chờ
 Phòng khách CIP Orchid Lounge – khu vực hành khách đi Quốc tế, sân bay Quốc
 Quốc tế Đà Nẵng
@@ -52,7 +52,7 @@ Phòng khách CIP Lounge Quốc tế – khu vực hành khách đi Quốc tế,
 Quốc tế Phú Quốc
 tế Phú Quốc.
 Danh sách phòng chờ áp dụng được cập nhật thay đổi trong từng thời kỳ mà không cần thông báo trước.
-3. Quy định chung:
+# 3. Quy định chung:
 - Lượt ưu đãi phòng chờ áp dụng cho chủ thẻ và không được chuyển nhượng. Khách đi cùng chủ thẻ sẽ áp
 dụng mức phí dành cho khách lẻ và tự thanh toán tại quầy dịch vụ của phòng chờ. Trường hợp chủ thẻ hết
 lượt sử dụng miễn phí, phí sử dụng phòng chờ sẽ được ghi nợ vào thẻ theo biểu phí quy định của

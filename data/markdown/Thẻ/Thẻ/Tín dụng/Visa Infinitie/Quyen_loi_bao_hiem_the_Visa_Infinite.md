@@ -135,12 +135,12 @@ Các dịch vụ đề cập tới hỗ trợ 24 giờ và các dịch vụ kh�
 cấp như được mô tả trong mục 6 của Giấy chứng nhận này.
 Vợ/chồng có nghĩa là vợ/chồng hợp pháp của Chủ thẻ.
 Đơn vị bảo hiểm là Công ty Bảo hiểm PVI Gia Dinh
-# Mục 3: GIỚI HẠN ĐỊA LÝ 
+# Mục 3: GIỚI HẠN ĐỊA LÝ
 Các Dịch vụ & Quyền lợi được mô tả trong Giấy chứng nhận này được cung cấp trên toàn thế
 giới.
 Loại trừ các chi phí phát sinh trong trong các chuyến đi <100 km từ nơi cư trú hoặc nơi làm
 việc chính của Chủ thẻ;
-# MỤC 04: ĐỦ ĐIỀU KIỆN 
+# MỤC 04: ĐỦ ĐIỀU KIỆN
 4.1  Chỉ những Chủ thẻ chưa đủ 81 tuổi vào Ngày có hiệu lực hoặc ngày gia hạn mới đủ
 điều kiện hưởng các Quyền lợi và/hoặc Dịch vụ theo Giấy chứng nhận bảo hiểm này.
 4.2  Chủ thẻ được hưởng các Quyền lợi và/hoặc Dịch vụ theo các điều khoản và điều kiện
@@ -270,7 +270,7 @@ này:
 (i)  Có trên một yêu cầu bồi thường theo Mục 07 liên quan đến cùng một Tai nạn;
 (ii) Điều trị y tế hoặc phẫu thuật, ngoại trừ điều trị đó là cần thiết cho thương tật cơ
 (iii) Thương tật cơ thể xảy ra ngoài thời gian Chủ thẻ đang trên Hành trình;
-# MỤC 08: HÀNH LÝ 
+# MỤC 08: HÀNH LÝ
 8.1. Trường hợp Chủ thẻ bị thất lạc hoặc thiệt hại hành lý trong hành trình, Đơn vị Bảo hiểm
 sẽ bồi thường cho Chủ thẻ các tổn thất hoặc thiệt hại liên quan trong hạn mức được nêu
 trong Mục 11 của Giấy chứng nhận này.
@@ -308,7 +308,7 @@ xe đạp;
 (xi) Tổn thất hoặc hư hỏng kính áp tròng, giác mạc hoặc vi giác mạc;
 (xii) VND 1,165,500 (~50 USD) đầu tiên của mỗi và mọi yêu cầu bồi thường;
 (xiii) Mất hàng hóa cá nhân do Chủ thẻ mượn hoặc thuê;
-# MỤC 09: HỦY BỎ 
+# MỤC 09: HỦY BỎ
 9.1. Nếu Chủ thẻ phải gánh chịu chi phí là hệ quả trực tiếp và cần thiết của việc hủy bỏ,
 cắt giảm hoặc sắp xếp lại bất kỳ phần nào của kế hoạch ban đầu cho Hành trình của
 Chủ thẻ do hậu quả trực tiếp của:
@@ -346,7 +346,7 @@ hàng không hoặc nguồn khác của họ.
 Trong mọi trường hợp, Chủ thẻ phải cung cấp bằng chứng về các chuyến bay bị hủy
 hoặc hoãn. Nếu một chuyến bay bị hủy, hầu hết các hãng hàng không sẽ cung cấp
 một khoản hoàn lại đầy đủ hoặc một chuyến bay thay thế.
-# MỤC 10: BẤT TIỆN 
+# MỤC 10: BẤT TIỆN
 10.1. Trì hoãn hành trình du lịch trong trường hợp
 (i)  hoạt động công nghiệp; hoặc
 (ii) điều kiện thời tiết bất lợi; hoặc
@@ -460,7 +460,7 @@ Mất toàn bộ thính giác (cả hai tai)        75% tổng số tiền nêu 
 Mất toàn bộ và không thể phục hồi khả năng nhìn ở một mắt 55% tổng số tiền nêu trên
 Mất một chi hoặc mất toàn bộ và không thể phục hồi một chi. 50% tổng số tiền nêu trên
 Mất toàn bộ và không thể phục hồi thính giác (một tai) 15% tổng số tiền nêu trên
-# MỤC 12: QUY ĐỊNH CHUNG: 
+# MỤC 12: QUY ĐỊNH CHUNG:
 12.1. Chủ thẻ phải có sự cẩn trọng hợp lý nhằm ngăn ngừa mất mát, hư hỏng, tai nạn,
 thương tật cơ thể hoặc bệnh tật, và nhằm bảo vệ, tiết kiệm và/hoặc phục hồi tài sản cá
 nhân.
@@ -588,7 +588,7 @@ nào khác liên quan đến HIV (Virus suy giảm miễn dịch ở người) h
 suy giảm miễn dịch mắc phải) hoặc bất kỳ hội chứng tương tự nào với bất kỳ tên gọi
 nào trừ khi bị nhiễm trong quá trình khám, xét nghiệm hoặc điều trị y khoa (trừ khi có
 liên quan đến lạm dụng thuốc hoặc các bệnh lây truyền qua đường tình dục).
-13.26. ĐIỀU KHOẢN LOẠI TRỪ VỀ BẢO ĐẢM TÀI CHÍNH - Hợp đồng bảo hiểm này không
+# 13.26. ĐIỀU KHOẢN LOẠI TRỪ VỀ BẢO ĐẢM TÀI CHÍNH - Hợp đồng bảo hiểm này không
 bao gồm bất kỳ hình thức bảo lãnh tài chính, bảo lãnh hoặc bồi hoàn tín dụng nào.
 # 13.27. ĐIỀU KHOẢN VỀ CHIẾN TRANH VÀ KHỦNG BỐ
 Các bên xin ghi nhận và đồng ý rằng Điều khoản loại trừ 13.15 sẽ bị xóa.

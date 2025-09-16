@@ -1,12 +1,11 @@
 # QUY ĐỊNH SỬ DỤNG PHÒNG  CHỜ PRIORITY PASS
-
-1. Phương thức sử dụng
+# 1. Phương thức sử dụng
 •  Khách hàng xuất trình thẻ Priority Pass cho nhân viên tiếp tân tại phòng chờ. Tùy theo chính sách
 của phòng chờ, khách hàng có thể sẽ cần xuất trình thêm vé lên máy bay hoặc hộ
 chiếu/CMND/CCCD để vào phòng chờ.
 •  Khách hàng sẽ được yêu cầu ký phiếu xác nhận (Record of Visit). Tại một số phòng chờ, thẻ
 Priority Pass của khách hàng sẽ được quét qua hệ thống điện tử để ghi nhận.
-2. Tra cứu danh sách phòng chờ
+# 2. Tra cứu danh sách phòng chờ
 Danh sách phòng chờ liên tục được cập nhật và mở rộng, khách hàng có thể tra cứu phòng chờ
 PRIORITY PASS tại bất kỳ nơi đâu theo 03 cách thức sau:
 Cách 1: Tra cứu qua ứng dụng di động:
@@ -23,7 +22,7 @@ Cách 3: Tra cứu qua tin nhắn điện thoại di động
 ký tự mã số sân bay & gởi đến dịch vụ Tra Cứu Phòng Chờ Priority Pass tại số +44 7624 809977
 Ví dụ: Để tra cứu phòng chờ Priority Pass tại sân bay Ho Chi Minh TSN International (SGN), soạn tin
 nhắn với 3 ký tự mã số ‘SGN’ & gởi đến +44 7624 809977
-3. Quy định chung
+# 3. Quy định chung
 •  Thẻ Priority Pass không được chuyển nhượng và chỉ có giá trị đến hết ngày hết hạn và khi đã được
 ký bởi chủ thẻ. Thẻ này không được sử dụng bởi bất kỳ người nào khác ngoài chủ thẻ.
 •  Thẻ Priority Pass bị thất lạc, mất cắp hoặc bị hư hỏng phải được thông báo ngay cho Sacombank

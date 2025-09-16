@@ -19,7 +19,6 @@
 -  Việc thay đổi dịch vụ đã đặt, phát sinh ngoài quy định của ngân hàng; sẽ do khách hàng sẽ tự chi trả
 theo quy định của nhà hàng.
 # 5. Địa điểm áp dụng
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 HÀ NỘI
 1. Vietnamese Duo Spring Rolls
 02 Loại Nem Truyền Thống Việt Nam
@@ -37,7 +36,8 @@ Cầu Giấy, Hà Nội                        biển, sa lát thạch trừng c
 Cá Vược MSC Áp Chảo
 Cá vược, rau xào và sốt hoa quả
 5. Tiramisu
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
+Bánh Tiramisu
+# 6. 02 Ly rượu vang (đỏ/trắng)
 1. Gỏi cá hồi với sốt quả bơ nghiền trong vỏ bánh Pani Puri
 2. Sa lát hoàng đế, thịt ba chỉ hun khói, trứng cút, bánh mì
 Nhà hàng LAYERED                        crouton, sốt caesar
@@ -47,7 +47,7 @@ Trưa: 11h30 - 14h00
 Tối: 18h00 - 22h00
 Đường Lạc Long Quân, Phường Phú         rốt, sốt tiêu Phú Quốc
 Thượng, Quận Tây Hồ, Hà Nội          5. Kem vani nằm trong vỏ sô cô là kèm sốt dâu
-# 6. Lựa chọn 02 ly rượu vang hoặc 02 bia hoặc 02 đồ uống
+6. Lựa chọn 02 ly rượu vang hoặc 02 bia hoặc 02 đồ uống
 không cồn
 SET MENU 1:
 1. Món đầu: Súp khoai môn sườn sụn cải xanh
@@ -86,7 +86,6 @@ chiên giòn, cá hồi xông khói trên bánh mỳ sấy
 23J P. Hai Bà Trưng, Hàng Bài, Hoàn  -  Hoặc Thai Seafood Salad - Sa lát hải sản với các loại rau
 Tối: 18h00 - 22h30
 Kiếm, Hà Nội                            xanh & xốt chua cay kiểu Thái
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 3. Maincourse (Lựa chọn)
 -  New Zealand Rib Eye - Thăn bò NZ nướng phục vụ kèm
 khoai tây chiên, nấm xào, cà chua bi, tỏi nướng & xốt
@@ -137,7 +136,7 @@ Tối: 18h00 - 22h30 2. Sò đỏ xào măng tây
 1. Salad các loại rau với thịt nguội và phô mai
 2. Đậu lông Nhật
 3. Sườn bò Mỹ rút xương nướng muối
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
+4. Cá tuyết nướng sốt Teriyaki
 5. Mai cua nướng nấm
 6. Cơm cuộn thịt cua với trái bơ
 7. Nama Sake 280ml
@@ -194,9 +193,8 @@ muối, sốt me và sốt tỏi aioli x1
 9. Ricotta cheese cake, Gelato x1
 10. Kem nướng đường vị hạt sen x1
 # 11. 2 ly rượu vang (đỏ/ trắng)
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 1. Starter: Crab Raviolis, Patis Flambe Prawns
-ETESIA                Trưa: 11:00 – 14:00
+# ETESIA                Trưa: 11:00 – 14:00
 2. Main : Pan Seared Grouper, Spiced Duck Breast
 (thứ 6,7,CN)
 11                                       3. Dessert: Banana Flambe with Spiced Rum, chocolate
@@ -246,7 +244,6 @@ Duy Tân, phường Dịch Vọng Hậu,          chua với húng tây
 quận Cầu Giấy, Hà Nội                6. Bánh phô mai bỏ lò với sốt vani và sốt dâu tây
 7. Kem chanh + Trà hoặc Cà phê
 8. 02 ly Rượu vang trắng/đỏ.
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 SET MENU 1:
 1. Salad trứng cua rong biển tươi
 2. Soup Ngô cua
@@ -295,7 +292,7 @@ Riverside, Long Biên, Hà Nội
 HOẶC SET MENU 2
 1. Xa lát xoài xanh thái sợi với hải sản
 2. Phở cuốn
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
+3. Súp đặc biệt nhà hàng Hương Vị Xưa
 4. Cá tuyết sốt đặc biệt ăn kèm măng tây Đà Lạt và nấm
 tươi
 5. Gù bò sốt tiêu đen Phú Quốc
@@ -348,7 +345,7 @@ Riverside, Long Biên, Hà Nội
 và sốt tiêu đen
 6. Bánh Panna Cotta
 7. 02 Ly Vang đỏ
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
+18  Nhà hàng Le Bistro Rouge Trưa: 11h00 - 14h00 SET MENU 1
 Tối: 18h00 - 22h30 1. Bánh mỳ & bơ Pháp thượng hạng
 Almaz - Đường Hoa Lan, Vinhomes      2. Gan ngỗng áp chảo, táo ngào đường và sốt gừng
 Riverside, Long Biên, Hà Nội         3. Sa lát cá ngừ với rau non Đà lạt
@@ -397,7 +394,6 @@ Bạch, Ba Đình, Hà Nội
 3. Món chính:
 -  02 Cá Chẽm – Cần tây muối – Khoai nghiền – Xốt Cà ri
 Thái
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 -  02 Thăn ngoại Bò Úc – Khoai bổ cau – Rau xanh xào –
 Sốt vang ngũ vị
 4. Tráng miệng:
@@ -440,7 +436,6 @@ Nội                                  7. Canh Kim Cang
 9. Đậu Xốt Chân Như
 10. Cơm Chiên Tuệ Giác
 11. An Trú
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 # HOẶC SET MENU 2: CHAM NAMASTE
 1. Bánh Mạn-Đà-La
 2. Súp Thụ Đàm
@@ -484,7 +479,6 @@ Nhà hàng JW Café      Trưa: 11h30 - 14h30
 28                                     Buffet trưa dành cho 2 người kèm đồ uống
 JW Marriott Hà Nội - Số 8 Đỗ Đức Trưa: 12h00 - 14h30
 Dục, Nam Từ Liêm, Hà Nội (Thứ 7)
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 Nhà hàng Café Promenade
 29                        Trưa: 11h30 - 14h30 Buffet trưa dành cho 2 người kèm đồ uống
 Khách sạn Hà Nội Daewoo - 360 Kim
@@ -515,7 +509,7 @@ The Lounge
 4. Bánh Tart Trái cây
 Trưa: 11h00 - 14h00 5. 02 Ly rượu vang (đỏ/trắng)
 # 31  HOTEL NIKKO SAIGON - 235
-Tối: 18h00 - 22h00 HOẶC SET MENU 2
+# Tối: 18h00 - 22h00 HOẶC SET MENU 2
 Nguyễn Văn Cừ, Phường Nguyễn Cư
 1. Xà Lách Bò trộn kiểu Thái
 Trinh, Quận 1, TP. HCM
@@ -526,19 +520,20 @@ Trinh, Quận 1, TP. HCM
 5. 02 Ly rượu vang (đỏ/trắng)
 1. Bánh bào ngư gà đút lò
 2. Bánh xếp thịt cua lòng trắng trứng nấm tùng lộ - Bánh
-LONG TRIỀU RESTAURANT                   xếp nấm bụng dê
+# LONG TRIỀU RESTAURANT                   xếp nấm bụng dê
 3. Súp bí đao sò điệp cà rốt và nấm kim châm
 Trưa: 11h00 - 14h00
-32  THE REVERIE SAIGON - 22-36           4. Tôm thẻ sốt X.O
+# 32  THE REVERIE SAIGON - 22-36           4. Tôm thẻ sốt X.O
 Tối: 18h00 - 22h30
 Nguyễn Huệ, Bến Nghé, Quận 1, TP.    5. Mì Nhật hoành thánh canh cá
 HCM                                  6. Chè hạnh nhân lòng trắng trứng – Bánh bà xã Quảng
 Đông
 7. 02 Ly rượu vang (đỏ/trắng)
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
+Nhà hàng LAI          Trưa: 11h00 - 14h00 1. Khai Vị: DIMSUM
+Tối: 18h00 - 22h30 - Bánh bao Thượng Hải (1 pcs/pax)
 Sedona Suites (Cạnh Saigon            - Xíu mại nấm Đông Cô (1 pcs/pax)
 Center), Tầng 28, 92-94 Nam Kỳ        - Há cảo thủy tinh (1 pcs/pax)
-Khởi Nghĩa, P. Bến Nghé, Q. 1, Tp. 2, 2. BARBEQUE PLATTER
+# Khởi Nghĩa, P. Bến Nghé, Q. 1, Tp. 2, 2. BARBEQUE PLATTER
 TP. HCM                               - Vịt quay kiểu truyền thống
 - Súp vi cá hải sản.
 3. Món chính
@@ -559,7 +554,7 @@ Trưa: 11h00 - 14h00
 34  Sedona Suites (Cạnh Trung Tâm Sài    3. YAKI MONO- GRILL: Bò Fuji Nướng Sốt Tiêu Đen và xà
 Tối: 18h00 - 22h30
 Gòn), Tầng 28, 92-94 Nam Kỳ Khởi        lách Khoai Tây
-Nghĩa, P.Bến Nghé, Q. 1, TP.HCM      4. SUSHI RICE
+# Nghĩa, P.Bến Nghé, Q. 1, TP.HCM      4. SUSHI RICE
 -  Cơm Sushi Hải Sản Nimi
 -  Súp Miso Tráp với Rau Củ.
 5. DESSERT: Dưa Lưới Fuji
@@ -579,7 +574,6 @@ Khách sạn JW Marriott & Suites Sài Trưa: 11h00 - 14h00
 Gòn - Góc Đường Hai Bà Trưng & Tối: 18h00 - 22h30
 Đại Lộ Lê Duẩn, Quận 1, Quận 1, TP.
 HCM, TP. HCM
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 1. STARTERS (Khai vị): Insalata Di Barbabietole Xà lách
 củ cải đường với sữa chua Hy Lạp, giấm đen cô đặc, hạt
 phỉ, hành chiên và dầu chanh
@@ -627,7 +621,7 @@ Trưa: 11h00 - 14h00
 40                                       2. Cua lột chiên giòn xốt me cay
 216/4 Điện Biên Phủ, Quận 3, TP. Tối: 18h00 - 22h30
 3. Chả cá mú thăng long với xốt xả nghệ 4. Ức vịt nướng
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
+lá nếp xốt cơm rượu lạnh và nấm mối.
 4. Má lợn Iberico nướng hạt mắc khén Tây Bắc
 5. Tàu hủ non sữa dừa với trân châu đường đen.
 6. 02 Ly rượu vang (đỏ/trắng)
@@ -677,7 +671,6 @@ TP. HCM
 6. Nấm đùi gà nướng sốt bơ tỏi
 7. Bánh phô mai vị tắc, kem mè đen
 8. 02 ly rượu vang cao cấp (đỏ/trắng)
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 SET MENU 1:
 1. Ốc hương nhồi thịt, nước mắm gừng x 1
 2. Chạo tôm x 1
@@ -710,7 +703,7 @@ SET MENU 1:
 7. Đồ uống:
 -  Alba mineral stll water, Vietnam, 450ml x 2
 ANH TUKK Modern Thai Cuisine         -  02 ly rượu vang x 2
-Trưa: 10h30 - 14h30 HOẶC SET MENU 2:
+# Trưa: 10h30 - 14h30 HOẶC SET MENU 2:
 74/7 Hai Bà Trưng, Phường Bến Tối: 16h30 - 22h00 1. Vẹm xanh xào sa tế, tiêu xanh với bánh roti
 Nghé, Quận 1, TP.HCM                 2. Cá hồi tái với sốt ớt xanh chua cay x 1
 3. Som tam ngó sen, bắp chuối giòn, hải sản và cá trê chiên
@@ -722,9 +715,8 @@ xù x 1
 8. Đồ uống:
 -  Alba mineral stll water, Vietnam, 450ml x 2
 -  02 ly rượu vang x 2
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 Nhà hàng ZumWhere - Thảo Điền
-Trưa: 10h30 - 14h00 SET MENU 1: FUJI
+# Trưa: 10h30 - 14h00 SET MENU 1: FUJI
 17 Trần Ngọc Diện, P.Thảo Tối: 18h00 - 24h00 1. Salad cải bó xôi thịt xông khói & trứng Onsen
 Điền,TP.Thủ Đức                      2. Bò Fuji nướng đĩa đá 200gr
 Nhà hàng ZumWhere - Đông Du          3. Phô mai Camembert nướng với truffle và mật ong
@@ -774,7 +766,6 @@ Nhà hàng Food Exchange Trưa: 11:30 – 14:00
 (Thứ 2 đến Chủ nhật) Buffet trưa dành cho 2 người đã bao gồm đồ uống
 Novotel Saigon Centre - 167 Hai Bà Tối: 18:00 – 22:00 Buffet tối (thứ 6 & thứ 7) dành cho 2 người đã bao gồm đồ uống
 Trưng, P.Võ Thị Sáu, Q.3, TP.HCM (Thứ 6 và Thứ 7)
-STT       Tên Nhà hàng     Thời gian phục vụ           Menu
 Nhà hàng Saigon Kitchen
 55  Tầng 2 - Khách sạn Hôtel des Arts Trưa: 11h30 - 14h00 Buffet trưa dành cho 2 người kèm đồ uống
 Saigon - 76-78 Nguyễn Thị Minh
@@ -785,7 +776,7 @@ Romesco
 Tea Lounge và La Plage
 2. Soup: Súp Minestrone hải sản với rau quế
 3. Món chính:
-SHERATON GRAND DANANG Trưa: 11h00 - 14h00
+# SHERATON GRAND DANANG Trưa: 11h00 - 14h00
 56                                       -  Cá chẽm nướng ăn kèm cùng sốt cà tím theo kiểu Ý
 RESORT - 35 Đường Trường Sa, Tối: 18h00 - 22h30
 -  Dẻ sườn heo nấu chậm ăn kèm với sốt Chimichurri

@@ -5,7 +5,7 @@ Bằng việc tham gia vào chương trình Tích dặm, đổi vé máy bay, ch
 Sacombank Visa Signature (gọi tắt là chủ thẻ) đã chấp thuận các Điều Khoản và Điều Kiện
 được quy định sau đây (được sửa đổi và bổ sung tùy từng thời điểm) và sẽ tuân theo các Điều
 Khoản và Điều Kiện này.
-# I. ĐỊNH NGHĨA 
+# I. ĐỊNH NGHĨA
 1. Dặm thưởng Sacombank: là dặm được tích lũy từ doanh số giao dịch thanh toán (DSGDTT)
 của chủ thẻ và do Sacombank quản lý. Dặm thưởng được tích lũy trong tài khoản thẻ, chủ
 thẻ chỉ quy đổi dặm thưởng khi có nhu cầu.
@@ -87,7 +87,7 @@ và chênh lệch giá vé
 trong thời hạn thay đổi.
 10. Các điều kiện quy định về giá vé được nêu tại Mục I.5,6,7 sẽ được cập nhật theo quy định
 của các hãng hàng không trong từng thời kỳ.
-# II. QUY ĐỊNH CHUNG 
+# II. QUY ĐỊNH CHUNG
 1. Chủ thẻ phải có tài khoản thẻ hợp lệ, có lịch sử tín dụng tốt, không bị trễ hạn, quá hạn,
 không bị tạm ngưng hoặc bị hủy, không vượt hạn mức và không bị đặt trong tình trạng
 nghi ngờ gian lận, không phát sinh nợ quá hạn đối với các khoản vay khác tại Sacombank

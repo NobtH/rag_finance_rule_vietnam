@@ -1,7 +1,6 @@
 # QUY ĐỊNH SỬ DỤNG TIỆN ÍCH PARK HYATT SAIGON
-
 Số 2 Công Trường Lam Sơn, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
-1. Ưu đãi đặc quyền (ưu đãi được quy đổi từ lượt Golf của thẻ Sacombank Visa Infinite, Sacombank World
+# 1. Ưu đãi đặc quyền (ưu đãi được quy đổi từ lượt Golf của thẻ Sacombank Visa Infinite, Sacombank World
 Mastercard)
 •  Phương thức sử dụng: đặt trước qua tổng đài Sacombank 1800 5858 23 hoặc (028) 3526 6060
 •  Các tiện ích được quy đổi từ lượt Golf:
@@ -19,7 +18,7 @@ Sacombank, chủ thẻ sẽ tự thanh toán theo mức giá tại Park Hyatt Sa
 Thời hạn             Phòng                      Spa
 Đặt dịch vụ Trước ít nhất 48 giờ    Trước ít nhất 48 giờ
 Hủy dịch vụ Trong vòng 48 giờ trước ngày nhận phòng Trước 4 giờ so với thời gian đặt dịch vụ
-2. Ưu đãi đặc biệt (áp dụng cho tất cả các chủ thẻ Sacombank Visa Infinite, Sacombank World Mastercard)
+# 2. Ưu đãi đặc biệt (áp dụng cho tất cả các chủ thẻ Sacombank Visa Infinite, Sacombank World Mastercard)
 •  Phương thức đặt dịch vụ: đặt trước qua tổng đài Park Hyatt như sau
 ✓ Cho yêu cầu đặt phòng nghỉ: 0964 352 324 – 028 3824 1234
 ✓ Cho yêu cầu đặt dịch vụ ẩm thực: 028 3520 2342
@@ -36,3 +35,6 @@ Cellar Bar và Opera Bar
 sẽ tự động trở thành Hội viên Hyatt từ phía các chủ thẻ trên.
 ✓ Khấu trừ chi phí thuê địa điểm cho các phòng ăn riêng biệt tại nhà hàng Opera và Square One hoặc
 khu riêng biệt tại 2 Lam Sơn “Martini Bar”.
+# NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN SÀI GÒN THƯƠNG TÍN
+266 -268 Nam Kỳ Khởi Nghĩa, Q.3, TP.HCM 1800 5858 88/(+84) 28 3526 6060
+sacombank.com.vn/ask@sacombank.com

@@ -1,21 +1,18 @@
-# Dieu kien hoan tien the tin dung Visa Platinum Cashback.pdf
-
-QUY  ĐỊNH HOÀN   TIỀN THẺ  TÍN DỤNG   VISA PLATINUM   CASHBACK
-
-1. Mức hoàn:
+# QUY  ĐỊNH HOÀN   TIỀN THẺ  TÍN DỤNG   VISA PLATINUM   CASHBACK
+# 1. Mức hoàn:
 -  5% giao dịch trực tuyến trong và ngoài nước.
 -  3% giao dịch tại thiết bị chấp nhận thẻ nước ngoài.
 -  0,5% giao dịch khác và các giao dịch thanh toán liên quan đến MCC hàng không.
-2. Phương thức hoàn tiền:
+# 2. Phương thức hoàn tiền:
 -  Thời gian hoàn: số tiền hoàn của kỳ Thông báo giao dịch (TBGD) này được tự động hoàn từ ngày
 10 đến ngày 15 tháng tiếp theo.
 -  Số tiền hoàn: tối thiểu 10.000 đồng, tối đa 600.000 đồng/kỳ TBGD (tương đương 7.200.000
 đồng/năm), được chuyển vào thẻ Visa Platinum Cashback của Chủ thẻ.
-3. Điều kiện hoàn tiền:
+# 3. Điều kiện hoàn tiền:
 -  Thẻ còn hoạt động đến ngày hoàn tiền.
 -  Giao dịch mua hàng hóa, thanh toán trực tuyến mang tính tiêu dùng cá nhân, đã được kết toán
 trên hệ thống Sacombank.
-4. Thu hồi tiền hoàn/không hoàn tiền:
+# 4. Thu hồi tiền hoàn/không hoàn tiền:
 -  Chủ thẻ vi phạm quy định của Sacombank và cơ quan Nhà nước.
 -  Sacombank nghi ngờ/có căn cứ xác định chủ thẻ giao dịch cấm theo quy định pháp luật.
 -  Xảy ra tranh chấp, khiếu nại giữa Chủ thẻ và Đơn vị chấp nhận thẻ (ĐVCNT).
@@ -31,9 +28,7 @@ trên hệ thống Sacombank.
 -  Toàn bộ số tiền bị thu hồi/hủy được tích lũy trong kỳ TBGD sẽ được hệ thống tự động thu hồi/hủy
 từ ngày 10 đến ngày 15 tháng kế tiếp.
 -  Tổng số tiền thu hồi tối đa 600.000 đồng/kỳ TBGD, 7.200.000 đồng/năm.
-5. Nội dung khác:
+# 5. Nội dung khác:
 -  Chủ thẻ nộp thuế thu nhập theo quy định pháp luật.
 -  MCC được ghi nhận trên hệ thống Sacombank là căn cứ hoàn tiền.
--  Giao dịch của Chủ thẻ phụ được tính cho Chủ thẻ chính.
--  Sacombank được quyền sửa đổi, bổ sung quy định này và cập nhật thông tin mới nhất trên website
 Sacombank.

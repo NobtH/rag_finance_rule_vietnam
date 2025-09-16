@@ -1,7 +1,7 @@
 # ĐIỀU KIỆN  VÀ ĐIỀU KHOẢN
 # TÍCH LŨY ĐIỂM  THƯỞNG   BAMBOO   CLUB  (BBC), NÂNG HẠNG  THÀNH
 # VIÊN VÀNG/KIM  CƯƠNG   VÀ HOÀN  PHÍ THƯỜNG   NIÊN
-# I. Định nghĩa 
+# I. Định nghĩa
 1. Điểm thưởng Bamboo Club (BBC):
 -  Điểm thưởng: là điểm thưởng được tích lũy trong Chương trình khách hàng thân thiết
 Bamboo Club mà hội viên được cộng điểm sau mỗi chuyến bay hoặc phát sinh giao dịch
@@ -73,7 +73,7 @@ https://www.bambooairways.com/vn
 -vi/bamboo-club/gioi-thieu/quyen-
 loi-cac-hang-the/uu-dai-bay-quoc-
 Lưu ý: Ưu đãi tương ứng từng hạng thẻ được Bamboo Airways cập nhật trong từng thời kỳ
-# II. Giao dịch đủ điều kiện tích lũy điểm thưởng Bamboo Club, nâng hạng thành viên Vàng/Kim 
+# II. Giao dịch đủ điều kiện tích lũy điểm thưởng Bamboo Club, nâng hạng thành viên Vàng/Kim
 Cương và hoàn Phí thường niên (thẻ chính)
 Giao dịch đủ điều kiện là những giao dịch thanh toán hàng hóa dịch vụ (đã được kết toán) phục
 vụ mục đích tiêu dùng cá nhân qua POS và trực tuyến tại các đơn vị chấp nhận thẻ (ĐVCNT)
@@ -93,7 +93,7 @@ hàng hóa dịch vụ.
 Các loại hình giao dịch này có thể cập nhật thêm theo từng thời kỳ. Sacombank có quyền bổ
 sung, thay thế những loại hình giao dịch này và sẽ thông báo đến khách hàng trước 3 ngày kể
 từ ngày áp dụng.
-# III. Phương thức và thời gian tích lũy điểm thưởng Bamboo Club, nâng hạng thẻ Vàng/Kim Cương, 
+# III. Phương thức và thời gian tích lũy điểm thưởng Bamboo Club, nâng hạng thẻ Vàng/Kim Cương,
 và hoàn Phí thường niên (thẻ chính):
 1. Tích lũy điểm thưởng Bamboo Club:
 -  Hàng tháng (tối đa đến ngày 25), điểm thưởng tích lũy từ giao dịch trong kỳ bill của tháng
@@ -110,7 +110,7 @@ báo và tự động nâng hạng thẻ cho khách hàng thỏa điều kiện.
 -  Thời gian hoàn phí thường niên: Theo kỳ thông báo giao dịch tiếp theo tính từ kỳ thông
 báo giao dịch khách hàng đủ điều kiện hoàn tiền.
 -  Phí thường niên hoàn = 100% hoặc 50% phí thường niên thu được.
-# IV. Quy định khác: 
+# IV. Quy định khác:
 -  Giao dịch của thẻ phụ được cộng dồn cho thẻ chính.
 -  Các ưu đãi chỉ áp dụng với thẻ không bị thanh lý tại thời điểm xuất dữ liệu và không nợ
 quá hạn.
@@ -121,7 +121,7 @@ ghi nợ, số điểm thưởng ghi nợ còn lại sẽ được quy đổi th
 thưởng thuộc chương Bamboo Club được công bố trên website của Bamboo Airways, tại
 https://www.bambooairways.com/vn-vi/ ở thời điểm Sacombank thực hiện quy đổi. Số
 tiền này sẽ được ghi nợ vào tài khoản thẻ của khách hàng.
-# V. Thông tin liên hệ 
+# V. Thông tin liên hệ
 Khách hàng có thể liên hệ thông tin đến:
 Bamboo Airways                    Sacombank
 Hotline: 1900 1133             Hotline: 1800 58 58 23

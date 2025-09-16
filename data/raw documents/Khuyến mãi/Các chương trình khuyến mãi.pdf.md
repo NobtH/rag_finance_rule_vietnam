@@ -55,6 +55,7 @@ Mở mới thẻ Sacombank Visa Platinum O₂ (Đến 30.06.2025)
 •  Hoàn 500.000 VND cho khách hàng hiện hữu mở thêm thẻ.
 Áp dụng khi khách hàng có giao dịch thanh toán cộng dồn đạt 2 triệu VND trong vòng 30
 ngày từ ngày kích hoạt thẻ. Chương trình có thể kết thúc trước thời hạn khi hết ngân sách ưu
+đãi.
 Giao dịch thẻ tín dụng cá nhân Sacombank (14.04 – 31.12.2025)
 •  Thẻ Sacombank Visa Platinum O₂:
 •  Ưu đãi lãi suất sốc chỉ 0,8%/tháng (9,88%/năm.) Áp dụng cho chủ thẻ mới
@@ -62,6 +63,7 @@ là sinh viên
 •  Hoàn phí chuyển đổi trả góp (tối đa 1 triệu VND) khi giao dịch thanh toán và
 đăng ký trả góp 3 - 6 tháng trên Sacombank Pay.
 •  Tất cả thẻ tín dụng cá nhân: Ưu đãi lãi suất vay tiêu dùng từ thẻ trên Sacombank
+Pay:
 Thời hạn vay            Lãi suất ưu đãi
 Từ 2 tháng - 5 tháng    12%/năm
 Từ 6 tháng - 60 tháng   15.6%/năm
@@ -97,6 +99,7 @@ Thông tin chi tiết chương trình
 như sau:
 Số lượt giới thiệu trong
 Mức tặng
+tháng
 Dưới 10 lượt      30.000 VND/lượt
 Từ 10 đến dưới 20 lượt 40.000 VND/lượt
 Từ 20 lượt trở lên  50.000 VND/lượt

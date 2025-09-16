@@ -38,30 +38,32 @@ luật khác.
 Using the card as a means to carry out illegal transactions such as: gambling, betting, ƒiaud, foreign
 exchange business transactions on websites, money laundering, terrorist fìnancing and other illegal
 actfs.
+Trang 1⁄2
+4266 -268 Nam Kỳ Khởi Nghĩa, Q.3, TP.HCM € 1800 5858 88/(+84) 28 3526 6060 4 sacombankcom vn/ask@sacombankcom
+2 lj 2 tẻ làm phương tiện đề thực hiện giao dịch tr
 Cúc hành vi không được
 thực hiện
 Comiitting, organizing or facilitating the tts€ Qƒ CHPF€HI dCCOLHHS, H€AHS Qƒ DANH, DAVHI€HI S€FVÌCGS,
 pawment intermediary services for gambling, organizing gambling, faud, ƒraud, illegal business and
 other law-breaking acts including without limitations to the following acts:
-2 lj 2 ¡ẻ làm phương tiện đề thực hiện giao dịch trái pháp luật như: đánh bạc, cá độ, lừa đảo, gian
+ái pháp luật như: đánh bạc, cá độ, lừa đảo, gian
 ịch kinh doanh ngoại hối trên website, rửa tiễn, tài trợ khủng bố và các hành vi vi phạm pháp
 Using the card as a means fo carry out illegal transactions such as: gambling, betting, fiaud, foreign
 exchange business transactions on websites, money laundering, terrorist finaneing and other illegal
 đctS.
 Trang 1/2
-NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN SÀI GÒN THƯƠNG TÍN
 266 -268 Nam Kỳ Khởi Nghĩa, Q.5, TP.HCM (1800 5858 88/|(+84) 28 5526 6060. $) sacombank.com.vn/ask@sacombank com.
 Sacombank
-Lợi dụng thẻ ghi nợ quốc tế (như Visa, Mastercard, Jcb,...) để giao dịch kinh doanh ngoại hối, chuyển
+Lợi dụng thẻ ghi nợ quốc tế (như Visa, Mastercard, Jcb. để giao dịch kinh doanh ngoại hối, chuyển
 tiền giữa Việt Nam và các tô chức tài chính nước ngoài với mục đích bất hợp pháp (như kinh doanh
 forcx, chứng khoán, tiên ảo, đánh bạc, mua hàng hóa là bất động sản, vàng ở nước ngoài...) sau đó bán
-lại lấy tiên mặt hoặc rút tiền mặt trực tiệp ở nước ngoài.
+lại lấy tiền mặt hoặc rút tiền mặt trực tiệp ở nước ngoài.
 Tuking advantage oƒ international debit cards (such as Visa, Àfastercard, Jcb,...) to transact Joreign
 exchange business, transfer money between Vietnam and foreign financial institutions #or illegal
 purposes (such as traling forex, securities, virtual currency, gambling, buying goods that are real
 estate, gold abroad, etc.) and then reselling them for cash or withdraw cash directly abroad.
 Sử dụng giấy tờ giả, mạo danh để phát hành Thẻ;
-Using forged or impersonated documents to issue Cards;
+USing forged or impersonated docuiments to issue Cards;
 Thực hiện, tổ chức thực hiện hoặc tạo điều kiện để người khác thực hiện các hành vi giao dịch Thẻ gian
 lận, giả mạo; giao dịch thanh toán khống tại ĐVCNT;
 PeiJoriing, organizing the perƒormance or creating conditions for others to perƒform ftaudulent or
@@ -70,13 +72,17 @@ Mạo danh, can thiệp, chỉnh sửa, làm sai lệch việc xác minh thông 
 trình phát hành và sử dụng thẻ.
 Enpersonating, intervening, editing, ƒalsifbing the verification oƒcustomer identification information in
 the process oƒ issuing and using cards.
-Các hành vi cắm khác và hành vi vi phạm nghĩa vụ của chủ thẻ theo quy định pháp luật và quy định tại
+Các hành vi câm khác và hành vi vi phạm nghĩa vụ của chủ thẻ theo quy định pháp luật và quy định tại
 Hợp đông, Điều khoản và điều kiện phát hành và sử dụng thẻ tại Sacombank.
 Orher prohibited acts and acts oƒ violating the obligations Qƒ cardholders in accordance with the lay
 and the provisions oƒthe Contract, Terms and Conditions oƒ card issuance and trse at Sacombank.
-Đề đảm bảo an toàn, bảo mật trong phát hành và sử dụng thẻ, Khách hàng. cần chủ động cập nhật các cảnh báo,
+Đề đảm bảo an toàn, bảo mật trong phát hành và sử dụng thẻ, Khách hảng cần chủ động cập nhật các cảnh báo,
 khuyên nghị của Sacombank tại từng thời điểm được niêm yết công khai trên website và các phương tiện truyền
 thông của Sacombank.
 lronder to ensure sqfety and secuufty Ìn card issuance aHd tsẽ, customers need fo ,proactivel) update Sacombankfs
 Watntings and reconunendations fiom tìme to tùme which are publicl› posted on Sacombanlˆs website and medlia.
 Trang 2/2
+266-268 Nam Kỷ Khởi Nghĩa, Q.3, TP.HCM € 18OO S858 88/(-84) 28 3526 6060
+'® sacombank.com.vn/ask@sacombank.com
+Scanned with
+CamScanner”.
