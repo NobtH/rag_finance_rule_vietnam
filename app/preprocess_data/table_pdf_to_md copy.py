@@ -1,123 +1,12 @@
-import re
 import pdfplumber
 from typing import List, Tuple, Optional
-from difflib import SequenceMatcher
-from marker.converters.pdf import PdfConverter
-from marker.models import create_model_dict
-from marker.output import text_from_rendered
-from pypdf import PdfReader, PdfWriter
 from remove_header_footer_func import *
 import camelot
 import textwrap
 
-
 # ======================
 # XỬ LÝ BẢNG
 # ======================
-
-def normalize_line(s: str) -> str:
-    if not s:
-        return ""
-    # remove zero-width / non-breaking spaces, tabs; collapse whitespace
-    s = s.replace("\u200b", "").replace("\xa0", " ").replace("\t", " ")
-    s = s.strip()
-    s = re.sub(r'\s+', ' ', s)
-    return s
-
-def best_match_index(target: str, candidates: list[str], min_ratio: float = 0.7):
-    best_idx, best_r = None, 0.0
-    for i, c in enumerate(candidates):
-        r = SequenceMatcher(None, target, c).ratio()
-        if r > best_r:
-            best_r = r
-            best_idx = i
-    if best_r >= min_ratio:
-        return best_idx, best_r
-    return None, best_r
-
-def replace_table_by_line_block(page_text: str, table_text_region: str, full_table_content: str,
-                                min_ratio: float = 0.75, debug: bool = False) -> str:
-    """
-    Tìm dòng đầu & dòng cuối của table_text_region trong page_text theo dòng (normalize),
-    nếu exact match fail -> thử fuzzy match, rồi thay block dòng đó bằng full_table_content.
-    Trả về page_text đã thay.
-    """
-    page_lines = page_text.splitlines()
-    table_lines = [ln for ln in table_text_region.splitlines() if ln.strip()]
-
-    if not table_lines:
-        if debug: print("table_text_region rỗng -> append ở cuối")
-        return page_text.rstrip() + "\n\n" + full_table_content + "\n"
-
-    page_norm = [normalize_line(ln) for ln in page_lines]
-    table_norm = [normalize_line(ln) for ln in table_lines]
-
-    # Tìm start index (ưu tiên exact, nếu ko thì fuzzy)
-    start_idx = None
-    for i, pl in enumerate(page_norm):
-        if pl == table_norm[0]:
-            start_idx = i
-            if debug: print("Exact start at", i)
-            break
-    if start_idx is None:
-        idx, r = best_match_index(table_norm[0], page_norm, min_ratio=min_ratio)
-        if idx is not None:
-            start_idx = idx
-            if debug: print(f"Fuzzy start at {idx}, ratio={r:.2f}")
-
-    if start_idx is None:
-        if debug: print("Không tìm dòng bắt đầu -> fallback append")
-        return page_text.rstrip() + "\n\n" + full_table_content + "\n"
-
-    # Tìm end index: tìm last exact match of last table line **sau start_idx**
-    end_idx = None
-    for j in range(start_idx, len(page_norm)):
-        if page_norm[j] == table_norm[-1]:
-            end_idx = j  # keep last occurrence
-    if end_idx is not None and debug:
-        print("Exact end at", end_idx)
-
-    # Nếu chưa tìm được, thử fuzzy trên phần page_norm[start_idx:]
-    if end_idx is None:
-        idx, r = best_match_index(table_norm[-1], page_norm[start_idx:], min_ratio=min_ratio)
-        if idx is not None:
-            end_idx = start_idx + idx
-            if debug: print(f"Fuzzy end at {end_idx}, ratio={r:.2f}")
-
-    # Nếu vẫn chưa, thử dò các dòng giữa (từ cuối table -> lên) để tìm dòng nào khớp
-    if end_idx is None:
-        for tline in reversed(table_norm):
-            for j in range(start_idx, len(page_norm)):
-                if page_norm[j] == tline:
-                    end_idx = j
-                    if debug: print("Found intermediate exact line as end:", j)
-                    break
-            if end_idx is not None:
-                break
-    # tiếp tục thử fuzzy cho các dòng giữa với threshold thấp hơn
-    if end_idx is None:
-        for tline in reversed(table_norm):
-            idx, r = best_match_index(tline, page_norm[start_idx:], min_ratio=0.6)
-            if idx is not None:
-                end_idx = start_idx + idx
-                if debug: print(f"Found intermediate fuzzy as end: {end_idx}, ratio={r:.2f}")
-                break
-
-    if end_idx is None:
-        if debug: print("Không tìm được dòng kết thúc -> fallback append")
-        return page_text.rstrip() + "\n\n" + full_table_content + "\n"
-
-    # Ghép lại văn bản: giữ phần trước start, chèn bảng, giữ phần sau end
-    new_lines = []
-    if start_idx > 0:
-        new_lines.extend(page_lines[:start_idx])
-    new_lines.append(full_table_content)
-    if end_idx + 1 < len(page_lines):
-        new_lines.extend(page_lines[end_idx+1:])
-
-    result = "\n".join(new_lines)
-    # giữ 1 newline cuối cho consistency
-    return result.rstrip() + "\n"
 
 def _process_and_fill_table(table_data: List[List[Optional[str]]]) -> Optional[Tuple[List[str], List[List[str]]]]:
     if not table_data:
@@ -175,138 +64,279 @@ def _process_and_fill_table(table_data: List[List[Optional[str]]]) -> Optional[T
 
     return final_header, filled_data_rows
 
-def wrap_text(cell: str, width: int = 70) -> str:
-    """Xuống dòng thật trong cell nếu vượt quá width."""
-    if not cell:
-        return ""
-    words = cell.split()
-    lines, current = [], ""
-    for word in words:
-        if len(current) + len(word) + 1 <= width:
-            current += (" " if current else "") + word
-        else:
-            lines.append(current)
-            current = word
-    if current:
-        lines.append(current)
-    return "\n".join(lines)
-
-
-def format_table_as_markdown(table_data: List[List[str]], table_name: str = "") -> str:
+def format_table_as_markdown(table_data: List[List[str]], table_name: str = "", max_col_width: int = 45) -> str:
     processed = _process_and_fill_table(table_data)
     if not processed:
         return ""
     headers, filled_rows = processed
 
-    # Áp dụng wrap cho header + data
-    headers = [wrap_text(h, 70) for h in headers]
-    filled_rows = [[wrap_text(cell, 70) for cell in row] for row in filled_rows]
-
-    # Ghép header + data thành matrix
     matrix = [headers] + filled_rows
 
-    # Tính độ rộng tối đa (chỉ trên từng dòng lớn nhất của cell)
-    col_widths = [max(len(line) for row in matrix for line in str(row[c]).split("\n")) 
-                  for c in range(len(headers))]
+    # Bọc text theo max_col_width
+    wrapped_matrix = []
+    for row in matrix:
+        wrapped_row = []
+        for cell in row:
+            text = str(cell) if cell is not None else ""
+            wrapped = textwrap.wrap(text, width=max_col_width) or [""]
+            wrapped_row.append(wrapped)
+        wrapped_matrix.append(wrapped_row)
 
-    def format_row(row):
-        # Tách từng cell thành nhiều dòng -> align bằng zip_longest
-        split_cells = [str(cell).split("\n") for cell in row]
-        max_lines = max(len(cell) for cell in split_cells)
+    # Tính độ rộng tối đa từng cột sau khi wrap
+    col_widths = [
+        max(max(len(line) for line in cell) for cell in col)
+        for col in zip(*wrapped_matrix)
+    ]
+
+    def format_row(row_wrapped):
+        # Tìm số dòng cao nhất trong row
+        max_lines = max(len(cell) for cell in row_wrapped)
         lines = []
-        for i in range(max_lines):
-            line_parts = []
-            for c, cell_lines in enumerate(split_cells):
-                text = cell_lines[i] if i < len(cell_lines) else ""
-                line_parts.append(text.ljust(col_widths[c]))
-            lines.append("| " + " | ".join(line_parts) + " |")
+        for line_idx in range(max_lines):
+            line_cells = []
+            for col_idx, cell in enumerate(row_wrapped):
+                if line_idx < len(cell):
+                    line_cells.append(cell[line_idx].ljust(col_widths[col_idx]))
+                else:
+                    line_cells.append("".ljust(col_widths[col_idx]))
+            lines.append("| " + " | ".join(line_cells) + " |")
         return "\n".join(lines)
 
-    # Header + separator
-    header_line = format_row(headers)
+    header_line = format_row(wrapped_matrix[0])
     separator_line = "| " + " | ".join("-" * col_widths[i] for i in range(len(headers))) + " |"
-
-    # Data
-    data_lines = [format_row(row) for row in filled_rows]
+    data_lines = [format_row(row) for row in wrapped_matrix[1:]]
 
     table_title = f"**{table_name}**\n\n" if table_name else ""
     return table_title + "\n".join([header_line, separator_line] + data_lines)
 
+def get_table_bbox_from_camelot(table) -> Tuple[float, float, float, float]:
+    """
+    Trích xuất bbox từ Camelot table object.
+    Returns: (x0, y0, x1, y1) - tọa độ bbox của bảng
+    """
+    try:
+        # Camelot table có thuộc tính _bbox hoặc tương tự
+        if hasattr(table, '_bbox'):
+            return table._bbox
+        elif hasattr(table, 'bbox'):
+            return table.bbox
+        else:
+            # Fallback: tính từ parsing_report nếu có
+            if hasattr(table, 'parsing_report') and 'table_bbox' in table.parsing_report:
+                bbox = table.parsing_report['table_bbox']
+                return (bbox['x1'], bbox['y1'], bbox['x2'], bbox['y2'])
+            else:
+                # Nếu không có bbox, return None để skip
+                return None
+    except Exception:
+        return None
+
+def extract_text_outside_tables(page, tables_bbox: List[Tuple[float, float, float, float]]) -> str:
+    """
+    Trích xuất text ngoài vùng bảng dựa trên bbox.
+    """
+    if not tables_bbox:
+        return page.extract_text(layout=True) or ""
+    
+    # Lấy tất cả text objects từ page
+    try:
+        chars = page.chars
+        filtered_chars = []
+        
+        for char in chars:
+            char_x = (char['x0'] + char['x1']) / 2
+            char_y = (char['y0'] + char['y1']) / 2
+            
+            # Kiểm tra xem char có nằm trong bbox nào không
+            is_in_table = False
+            for x0, y0, x1, y1 in tables_bbox:
+                if x0 <= char_x <= x1 and y0 <= char_y <= y1:
+                    is_in_table = True
+                    break
+            
+            if not is_in_table:
+                filtered_chars.append(char)
+        
+        # Tạo page object mới với chars đã filtered
+        if filtered_chars:
+            # Sắp xếp chars theo vị trí để tạo text có thứ tự
+            filtered_chars.sort(key=lambda c: (-c['y0'], c['x0']))
+            
+            # Tạo text từ filtered chars (đơn giản)
+            text_lines = []
+            current_line = []
+            current_y = None
+            
+            for char in filtered_chars:
+                if current_y is None or abs(char['y0'] - current_y) > 2:  # New line
+                    if current_line:
+                        text_lines.append(''.join(current_line))
+                    current_line = [char['text']]
+                    current_y = char['y0']
+                else:
+                    current_line.append(char['text'])
+            
+            if current_line:
+                text_lines.append(''.join(current_line))
+            
+            return '\n'.join(text_lines)
+        else:
+            return ""
+            
+    except Exception as e:
+        # Fallback về phương pháp cũ nếu có lỗi
+        print(f"Warning: Error in bbox-based extraction, falling back: {e}")
+        return page.extract_text(layout=True) or ""
+
+def replace_table_with_markdown_bbox(page, camelot_tables: List, markdown_tables: List[str]) -> str:
+    """
+    Thay thế bảng bằng Markdown dựa trên bbox của Camelot tables.
+    """
+    if not camelot_tables:
+        return page.extract_text(layout=True) or ""
+    
+    # Lấy bbox của tất cả bảng
+    tables_bbox = []
+    for table in camelot_tables:
+        bbox = get_table_bbox_from_camelot(table)
+        if bbox:
+            tables_bbox.append(bbox)
+    
+    # Trích xuất text ngoài vùng bảng
+    text_outside_tables = extract_text_outside_tables(page, tables_bbox)
+    
+    # Tìm vị trí tốt nhất để chèn bảng
+    result_parts = [text_outside_tables]
+    
+    # Sắp xếp bảng theo vị trí từ trên xuống dưới
+    if tables_bbox:
+        sorted_indices = sorted(range(len(tables_bbox)), 
+                              key=lambda i: -tables_bbox[i][1])  # Sắp xếp theo y coordinate (top to bottom)
+        
+        # Chèn bảng theo thứ tự
+        for i in sorted_indices:
+            if i < len(markdown_tables):
+                result_parts.append(f"\n\n{markdown_tables[i]}\n\n")
+    else:
+        # Nếu không có bbox, chèn tất cả bảng cuối trang
+        for markdown_table in markdown_tables:
+            result_parts.append(f"\n\n{markdown_table}\n\n")
+    
+    return ''.join(result_parts)
+
+def smart_table_integration(page, camelot_tables: List, markdown_tables: List[str]) -> str:
+    """
+    Tích hợp thông minh bảng vào text, kết hợp nhiều phương pháp.
+    """
+    if not camelot_tables or not markdown_tables:
+        return page.extract_text(layout=True) or ""
+    
+    try:
+        # Phương pháp 1: Dựa trên bbox (ưu tiên)
+        result = replace_table_with_markdown_bbox(page, camelot_tables, markdown_tables)
+        
+        # Kiểm tra kết quả có hợp lý không
+        if len(result.strip()) > 0:
+            print('!!!!! Đã thay bảng bằng bbox')
+            return result
+            
+    except Exception as e:
+        print(f"Warning: Bbox method failed: {e}")
+    
+    # Phương pháp 2: Fallback - chèn bảng dựa trên vị trí text gần nhất
+    try:
+        page_text = page.extract_text(layout=True) or ""
+        
+        for i, (table, markdown_table) in enumerate(zip(camelot_tables, markdown_tables)):
+            # Lấy một số cell đầu tiên của bảng để tìm vị trí
+            if table.data and len(table.data) > 0:
+                search_text = ' '.join([cell for cell in table.data[0] if cell and cell.strip()])[:50]
+                
+                if search_text and search_text in page_text:
+                    # Thay thế text gần nhất
+                    page_text = page_text.replace(search_text, f"\n\n{markdown_table}\n\n", 1)
+        
+
+        return page_text
+        
+    except Exception as e:
+        print(f"Warning: Text-based method failed: {e}")
+    
+    # Phương pháp 3: Cuối cùng - chèn tất cả bảng cuối trang
+    page_text = page.extract_text(layout=True) or ""
+
+    print('!!!! Không phát hiện vị trí bảng, chèn xuống cuối bảng')
+
+    for markdown_table in markdown_tables:
+        page_text += f"\n\n{markdown_table}\n\n"
+    
+    return page_text
 
 # ======================
 # HÀM CHÍNH
 # ======================
 
-def extract_content_in_order(pdf_path: str, k_lines: int = 5,
-                             sim_threshold: float = 0.9, min_ratio: float = 0.8) -> str:
+def extract_content_in_order(pdf_path: str, k_lines: int = 5, sim_threshold: float = 0.9, min_ratio: float = 0.6) -> str:
     """
-    Trích xuất nội dung từ PDF, thay thế khu vực bảng bằng nội dung đã xử lý,
-    rồi xoá header/footer lặp (bỏ qua dòng trống) theo fuzzy-matching.
+    Trích xuất nội dung từ PDF, thay thế khu vực bảng bằng nội dung Markdown,
+    rồi xoá header/footer lặp (bỏ qua dòng trống).
     """
-
     per_page_text = []
+
+    # 1. Chạy Camelot một lần cho toàn bộ file
+    all_tables = camelot.read_pdf(pdf_path, pages="all", flavor="lattice")
+
+    # 2. Gom bảng theo số trang
+    tables_by_page = {}
+    for tbl in all_tables:
+        tables_by_page.setdefault(tbl.page, []).append(tbl)
 
     with pdfplumber.open(pdf_path) as pdf:
         num_pages = len(pdf.pages)
-
         for page_num, page in enumerate(pdf.pages, 1):
-            # Lấy text gốc của trang
-            page_text = page.extract_text(layout=True) or ""
-
-            # Tìm bảng bằng Camelot
-            tables = camelot.read_pdf(
-                pdf_path,
-                pages=str(page_num),
-                flavor="lattice"  # hoặc "stream"
-            )
-
-            # Thay thế từng bảng trong text
-            for i, table in enumerate(tables):
-                tbl_name = ''  # hoặc f"Bảng {i+1} trang {page_num}"
-                table_data = table.df.values.tolist()  # DataFrame -> list[list]
-
-                # Chuyển bảng sang Markdown
-                full_table_content = format_table_as_markdown(table_data, tbl_name)
-                print(full_table_content)
-
-                # Dùng chính dữ liệu table để build text_region thay vì crop(bbox)
-                table_text_region = "\n".join(
-                    [" ".join(row) for row in table_data if any(cell.strip() for cell in row)]
-                )
-
-                # Thay thế trong text
-                page_text = replace_table_by_line_block(
-                    page_text,
-                    table_text_region,
-                    full_table_content,
-                    min_ratio=0.75,
-                    debug=True
-                )
+            
+            # 3. Lấy bảng của trang hiện tại
+            page_tables = tables_by_page.get(page_num, [])
+            
+            if page_tables:
+                print(f"Phát hiện bảng trên file {pdf_path} trang {page_num}")
+                # Tạo markdown cho tất cả bảng trên trang
+                markdown_tables = []
+                for i, table in enumerate(page_tables):
+                    tbl_name = f'Bảng {i+1}' if len(page_tables) > 1 else ''
+                    table_data = table.data
+                    full_table_content = format_table_as_markdown(table_data, tbl_name)
+                    markdown_tables.append(full_table_content)
+                
+                # Sử dụng phương pháp tích hợp thông minh
+                page_text = smart_table_integration(page, page_tables, markdown_tables)
+            else:
+                # Không có bảng, chỉ lấy text thông thường
+                page_text = page.extract_text(layout=True) or ""
 
             per_page_text.append(page_text)
 
-    # Xoá header/footer lặp
+    # 4. Xoá header/footer lặp
     if num_pages > 1:
         cleaned_pages = remove_headers_and_footers_v2(
-            per_page_text,
-            num_pages=num_pages,
-            max_check_lines=k_lines,
-            sim_threshold=sim_threshold,
-            min_ratio=min_ratio
+            per_page_text, num_pages=num_pages, max_check_lines=k_lines,
+            sim_threshold=sim_threshold, min_ratio=min_ratio
         )
     else:
         cleaned_pages = per_page_text
 
-    # Ghép & nén dòng trống
+    # 5. Ghép và nén dòng trống lần cuối
     final_text = squeeze_blank_lines("\n\n".join(cleaned_pages))
     return final_text
-
 
 # ======================
 # DEMO
 # ======================
 if __name__ == "__main__":
-    pdf_file_path = r"data/raw documents/Thẻ/Thẻ/Tín dụng/Visa Infinitie/DKDK-am-thuc.pdf"
+    # pdf_file_path = r"data/raw documents/Thẻ/Thẻ/Tín dụng/Quyen_loi_bao_hiem_the_cao_cap.pdf"
+    # pdf_file_path = r"data/raw documents/Thẻ/Thẻ/Tín dụng/Visa Infinitie/Dkdk-Nghi-duong.pdf"
+    # pdf_file_path = r"data/raw documents/Thẻ/Thẻ/Tín dụng/Sacombank Visa Signature/Sacombank_DKDK_Tich_dam_bay.pdf"
+    pdf_file_path = r"/tmp/pdf_clean_i07n1_n1/Sacombank_QDPhongChoThuongGiaSanBayNoiDia.pdf"
     try:
         extracted_content = extract_content_in_order(pdf_file_path, k_lines=5)
         print(extracted_content)

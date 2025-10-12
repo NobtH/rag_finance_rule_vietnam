@@ -24,6 +24,8 @@ def first_k_nonempty(lines: List[str], k: int) -> List[str]:
     for ln in lines:
         n = normalize_line(ln)
         if n:
+            if n.startswith(('+', '-', '=', '"')):
+                continue
             out.append(n)
             if len(out) == k:
                 break
@@ -35,6 +37,8 @@ def last_k_nonempty(lines: List[str], k: int) -> List[str]:
     for ln in reversed(lines):
         n = normalize_line(ln)
         if n:
+            if n.startswith(('+', '-', '=', '"')):
+                continue
             out.append(n)
             if len(out) == k:
                 break
@@ -90,94 +94,56 @@ def find_repeated_lines(pages_lines: List[List[str]], from_top: bool,
 # ======================
 # REMOVE FUNCTIONS
 # ======================
-def remove_repeated_footer(pages_text: List[str], max_check_lines: int = 5,
-                           sim_threshold: float = 0.8, min_ratio: float = 0.6) -> List[str]:
-    pages_lines = [txt.splitlines() for txt in pages_text]
-    common_foot = find_repeated_lines(pages_lines, from_top=False,
-                                      max_check_lines=max_check_lines,
-                                      sim_threshold=sim_threshold,
-                                      min_ratio=min_ratio)
-
-    cleaned_pages = []
-    for lines in pages_lines:
-        new_lines = lines[:]
-        for cand in common_foot:
-            # từ dưới lên
-            for i in range(len(new_lines)-1, -1, -1):
-                if similar(normalize_line(new_lines[i]), cand) >= sim_threshold:
-                    new_lines.pop(i)
-                    break
-        cleaned_pages.append("\n".join(new_lines))
-
-    return [squeeze_blank_lines(t) for t in cleaned_pages]
-
-
-def remove_repeated_header(pages_text: List[str], max_check_lines: int = 5,
-                           sim_threshold: float = 0.8, min_ratio: float = 0.6) -> List[str]:
-    pages_lines = [txt.splitlines() for txt in pages_text]
-    common_head = find_repeated_lines(pages_lines, from_top=True,
-                                      max_check_lines=max_check_lines,
-                                      sim_threshold=sim_threshold,
-                                      min_ratio=min_ratio)
-
-    cleaned_pages = []
-    for lines in pages_lines:
-        new_lines = lines[:]
-        for cand in common_head:
-            # từ trên xuống
-            for i in range(len(new_lines)):
-                if similar(normalize_line(new_lines[i]), cand) >= sim_threshold:
-                    new_lines.pop(i)
-                    break
-        cleaned_pages.append("\n".join(new_lines))
-
-    return [squeeze_blank_lines(t) for t in cleaned_pages]
-
-
-def remove_headers_and_footers(pages_text: List[str], max_check_lines: int = 10,
-                                        sim_threshold: float = 0.8, min_ratio: float = 0.6) -> List[str]:
-    cleaned = remove_repeated_header(pages_text, max_check_lines, sim_threshold, min_ratio)
-    cleaned = remove_repeated_footer(cleaned, max_check_lines, sim_threshold, min_ratio)
-    return cleaned
-
-# ///////////////////////
-
 
 def collect_candidates(pages_lines, k=10):
-    """Thu thập k dòng đầu/cuối của mỗi trang làm ứng viên header/footer."""
+    """
+    Thu thập k dòng đầu/cuối của mỗi trang làm ứng viên header/footer,
+    kèm theo chỉ số trang để phân biệt.
+    """
     candidates = []
-    for lines in pages_lines:
+    for page_idx, lines in enumerate(pages_lines):
         head = first_k_nonempty(lines, k)
         foot = last_k_nonempty(lines, k)
-        candidates.extend(head + foot)
+        for cand in head + foot:
+            norm = normalize_line(cand)
+            if norm:
+                candidates.append((page_idx, norm))
     return candidates
 
-
 def cluster_repeated(candidates, sim_threshold=0.8, min_ratio=0.6, n_pages=1):
-    """Nhóm các dòng ứng viên lặp lại nhiều lần."""
+    """
+    Nhóm các dòng ứng viên lặp lại nhiều lần trên nhiều trang.
+    candidates: [(page_idx, text), ...]
+    """
     clusters = []
     used = set()
-    # for i in candidates[:20]:
-    #     print(i)
 
-    for i, cand in enumerate(candidates):
+    for i, (page_i, cand_text) in enumerate(candidates):
         if i in used:
             continue
-        group = [cand]
+        group = [(page_i, cand_text)]
         used.add(i)
-        for j, other in enumerate(candidates):
+        for j, (page_j, other_text) in enumerate(candidates):
             if j in used:
                 continue
-            if similar(cand, other) >= sim_threshold:
-                group.append(other)
+            if similar(cand_text, other_text) >= sim_threshold:
+                group.append((page_j, other_text))
                 used.add(j)
-        # chọn đại diện
-        rep = max(group, key=len)
-        support = len(group)
+
+        # lấy tất cả text trong group
+        texts = [txt for _, txt in group]
+
+        # chọn đại diện (dài nhất)
+        rep = max(texts, key=len)
+
+        # support = số trang khác nhau chứa text này
+        pages = {pg for pg, _ in group}
+        support = len(pages)
+
         if support / n_pages >= min_ratio:
             clusters.append(rep)
-    return clusters
 
+    return clusters
 
 def remove_candidates_from_pages(pages_lines, reps, sim_threshold=0.8):
     """Xoá tất cả dòng trong toàn bộ trang tương tự với các reps."""
@@ -192,7 +158,9 @@ def remove_candidates_from_pages(pages_lines, reps, sim_threshold=0.8):
     return [squeeze_blank_lines(t) for t in cleaned_pages]
 
 
-def remove_headers_and_footers_v2(pages_text, num_pages, max_check_lines=10, sim_threshold=0.8, min_ratio=0.6):
+def remove_headers_and_footers_v2(pages_text, num_pages, max_check_lines=10, sim_threshold=0.8, min_ratio=0.8):
+    if num_pages < 3:
+        min_ratio = 1.0
     """Phiên bản mới: detect header/footer từ 10 dòng đầu/cuối, xoá toàn văn bản."""
     pages_lines = [txt.splitlines() for txt in pages_text]
 
@@ -204,7 +172,13 @@ def remove_headers_and_footers_v2(pages_text, num_pages, max_check_lines=10, sim
                             sim_threshold=sim_threshold,
                             min_ratio=min_ratio,
                             n_pages=num_pages)
-    print(">>> Header/Footer phát hiện:", reps)
+    
+    tmp = []
+    for rep in reps:
+        if not rep.startswith('|'):
+            tmp.append(rep)
+
+    print(">>> Header/Footer phát hiện:", tmp)
 
     # B3: xoá trong toàn bộ text
-    return remove_candidates_from_pages(pages_lines, reps, sim_threshold=sim_threshold)
+    return remove_candidates_from_pages(pages_lines, tmp, sim_threshold=sim_threshold)

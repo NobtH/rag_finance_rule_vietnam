@@ -106,28 +106,29 @@ def extract_indented_lines(lines_data):
             
     return indented_lines
 
-# pdf_file_path = "data/raw documents/Tài khoản/Điều khoản và điều kiện mở và sử dụng tài khoản.pdf"
+pdf_file_path = "data/raw documents/Khuyến mãi/Các chương trình khuyến mãi.pdf"
 
-# # Bước 1: Lấy 10 dòng đầu tiên với tọa độ
-# all_lines = get_first_lines_with_coords(pdf_file_path)
+if __name__ == "__main__":
+    # Bước 1: Lấy 10 dòng đầu tiên với tọa độ
+    all_lines = get_first_lines_with_coords(pdf_file_path, num_lines=12)
 
-# if all_lines:
-#     print("--------------------------------------------------")
-#     print("Tất cả 10 dòng đầu tiên được trích xuất:")
-#     print("--------------------------------------------------")
-#     for i, (text, coords) in enumerate(all_lines):
-#         print(f"Dòng {i+1}: '{text}' -> Tọa độ: {coords}")
-    
-#     # Bước 2: Lọc các dòng bị thụt vào từ danh sách đã trích xuất
-#     indented_lines_result = extract_indented_lines(all_lines)
-    
-#     print("\n--------------------------------------------------")
-#     print("Các dòng có vị trí thụt vào:")
-#     print("--------------------------------------------------")
-#     if indented_lines_result:
-#         for text, coords in indented_lines_result:
-#             print(f"Văn bản: {text}\n  Tọa độ: {coords}\n")
-#     else:
-#         print("Không tìm thấy dòng nào thụt vào trong dữ liệu.")
-# else:
-#     print("Không thể trích xuất dữ liệu từ file PDF.")
+    if all_lines:
+        print("--------------------------------------------------")
+        print("Tất cả 10 dòng đầu tiên được trích xuất:")
+        print("--------------------------------------------------")
+        for i, (text, coords) in enumerate(all_lines):
+            print(f"Dòng {i+1}: '{text}' -> Tọa độ: {coords}")
+        
+        # Bước 2: Lọc các dòng bị thụt vào từ danh sách đã trích xuất
+        indented_lines_result = extract_indented_lines(all_lines)
+        
+        print("\n--------------------------------------------------")
+        print("Các dòng có vị trí thụt vào:")
+        print("--------------------------------------------------")
+        if indented_lines_result:
+            for text, coords in indented_lines_result:
+                print(f"{text}\n")
+        else:
+            print("Không tìm thấy dòng nào thụt vào trong dữ liệu.")
+    else:
+        print("Không thể trích xuất dữ liệu từ file PDF.")
